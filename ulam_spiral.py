@@ -329,9 +329,9 @@ def generuj_svg_spirali_ulama(wspolrzedne: List[Tuple[int, int]], pierwsze: Set[
     style = ET.SubElement(root, "style")
     style.text = """
         .prime { fill: #dc3545; stroke: none; }
-        .composite { fill: #6c757d; stroke: none; opacity: 0.3; }
-        .background { fill: white; }
-        text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+        .composite { fill: none; stroke: none; opacity: 0; }
+        .background { fill: black; }
+        text { font-family: Arial, sans-serif; font-size: 12px; fill: white; }
     """
     
     # Dodaj tło
@@ -403,18 +403,12 @@ def generuj_svg_spirali_ulama(wspolrzedne: List[Tuple[int, int]], pierwsze: Set[
     })
     tekst_pierwszy.text = f"Liczby pierwsze ({licznik_pierwszych:,})"
     
-    # Liczby złożone
-    punkt_zlozony = ET.SubElement(legenda, "circle", {
-        "cx": "30",
-        "cy": str(legenda_y + 30),
-        "r": "4",
-        "class": "composite"
-    })
+    # Liczby złożone (niewidoczne)
     tekst_zlozony = ET.SubElement(legenda, "text", {
-        "x": "45",
-        "y": str(legenda_y + 34)
+        "x": "30",
+        "y": str(legenda_y + 30)
     })
-    tekst_zlozony.text = f"Liczby złożone ({len(wspolrzedne) - licznik_pierwszych:,})"
+    tekst_zlozony.text = f"Liczby złożone: niewidoczne ({len(wspolrzedne) - licznik_pierwszych:,})"
     
     # Dodaj statystyki
     statystyki = ET.SubElement(root, "g", {"id": "stats"})
@@ -479,13 +473,21 @@ def wizualizuj_spirale_ulama(siatka: np.ndarray, pierwsze: Set[int], tytul: str 
     print("  Tworzenie wizualizacji...")
     fig, ax = plt.subplots(1, 1, figsize=(12, 12))
     
-    # Pokaż tylko liczby pierwsze
-    wyswietlenie_pierwszych = np.where(siatka_pierwszych > 0, siatka, 0)
-    im = ax.imshow(wyswietlenie_pierwszych, cmap='Reds', interpolation='nearest')
-    ax.set_title(f'{tytul} - Liczby Pierwsze', fontsize=16)
-    ax.set_xlabel('X', fontsize=14)
-    ax.set_ylabel('Y', fontsize=14)
-    plt.colorbar(im, ax=ax, shrink=0.8)
+    # Utwórz siatkę tylko z liczbami pierwszymi (jednakowe wartości dla równomiernej widoczności)
+    wyswietlenie_pierwszych = np.where(siatka_pierwszych > 0, 1, 0)
+    
+    # Użyj czarnego tła i czerwonych punktów dla liczb pierwszych
+    ax.set_facecolor('black')
+    im = ax.imshow(wyswietlenie_pierwszych, cmap='Reds', interpolation='nearest', vmin=0, vmax=1)
+    ax.set_title(f'{tytul} - Liczby Pierwsze', fontsize=16, color='white')
+    ax.set_xlabel('X', fontsize=14, color='white')
+    ax.set_ylabel('Y', fontsize=14, color='white')
+    
+    # Dostosuj kolorbar
+    cbar = plt.colorbar(im, ax=ax, shrink=0.8)
+    cbar.set_ticks([0, 1])
+    cbar.set_ticklabels(['Liczby złożone', 'Liczby pierwsze'])
+    cbar.ax.tick_params(colors='white')
     
     plt.tight_layout()
     print("  ✓ Wizualizacja zakończona")

@@ -1,0 +1,3025 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg width="133.0" height="133.0" viewBox="0 0 133.0 133.0" xmlns="http://www.w3.org/2000/svg">
+  <title>Spirala Ulama - 1,000 liczb</title>
+  <desc>Spirala Ulama z 168 liczbami pierwszymi (czerwone punkty) z całego cache</desc>
+  <style>
+        .prime { fill: #dc3545; stroke: none; }
+        .composite { fill: none; stroke: none; opacity: 0; }
+        .background { fill: black; }
+        text { font-family: Arial, sans-serif; font-size: 12px; fill: white; }
+    </style>
+  <rect class="background" width="133.0" height="133.0" />
+  <g id="points">
+    <circle cx="65.00" cy="68.00" r="2.40" class="composite" data-number="1" data-x="0" data-y="0">
+      <title>Liczba 1 (złożona) na pozycji (0, 0)</title>
+    </circle>
+    <circle cx="68.00" cy="68.00" r="2.40" class="prime" data-number="2" data-x="1" data-y="0">
+      <title>Liczba 2 (pierwsza) na pozycji (1, 0)</title>
+    </circle>
+    <circle cx="68.00" cy="65.00" r="2.40" class="prime" data-number="3" data-x="1" data-y="1">
+      <title>Liczba 3 (pierwsza) na pozycji (1, 1)</title>
+    </circle>
+    <circle cx="65.00" cy="65.00" r="2.40" class="composite" data-number="4" data-x="0" data-y="1">
+      <title>Liczba 4 (złożona) na pozycji (0, 1)</title>
+    </circle>
+    <circle cx="62.00" cy="65.00" r="2.40" class="prime" data-number="5" data-x="-1" data-y="1">
+      <title>Liczba 5 (pierwsza) na pozycji (-1, 1)</title>
+    </circle>
+    <circle cx="62.00" cy="68.00" r="2.40" class="composite" data-number="6" data-x="-1" data-y="0">
+      <title>Liczba 6 (złożona) na pozycji (-1, 0)</title>
+    </circle>
+    <circle cx="62.00" cy="71.00" r="2.40" class="prime" data-number="7" data-x="-1" data-y="-1">
+      <title>Liczba 7 (pierwsza) na pozycji (-1, -1)</title>
+    </circle>
+    <circle cx="65.00" cy="71.00" r="2.40" class="composite" data-number="8" data-x="0" data-y="-1">
+      <title>Liczba 8 (złożona) na pozycji (0, -1)</title>
+    </circle>
+    <circle cx="68.00" cy="71.00" r="2.40" class="composite" data-number="9" data-x="1" data-y="-1">
+      <title>Liczba 9 (złożona) na pozycji (1, -1)</title>
+    </circle>
+    <circle cx="71.00" cy="71.00" r="2.40" class="composite" data-number="10" data-x="2" data-y="-1">
+      <title>Liczba 10 (złożona) na pozycji (2, -1)</title>
+    </circle>
+    <circle cx="71.00" cy="68.00" r="2.40" class="prime" data-number="11" data-x="2" data-y="0">
+      <title>Liczba 11 (pierwsza) na pozycji (2, 0)</title>
+    </circle>
+    <circle cx="71.00" cy="65.00" r="2.40" class="composite" data-number="12" data-x="2" data-y="1">
+      <title>Liczba 12 (złożona) na pozycji (2, 1)</title>
+    </circle>
+    <circle cx="71.00" cy="62.00" r="2.40" class="prime" data-number="13" data-x="2" data-y="2">
+      <title>Liczba 13 (pierwsza) na pozycji (2, 2)</title>
+    </circle>
+    <circle cx="68.00" cy="62.00" r="2.40" class="composite" data-number="14" data-x="1" data-y="2">
+      <title>Liczba 14 (złożona) na pozycji (1, 2)</title>
+    </circle>
+    <circle cx="65.00" cy="62.00" r="2.40" class="composite" data-number="15" data-x="0" data-y="2">
+      <title>Liczba 15 (złożona) na pozycji (0, 2)</title>
+    </circle>
+    <circle cx="62.00" cy="62.00" r="2.40" class="composite" data-number="16" data-x="-1" data-y="2">
+      <title>Liczba 16 (złożona) na pozycji (-1, 2)</title>
+    </circle>
+    <circle cx="59.00" cy="62.00" r="2.40" class="prime" data-number="17" data-x="-2" data-y="2">
+      <title>Liczba 17 (pierwsza) na pozycji (-2, 2)</title>
+    </circle>
+    <circle cx="59.00" cy="65.00" r="2.40" class="composite" data-number="18" data-x="-2" data-y="1">
+      <title>Liczba 18 (złożona) na pozycji (-2, 1)</title>
+    </circle>
+    <circle cx="59.00" cy="68.00" r="2.40" class="prime" data-number="19" data-x="-2" data-y="0">
+      <title>Liczba 19 (pierwsza) na pozycji (-2, 0)</title>
+    </circle>
+    <circle cx="59.00" cy="71.00" r="2.40" class="composite" data-number="20" data-x="-2" data-y="-1">
+      <title>Liczba 20 (złożona) na pozycji (-2, -1)</title>
+    </circle>
+    <circle cx="59.00" cy="74.00" r="2.40" class="composite" data-number="21" data-x="-2" data-y="-2">
+      <title>Liczba 21 (złożona) na pozycji (-2, -2)</title>
+    </circle>
+    <circle cx="62.00" cy="74.00" r="2.40" class="composite" data-number="22" data-x="-1" data-y="-2">
+      <title>Liczba 22 (złożona) na pozycji (-1, -2)</title>
+    </circle>
+    <circle cx="65.00" cy="74.00" r="2.40" class="prime" data-number="23" data-x="0" data-y="-2">
+      <title>Liczba 23 (pierwsza) na pozycji (0, -2)</title>
+    </circle>
+    <circle cx="68.00" cy="74.00" r="2.40" class="composite" data-number="24" data-x="1" data-y="-2">
+      <title>Liczba 24 (złożona) na pozycji (1, -2)</title>
+    </circle>
+    <circle cx="71.00" cy="74.00" r="2.40" class="composite" data-number="25" data-x="2" data-y="-2">
+      <title>Liczba 25 (złożona) na pozycji (2, -2)</title>
+    </circle>
+    <circle cx="74.00" cy="74.00" r="2.40" class="composite" data-number="26" data-x="3" data-y="-2">
+      <title>Liczba 26 (złożona) na pozycji (3, -2)</title>
+    </circle>
+    <circle cx="74.00" cy="71.00" r="2.40" class="composite" data-number="27" data-x="3" data-y="-1">
+      <title>Liczba 27 (złożona) na pozycji (3, -1)</title>
+    </circle>
+    <circle cx="74.00" cy="68.00" r="2.40" class="composite" data-number="28" data-x="3" data-y="0">
+      <title>Liczba 28 (złożona) na pozycji (3, 0)</title>
+    </circle>
+    <circle cx="74.00" cy="65.00" r="2.40" class="prime" data-number="29" data-x="3" data-y="1">
+      <title>Liczba 29 (pierwsza) na pozycji (3, 1)</title>
+    </circle>
+    <circle cx="74.00" cy="62.00" r="2.40" class="composite" data-number="30" data-x="3" data-y="2">
+      <title>Liczba 30 (złożona) na pozycji (3, 2)</title>
+    </circle>
+    <circle cx="74.00" cy="59.00" r="2.40" class="prime" data-number="31" data-x="3" data-y="3">
+      <title>Liczba 31 (pierwsza) na pozycji (3, 3)</title>
+    </circle>
+    <circle cx="71.00" cy="59.00" r="2.40" class="composite" data-number="32" data-x="2" data-y="3">
+      <title>Liczba 32 (złożona) na pozycji (2, 3)</title>
+    </circle>
+    <circle cx="68.00" cy="59.00" r="2.40" class="composite" data-number="33" data-x="1" data-y="3">
+      <title>Liczba 33 (złożona) na pozycji (1, 3)</title>
+    </circle>
+    <circle cx="65.00" cy="59.00" r="2.40" class="composite" data-number="34" data-x="0" data-y="3">
+      <title>Liczba 34 (złożona) na pozycji (0, 3)</title>
+    </circle>
+    <circle cx="62.00" cy="59.00" r="2.40" class="composite" data-number="35" data-x="-1" data-y="3">
+      <title>Liczba 35 (złożona) na pozycji (-1, 3)</title>
+    </circle>
+    <circle cx="59.00" cy="59.00" r="2.40" class="composite" data-number="36" data-x="-2" data-y="3">
+      <title>Liczba 36 (złożona) na pozycji (-2, 3)</title>
+    </circle>
+    <circle cx="56.00" cy="59.00" r="2.40" class="prime" data-number="37" data-x="-3" data-y="3">
+      <title>Liczba 37 (pierwsza) na pozycji (-3, 3)</title>
+    </circle>
+    <circle cx="56.00" cy="62.00" r="2.40" class="composite" data-number="38" data-x="-3" data-y="2">
+      <title>Liczba 38 (złożona) na pozycji (-3, 2)</title>
+    </circle>
+    <circle cx="56.00" cy="65.00" r="2.40" class="composite" data-number="39" data-x="-3" data-y="1">
+      <title>Liczba 39 (złożona) na pozycji (-3, 1)</title>
+    </circle>
+    <circle cx="56.00" cy="68.00" r="2.40" class="composite" data-number="40" data-x="-3" data-y="0">
+      <title>Liczba 40 (złożona) na pozycji (-3, 0)</title>
+    </circle>
+    <circle cx="56.00" cy="71.00" r="2.40" class="prime" data-number="41" data-x="-3" data-y="-1">
+      <title>Liczba 41 (pierwsza) na pozycji (-3, -1)</title>
+    </circle>
+    <circle cx="56.00" cy="74.00" r="2.40" class="composite" data-number="42" data-x="-3" data-y="-2">
+      <title>Liczba 42 (złożona) na pozycji (-3, -2)</title>
+    </circle>
+    <circle cx="56.00" cy="77.00" r="2.40" class="prime" data-number="43" data-x="-3" data-y="-3">
+      <title>Liczba 43 (pierwsza) na pozycji (-3, -3)</title>
+    </circle>
+    <circle cx="59.00" cy="77.00" r="2.40" class="composite" data-number="44" data-x="-2" data-y="-3">
+      <title>Liczba 44 (złożona) na pozycji (-2, -3)</title>
+    </circle>
+    <circle cx="62.00" cy="77.00" r="2.40" class="composite" data-number="45" data-x="-1" data-y="-3">
+      <title>Liczba 45 (złożona) na pozycji (-1, -3)</title>
+    </circle>
+    <circle cx="65.00" cy="77.00" r="2.40" class="composite" data-number="46" data-x="0" data-y="-3">
+      <title>Liczba 46 (złożona) na pozycji (0, -3)</title>
+    </circle>
+    <circle cx="68.00" cy="77.00" r="2.40" class="prime" data-number="47" data-x="1" data-y="-3">
+      <title>Liczba 47 (pierwsza) na pozycji (1, -3)</title>
+    </circle>
+    <circle cx="71.00" cy="77.00" r="2.40" class="composite" data-number="48" data-x="2" data-y="-3">
+      <title>Liczba 48 (złożona) na pozycji (2, -3)</title>
+    </circle>
+    <circle cx="74.00" cy="77.00" r="2.40" class="composite" data-number="49" data-x="3" data-y="-3">
+      <title>Liczba 49 (złożona) na pozycji (3, -3)</title>
+    </circle>
+    <circle cx="77.00" cy="77.00" r="2.40" class="composite" data-number="50" data-x="4" data-y="-3">
+      <title>Liczba 50 (złożona) na pozycji (4, -3)</title>
+    </circle>
+    <circle cx="77.00" cy="74.00" r="2.40" class="composite" data-number="51" data-x="4" data-y="-2">
+      <title>Liczba 51 (złożona) na pozycji (4, -2)</title>
+    </circle>
+    <circle cx="77.00" cy="71.00" r="2.40" class="composite" data-number="52" data-x="4" data-y="-1">
+      <title>Liczba 52 (złożona) na pozycji (4, -1)</title>
+    </circle>
+    <circle cx="77.00" cy="68.00" r="2.40" class="prime" data-number="53" data-x="4" data-y="0">
+      <title>Liczba 53 (pierwsza) na pozycji (4, 0)</title>
+    </circle>
+    <circle cx="77.00" cy="65.00" r="2.40" class="composite" data-number="54" data-x="4" data-y="1">
+      <title>Liczba 54 (złożona) na pozycji (4, 1)</title>
+    </circle>
+    <circle cx="77.00" cy="62.00" r="2.40" class="composite" data-number="55" data-x="4" data-y="2">
+      <title>Liczba 55 (złożona) na pozycji (4, 2)</title>
+    </circle>
+    <circle cx="77.00" cy="59.00" r="2.40" class="composite" data-number="56" data-x="4" data-y="3">
+      <title>Liczba 56 (złożona) na pozycji (4, 3)</title>
+    </circle>
+    <circle cx="77.00" cy="56.00" r="2.40" class="composite" data-number="57" data-x="4" data-y="4">
+      <title>Liczba 57 (złożona) na pozycji (4, 4)</title>
+    </circle>
+    <circle cx="74.00" cy="56.00" r="2.40" class="composite" data-number="58" data-x="3" data-y="4">
+      <title>Liczba 58 (złożona) na pozycji (3, 4)</title>
+    </circle>
+    <circle cx="71.00" cy="56.00" r="2.40" class="prime" data-number="59" data-x="2" data-y="4">
+      <title>Liczba 59 (pierwsza) na pozycji (2, 4)</title>
+    </circle>
+    <circle cx="68.00" cy="56.00" r="2.40" class="composite" data-number="60" data-x="1" data-y="4">
+      <title>Liczba 60 (złożona) na pozycji (1, 4)</title>
+    </circle>
+    <circle cx="65.00" cy="56.00" r="2.40" class="prime" data-number="61" data-x="0" data-y="4">
+      <title>Liczba 61 (pierwsza) na pozycji (0, 4)</title>
+    </circle>
+    <circle cx="62.00" cy="56.00" r="2.40" class="composite" data-number="62" data-x="-1" data-y="4">
+      <title>Liczba 62 (złożona) na pozycji (-1, 4)</title>
+    </circle>
+    <circle cx="59.00" cy="56.00" r="2.40" class="composite" data-number="63" data-x="-2" data-y="4">
+      <title>Liczba 63 (złożona) na pozycji (-2, 4)</title>
+    </circle>
+    <circle cx="56.00" cy="56.00" r="2.40" class="composite" data-number="64" data-x="-3" data-y="4">
+      <title>Liczba 64 (złożona) na pozycji (-3, 4)</title>
+    </circle>
+    <circle cx="53.00" cy="56.00" r="2.40" class="composite" data-number="65" data-x="-4" data-y="4">
+      <title>Liczba 65 (złożona) na pozycji (-4, 4)</title>
+    </circle>
+    <circle cx="53.00" cy="59.00" r="2.40" class="composite" data-number="66" data-x="-4" data-y="3">
+      <title>Liczba 66 (złożona) na pozycji (-4, 3)</title>
+    </circle>
+    <circle cx="53.00" cy="62.00" r="2.40" class="prime" data-number="67" data-x="-4" data-y="2">
+      <title>Liczba 67 (pierwsza) na pozycji (-4, 2)</title>
+    </circle>
+    <circle cx="53.00" cy="65.00" r="2.40" class="composite" data-number="68" data-x="-4" data-y="1">
+      <title>Liczba 68 (złożona) na pozycji (-4, 1)</title>
+    </circle>
+    <circle cx="53.00" cy="68.00" r="2.40" class="composite" data-number="69" data-x="-4" data-y="0">
+      <title>Liczba 69 (złożona) na pozycji (-4, 0)</title>
+    </circle>
+    <circle cx="53.00" cy="71.00" r="2.40" class="composite" data-number="70" data-x="-4" data-y="-1">
+      <title>Liczba 70 (złożona) na pozycji (-4, -1)</title>
+    </circle>
+    <circle cx="53.00" cy="74.00" r="2.40" class="prime" data-number="71" data-x="-4" data-y="-2">
+      <title>Liczba 71 (pierwsza) na pozycji (-4, -2)</title>
+    </circle>
+    <circle cx="53.00" cy="77.00" r="2.40" class="composite" data-number="72" data-x="-4" data-y="-3">
+      <title>Liczba 72 (złożona) na pozycji (-4, -3)</title>
+    </circle>
+    <circle cx="53.00" cy="80.00" r="2.40" class="prime" data-number="73" data-x="-4" data-y="-4">
+      <title>Liczba 73 (pierwsza) na pozycji (-4, -4)</title>
+    </circle>
+    <circle cx="56.00" cy="80.00" r="2.40" class="composite" data-number="74" data-x="-3" data-y="-4">
+      <title>Liczba 74 (złożona) na pozycji (-3, -4)</title>
+    </circle>
+    <circle cx="59.00" cy="80.00" r="2.40" class="composite" data-number="75" data-x="-2" data-y="-4">
+      <title>Liczba 75 (złożona) na pozycji (-2, -4)</title>
+    </circle>
+    <circle cx="62.00" cy="80.00" r="2.40" class="composite" data-number="76" data-x="-1" data-y="-4">
+      <title>Liczba 76 (złożona) na pozycji (-1, -4)</title>
+    </circle>
+    <circle cx="65.00" cy="80.00" r="2.40" class="composite" data-number="77" data-x="0" data-y="-4">
+      <title>Liczba 77 (złożona) na pozycji (0, -4)</title>
+    </circle>
+    <circle cx="68.00" cy="80.00" r="2.40" class="composite" data-number="78" data-x="1" data-y="-4">
+      <title>Liczba 78 (złożona) na pozycji (1, -4)</title>
+    </circle>
+    <circle cx="71.00" cy="80.00" r="2.40" class="prime" data-number="79" data-x="2" data-y="-4">
+      <title>Liczba 79 (pierwsza) na pozycji (2, -4)</title>
+    </circle>
+    <circle cx="74.00" cy="80.00" r="2.40" class="composite" data-number="80" data-x="3" data-y="-4">
+      <title>Liczba 80 (złożona) na pozycji (3, -4)</title>
+    </circle>
+    <circle cx="77.00" cy="80.00" r="2.40" class="composite" data-number="81" data-x="4" data-y="-4">
+      <title>Liczba 81 (złożona) na pozycji (4, -4)</title>
+    </circle>
+    <circle cx="80.00" cy="80.00" r="2.40" class="composite" data-number="82" data-x="5" data-y="-4">
+      <title>Liczba 82 (złożona) na pozycji (5, -4)</title>
+    </circle>
+    <circle cx="80.00" cy="77.00" r="2.40" class="prime" data-number="83" data-x="5" data-y="-3">
+      <title>Liczba 83 (pierwsza) na pozycji (5, -3)</title>
+    </circle>
+    <circle cx="80.00" cy="74.00" r="2.40" class="composite" data-number="84" data-x="5" data-y="-2">
+      <title>Liczba 84 (złożona) na pozycji (5, -2)</title>
+    </circle>
+    <circle cx="80.00" cy="71.00" r="2.40" class="composite" data-number="85" data-x="5" data-y="-1">
+      <title>Liczba 85 (złożona) na pozycji (5, -1)</title>
+    </circle>
+    <circle cx="80.00" cy="68.00" r="2.40" class="composite" data-number="86" data-x="5" data-y="0">
+      <title>Liczba 86 (złożona) na pozycji (5, 0)</title>
+    </circle>
+    <circle cx="80.00" cy="65.00" r="2.40" class="composite" data-number="87" data-x="5" data-y="1">
+      <title>Liczba 87 (złożona) na pozycji (5, 1)</title>
+    </circle>
+    <circle cx="80.00" cy="62.00" r="2.40" class="composite" data-number="88" data-x="5" data-y="2">
+      <title>Liczba 88 (złożona) na pozycji (5, 2)</title>
+    </circle>
+    <circle cx="80.00" cy="59.00" r="2.40" class="prime" data-number="89" data-x="5" data-y="3">
+      <title>Liczba 89 (pierwsza) na pozycji (5, 3)</title>
+    </circle>
+    <circle cx="80.00" cy="56.00" r="2.40" class="composite" data-number="90" data-x="5" data-y="4">
+      <title>Liczba 90 (złożona) na pozycji (5, 4)</title>
+    </circle>
+    <circle cx="80.00" cy="53.00" r="2.40" class="composite" data-number="91" data-x="5" data-y="5">
+      <title>Liczba 91 (złożona) na pozycji (5, 5)</title>
+    </circle>
+    <circle cx="77.00" cy="53.00" r="2.40" class="composite" data-number="92" data-x="4" data-y="5">
+      <title>Liczba 92 (złożona) na pozycji (4, 5)</title>
+    </circle>
+    <circle cx="74.00" cy="53.00" r="2.40" class="composite" data-number="93" data-x="3" data-y="5">
+      <title>Liczba 93 (złożona) na pozycji (3, 5)</title>
+    </circle>
+    <circle cx="71.00" cy="53.00" r="2.40" class="composite" data-number="94" data-x="2" data-y="5">
+      <title>Liczba 94 (złożona) na pozycji (2, 5)</title>
+    </circle>
+    <circle cx="68.00" cy="53.00" r="2.40" class="composite" data-number="95" data-x="1" data-y="5">
+      <title>Liczba 95 (złożona) na pozycji (1, 5)</title>
+    </circle>
+    <circle cx="65.00" cy="53.00" r="2.40" class="composite" data-number="96" data-x="0" data-y="5">
+      <title>Liczba 96 (złożona) na pozycji (0, 5)</title>
+    </circle>
+    <circle cx="62.00" cy="53.00" r="2.40" class="prime" data-number="97" data-x="-1" data-y="5">
+      <title>Liczba 97 (pierwsza) na pozycji (-1, 5)</title>
+    </circle>
+    <circle cx="59.00" cy="53.00" r="2.40" class="composite" data-number="98" data-x="-2" data-y="5">
+      <title>Liczba 98 (złożona) na pozycji (-2, 5)</title>
+    </circle>
+    <circle cx="56.00" cy="53.00" r="2.40" class="composite" data-number="99" data-x="-3" data-y="5">
+      <title>Liczba 99 (złożona) na pozycji (-3, 5)</title>
+    </circle>
+    <circle cx="53.00" cy="53.00" r="2.40" class="composite" data-number="100" data-x="-4" data-y="5">
+      <title>Liczba 100 (złożona) na pozycji (-4, 5)</title>
+    </circle>
+    <circle cx="50.00" cy="53.00" r="2.40" class="prime" data-number="101" data-x="-5" data-y="5">
+      <title>Liczba 101 (pierwsza) na pozycji (-5, 5)</title>
+    </circle>
+    <circle cx="50.00" cy="56.00" r="2.40" class="composite" data-number="102" data-x="-5" data-y="4">
+      <title>Liczba 102 (złożona) na pozycji (-5, 4)</title>
+    </circle>
+    <circle cx="50.00" cy="59.00" r="2.40" class="prime" data-number="103" data-x="-5" data-y="3">
+      <title>Liczba 103 (pierwsza) na pozycji (-5, 3)</title>
+    </circle>
+    <circle cx="50.00" cy="62.00" r="2.40" class="composite" data-number="104" data-x="-5" data-y="2">
+      <title>Liczba 104 (złożona) na pozycji (-5, 2)</title>
+    </circle>
+    <circle cx="50.00" cy="65.00" r="2.40" class="composite" data-number="105" data-x="-5" data-y="1">
+      <title>Liczba 105 (złożona) na pozycji (-5, 1)</title>
+    </circle>
+    <circle cx="50.00" cy="68.00" r="2.40" class="composite" data-number="106" data-x="-5" data-y="0">
+      <title>Liczba 106 (złożona) na pozycji (-5, 0)</title>
+    </circle>
+    <circle cx="50.00" cy="71.00" r="2.40" class="prime" data-number="107" data-x="-5" data-y="-1">
+      <title>Liczba 107 (pierwsza) na pozycji (-5, -1)</title>
+    </circle>
+    <circle cx="50.00" cy="74.00" r="2.40" class="composite" data-number="108" data-x="-5" data-y="-2">
+      <title>Liczba 108 (złożona) na pozycji (-5, -2)</title>
+    </circle>
+    <circle cx="50.00" cy="77.00" r="2.40" class="prime" data-number="109" data-x="-5" data-y="-3">
+      <title>Liczba 109 (pierwsza) na pozycji (-5, -3)</title>
+    </circle>
+    <circle cx="50.00" cy="80.00" r="2.40" class="composite" data-number="110" data-x="-5" data-y="-4">
+      <title>Liczba 110 (złożona) na pozycji (-5, -4)</title>
+    </circle>
+    <circle cx="50.00" cy="83.00" r="2.40" class="composite" data-number="111" data-x="-5" data-y="-5">
+      <title>Liczba 111 (złożona) na pozycji (-5, -5)</title>
+    </circle>
+    <circle cx="53.00" cy="83.00" r="2.40" class="composite" data-number="112" data-x="-4" data-y="-5">
+      <title>Liczba 112 (złożona) na pozycji (-4, -5)</title>
+    </circle>
+    <circle cx="56.00" cy="83.00" r="2.40" class="prime" data-number="113" data-x="-3" data-y="-5">
+      <title>Liczba 113 (pierwsza) na pozycji (-3, -5)</title>
+    </circle>
+    <circle cx="59.00" cy="83.00" r="2.40" class="composite" data-number="114" data-x="-2" data-y="-5">
+      <title>Liczba 114 (złożona) na pozycji (-2, -5)</title>
+    </circle>
+    <circle cx="62.00" cy="83.00" r="2.40" class="composite" data-number="115" data-x="-1" data-y="-5">
+      <title>Liczba 115 (złożona) na pozycji (-1, -5)</title>
+    </circle>
+    <circle cx="65.00" cy="83.00" r="2.40" class="composite" data-number="116" data-x="0" data-y="-5">
+      <title>Liczba 116 (złożona) na pozycji (0, -5)</title>
+    </circle>
+    <circle cx="68.00" cy="83.00" r="2.40" class="composite" data-number="117" data-x="1" data-y="-5">
+      <title>Liczba 117 (złożona) na pozycji (1, -5)</title>
+    </circle>
+    <circle cx="71.00" cy="83.00" r="2.40" class="composite" data-number="118" data-x="2" data-y="-5">
+      <title>Liczba 118 (złożona) na pozycji (2, -5)</title>
+    </circle>
+    <circle cx="74.00" cy="83.00" r="2.40" class="composite" data-number="119" data-x="3" data-y="-5">
+      <title>Liczba 119 (złożona) na pozycji (3, -5)</title>
+    </circle>
+    <circle cx="77.00" cy="83.00" r="2.40" class="composite" data-number="120" data-x="4" data-y="-5">
+      <title>Liczba 120 (złożona) na pozycji (4, -5)</title>
+    </circle>
+    <circle cx="80.00" cy="83.00" r="2.40" class="composite" data-number="121" data-x="5" data-y="-5">
+      <title>Liczba 121 (złożona) na pozycji (5, -5)</title>
+    </circle>
+    <circle cx="83.00" cy="83.00" r="2.40" class="composite" data-number="122" data-x="6" data-y="-5">
+      <title>Liczba 122 (złożona) na pozycji (6, -5)</title>
+    </circle>
+    <circle cx="83.00" cy="80.00" r="2.40" class="composite" data-number="123" data-x="6" data-y="-4">
+      <title>Liczba 123 (złożona) na pozycji (6, -4)</title>
+    </circle>
+    <circle cx="83.00" cy="77.00" r="2.40" class="composite" data-number="124" data-x="6" data-y="-3">
+      <title>Liczba 124 (złożona) na pozycji (6, -3)</title>
+    </circle>
+    <circle cx="83.00" cy="74.00" r="2.40" class="composite" data-number="125" data-x="6" data-y="-2">
+      <title>Liczba 125 (złożona) na pozycji (6, -2)</title>
+    </circle>
+    <circle cx="83.00" cy="71.00" r="2.40" class="composite" data-number="126" data-x="6" data-y="-1">
+      <title>Liczba 126 (złożona) na pozycji (6, -1)</title>
+    </circle>
+    <circle cx="83.00" cy="68.00" r="2.40" class="prime" data-number="127" data-x="6" data-y="0">
+      <title>Liczba 127 (pierwsza) na pozycji (6, 0)</title>
+    </circle>
+    <circle cx="83.00" cy="65.00" r="2.40" class="composite" data-number="128" data-x="6" data-y="1">
+      <title>Liczba 128 (złożona) na pozycji (6, 1)</title>
+    </circle>
+    <circle cx="83.00" cy="62.00" r="2.40" class="composite" data-number="129" data-x="6" data-y="2">
+      <title>Liczba 129 (złożona) na pozycji (6, 2)</title>
+    </circle>
+    <circle cx="83.00" cy="59.00" r="2.40" class="composite" data-number="130" data-x="6" data-y="3">
+      <title>Liczba 130 (złożona) na pozycji (6, 3)</title>
+    </circle>
+    <circle cx="83.00" cy="56.00" r="2.40" class="prime" data-number="131" data-x="6" data-y="4">
+      <title>Liczba 131 (pierwsza) na pozycji (6, 4)</title>
+    </circle>
+    <circle cx="83.00" cy="53.00" r="2.40" class="composite" data-number="132" data-x="6" data-y="5">
+      <title>Liczba 132 (złożona) na pozycji (6, 5)</title>
+    </circle>
+    <circle cx="83.00" cy="50.00" r="2.40" class="composite" data-number="133" data-x="6" data-y="6">
+      <title>Liczba 133 (złożona) na pozycji (6, 6)</title>
+    </circle>
+    <circle cx="80.00" cy="50.00" r="2.40" class="composite" data-number="134" data-x="5" data-y="6">
+      <title>Liczba 134 (złożona) na pozycji (5, 6)</title>
+    </circle>
+    <circle cx="77.00" cy="50.00" r="2.40" class="composite" data-number="135" data-x="4" data-y="6">
+      <title>Liczba 135 (złożona) na pozycji (4, 6)</title>
+    </circle>
+    <circle cx="74.00" cy="50.00" r="2.40" class="composite" data-number="136" data-x="3" data-y="6">
+      <title>Liczba 136 (złożona) na pozycji (3, 6)</title>
+    </circle>
+    <circle cx="71.00" cy="50.00" r="2.40" class="prime" data-number="137" data-x="2" data-y="6">
+      <title>Liczba 137 (pierwsza) na pozycji (2, 6)</title>
+    </circle>
+    <circle cx="68.00" cy="50.00" r="2.40" class="composite" data-number="138" data-x="1" data-y="6">
+      <title>Liczba 138 (złożona) na pozycji (1, 6)</title>
+    </circle>
+    <circle cx="65.00" cy="50.00" r="2.40" class="prime" data-number="139" data-x="0" data-y="6">
+      <title>Liczba 139 (pierwsza) na pozycji (0, 6)</title>
+    </circle>
+    <circle cx="62.00" cy="50.00" r="2.40" class="composite" data-number="140" data-x="-1" data-y="6">
+      <title>Liczba 140 (złożona) na pozycji (-1, 6)</title>
+    </circle>
+    <circle cx="59.00" cy="50.00" r="2.40" class="composite" data-number="141" data-x="-2" data-y="6">
+      <title>Liczba 141 (złożona) na pozycji (-2, 6)</title>
+    </circle>
+    <circle cx="56.00" cy="50.00" r="2.40" class="composite" data-number="142" data-x="-3" data-y="6">
+      <title>Liczba 142 (złożona) na pozycji (-3, 6)</title>
+    </circle>
+    <circle cx="53.00" cy="50.00" r="2.40" class="composite" data-number="143" data-x="-4" data-y="6">
+      <title>Liczba 143 (złożona) na pozycji (-4, 6)</title>
+    </circle>
+    <circle cx="50.00" cy="50.00" r="2.40" class="composite" data-number="144" data-x="-5" data-y="6">
+      <title>Liczba 144 (złożona) na pozycji (-5, 6)</title>
+    </circle>
+    <circle cx="47.00" cy="50.00" r="2.40" class="composite" data-number="145" data-x="-6" data-y="6">
+      <title>Liczba 145 (złożona) na pozycji (-6, 6)</title>
+    </circle>
+    <circle cx="47.00" cy="53.00" r="2.40" class="composite" data-number="146" data-x="-6" data-y="5">
+      <title>Liczba 146 (złożona) na pozycji (-6, 5)</title>
+    </circle>
+    <circle cx="47.00" cy="56.00" r="2.40" class="composite" data-number="147" data-x="-6" data-y="4">
+      <title>Liczba 147 (złożona) na pozycji (-6, 4)</title>
+    </circle>
+    <circle cx="47.00" cy="59.00" r="2.40" class="composite" data-number="148" data-x="-6" data-y="3">
+      <title>Liczba 148 (złożona) na pozycji (-6, 3)</title>
+    </circle>
+    <circle cx="47.00" cy="62.00" r="2.40" class="prime" data-number="149" data-x="-6" data-y="2">
+      <title>Liczba 149 (pierwsza) na pozycji (-6, 2)</title>
+    </circle>
+    <circle cx="47.00" cy="65.00" r="2.40" class="composite" data-number="150" data-x="-6" data-y="1">
+      <title>Liczba 150 (złożona) na pozycji (-6, 1)</title>
+    </circle>
+    <circle cx="47.00" cy="68.00" r="2.40" class="prime" data-number="151" data-x="-6" data-y="0">
+      <title>Liczba 151 (pierwsza) na pozycji (-6, 0)</title>
+    </circle>
+    <circle cx="47.00" cy="71.00" r="2.40" class="composite" data-number="152" data-x="-6" data-y="-1">
+      <title>Liczba 152 (złożona) na pozycji (-6, -1)</title>
+    </circle>
+    <circle cx="47.00" cy="74.00" r="2.40" class="composite" data-number="153" data-x="-6" data-y="-2">
+      <title>Liczba 153 (złożona) na pozycji (-6, -2)</title>
+    </circle>
+    <circle cx="47.00" cy="77.00" r="2.40" class="composite" data-number="154" data-x="-6" data-y="-3">
+      <title>Liczba 154 (złożona) na pozycji (-6, -3)</title>
+    </circle>
+    <circle cx="47.00" cy="80.00" r="2.40" class="composite" data-number="155" data-x="-6" data-y="-4">
+      <title>Liczba 155 (złożona) na pozycji (-6, -4)</title>
+    </circle>
+    <circle cx="47.00" cy="83.00" r="2.40" class="composite" data-number="156" data-x="-6" data-y="-5">
+      <title>Liczba 156 (złożona) na pozycji (-6, -5)</title>
+    </circle>
+    <circle cx="47.00" cy="86.00" r="2.40" class="prime" data-number="157" data-x="-6" data-y="-6">
+      <title>Liczba 157 (pierwsza) na pozycji (-6, -6)</title>
+    </circle>
+    <circle cx="50.00" cy="86.00" r="2.40" class="composite" data-number="158" data-x="-5" data-y="-6">
+      <title>Liczba 158 (złożona) na pozycji (-5, -6)</title>
+    </circle>
+    <circle cx="53.00" cy="86.00" r="2.40" class="composite" data-number="159" data-x="-4" data-y="-6">
+      <title>Liczba 159 (złożona) na pozycji (-4, -6)</title>
+    </circle>
+    <circle cx="56.00" cy="86.00" r="2.40" class="composite" data-number="160" data-x="-3" data-y="-6">
+      <title>Liczba 160 (złożona) na pozycji (-3, -6)</title>
+    </circle>
+    <circle cx="59.00" cy="86.00" r="2.40" class="composite" data-number="161" data-x="-2" data-y="-6">
+      <title>Liczba 161 (złożona) na pozycji (-2, -6)</title>
+    </circle>
+    <circle cx="62.00" cy="86.00" r="2.40" class="composite" data-number="162" data-x="-1" data-y="-6">
+      <title>Liczba 162 (złożona) na pozycji (-1, -6)</title>
+    </circle>
+    <circle cx="65.00" cy="86.00" r="2.40" class="prime" data-number="163" data-x="0" data-y="-6">
+      <title>Liczba 163 (pierwsza) na pozycji (0, -6)</title>
+    </circle>
+    <circle cx="68.00" cy="86.00" r="2.40" class="composite" data-number="164" data-x="1" data-y="-6">
+      <title>Liczba 164 (złożona) na pozycji (1, -6)</title>
+    </circle>
+    <circle cx="71.00" cy="86.00" r="2.40" class="composite" data-number="165" data-x="2" data-y="-6">
+      <title>Liczba 165 (złożona) na pozycji (2, -6)</title>
+    </circle>
+    <circle cx="74.00" cy="86.00" r="2.40" class="composite" data-number="166" data-x="3" data-y="-6">
+      <title>Liczba 166 (złożona) na pozycji (3, -6)</title>
+    </circle>
+    <circle cx="77.00" cy="86.00" r="2.40" class="prime" data-number="167" data-x="4" data-y="-6">
+      <title>Liczba 167 (pierwsza) na pozycji (4, -6)</title>
+    </circle>
+    <circle cx="80.00" cy="86.00" r="2.40" class="composite" data-number="168" data-x="5" data-y="-6">
+      <title>Liczba 168 (złożona) na pozycji (5, -6)</title>
+    </circle>
+    <circle cx="83.00" cy="86.00" r="2.40" class="composite" data-number="169" data-x="6" data-y="-6">
+      <title>Liczba 169 (złożona) na pozycji (6, -6)</title>
+    </circle>
+    <circle cx="86.00" cy="86.00" r="2.40" class="composite" data-number="170" data-x="7" data-y="-6">
+      <title>Liczba 170 (złożona) na pozycji (7, -6)</title>
+    </circle>
+    <circle cx="86.00" cy="83.00" r="2.40" class="composite" data-number="171" data-x="7" data-y="-5">
+      <title>Liczba 171 (złożona) na pozycji (7, -5)</title>
+    </circle>
+    <circle cx="86.00" cy="80.00" r="2.40" class="composite" data-number="172" data-x="7" data-y="-4">
+      <title>Liczba 172 (złożona) na pozycji (7, -4)</title>
+    </circle>
+    <circle cx="86.00" cy="77.00" r="2.40" class="prime" data-number="173" data-x="7" data-y="-3">
+      <title>Liczba 173 (pierwsza) na pozycji (7, -3)</title>
+    </circle>
+    <circle cx="86.00" cy="74.00" r="2.40" class="composite" data-number="174" data-x="7" data-y="-2">
+      <title>Liczba 174 (złożona) na pozycji (7, -2)</title>
+    </circle>
+    <circle cx="86.00" cy="71.00" r="2.40" class="composite" data-number="175" data-x="7" data-y="-1">
+      <title>Liczba 175 (złożona) na pozycji (7, -1)</title>
+    </circle>
+    <circle cx="86.00" cy="68.00" r="2.40" class="composite" data-number="176" data-x="7" data-y="0">
+      <title>Liczba 176 (złożona) na pozycji (7, 0)</title>
+    </circle>
+    <circle cx="86.00" cy="65.00" r="2.40" class="composite" data-number="177" data-x="7" data-y="1">
+      <title>Liczba 177 (złożona) na pozycji (7, 1)</title>
+    </circle>
+    <circle cx="86.00" cy="62.00" r="2.40" class="composite" data-number="178" data-x="7" data-y="2">
+      <title>Liczba 178 (złożona) na pozycji (7, 2)</title>
+    </circle>
+    <circle cx="86.00" cy="59.00" r="2.40" class="prime" data-number="179" data-x="7" data-y="3">
+      <title>Liczba 179 (pierwsza) na pozycji (7, 3)</title>
+    </circle>
+    <circle cx="86.00" cy="56.00" r="2.40" class="composite" data-number="180" data-x="7" data-y="4">
+      <title>Liczba 180 (złożona) na pozycji (7, 4)</title>
+    </circle>
+    <circle cx="86.00" cy="53.00" r="2.40" class="prime" data-number="181" data-x="7" data-y="5">
+      <title>Liczba 181 (pierwsza) na pozycji (7, 5)</title>
+    </circle>
+    <circle cx="86.00" cy="50.00" r="2.40" class="composite" data-number="182" data-x="7" data-y="6">
+      <title>Liczba 182 (złożona) na pozycji (7, 6)</title>
+    </circle>
+    <circle cx="86.00" cy="47.00" r="2.40" class="composite" data-number="183" data-x="7" data-y="7">
+      <title>Liczba 183 (złożona) na pozycji (7, 7)</title>
+    </circle>
+    <circle cx="83.00" cy="47.00" r="2.40" class="composite" data-number="184" data-x="6" data-y="7">
+      <title>Liczba 184 (złożona) na pozycji (6, 7)</title>
+    </circle>
+    <circle cx="80.00" cy="47.00" r="2.40" class="composite" data-number="185" data-x="5" data-y="7">
+      <title>Liczba 185 (złożona) na pozycji (5, 7)</title>
+    </circle>
+    <circle cx="77.00" cy="47.00" r="2.40" class="composite" data-number="186" data-x="4" data-y="7">
+      <title>Liczba 186 (złożona) na pozycji (4, 7)</title>
+    </circle>
+    <circle cx="74.00" cy="47.00" r="2.40" class="composite" data-number="187" data-x="3" data-y="7">
+      <title>Liczba 187 (złożona) na pozycji (3, 7)</title>
+    </circle>
+    <circle cx="71.00" cy="47.00" r="2.40" class="composite" data-number="188" data-x="2" data-y="7">
+      <title>Liczba 188 (złożona) na pozycji (2, 7)</title>
+    </circle>
+    <circle cx="68.00" cy="47.00" r="2.40" class="composite" data-number="189" data-x="1" data-y="7">
+      <title>Liczba 189 (złożona) na pozycji (1, 7)</title>
+    </circle>
+    <circle cx="65.00" cy="47.00" r="2.40" class="composite" data-number="190" data-x="0" data-y="7">
+      <title>Liczba 190 (złożona) na pozycji (0, 7)</title>
+    </circle>
+    <circle cx="62.00" cy="47.00" r="2.40" class="prime" data-number="191" data-x="-1" data-y="7">
+      <title>Liczba 191 (pierwsza) na pozycji (-1, 7)</title>
+    </circle>
+    <circle cx="59.00" cy="47.00" r="2.40" class="composite" data-number="192" data-x="-2" data-y="7">
+      <title>Liczba 192 (złożona) na pozycji (-2, 7)</title>
+    </circle>
+    <circle cx="56.00" cy="47.00" r="2.40" class="prime" data-number="193" data-x="-3" data-y="7">
+      <title>Liczba 193 (pierwsza) na pozycji (-3, 7)</title>
+    </circle>
+    <circle cx="53.00" cy="47.00" r="2.40" class="composite" data-number="194" data-x="-4" data-y="7">
+      <title>Liczba 194 (złożona) na pozycji (-4, 7)</title>
+    </circle>
+    <circle cx="50.00" cy="47.00" r="2.40" class="composite" data-number="195" data-x="-5" data-y="7">
+      <title>Liczba 195 (złożona) na pozycji (-5, 7)</title>
+    </circle>
+    <circle cx="47.00" cy="47.00" r="2.40" class="composite" data-number="196" data-x="-6" data-y="7">
+      <title>Liczba 196 (złożona) na pozycji (-6, 7)</title>
+    </circle>
+    <circle cx="44.00" cy="47.00" r="2.40" class="prime" data-number="197" data-x="-7" data-y="7">
+      <title>Liczba 197 (pierwsza) na pozycji (-7, 7)</title>
+    </circle>
+    <circle cx="44.00" cy="50.00" r="2.40" class="composite" data-number="198" data-x="-7" data-y="6">
+      <title>Liczba 198 (złożona) na pozycji (-7, 6)</title>
+    </circle>
+    <circle cx="44.00" cy="53.00" r="2.40" class="prime" data-number="199" data-x="-7" data-y="5">
+      <title>Liczba 199 (pierwsza) na pozycji (-7, 5)</title>
+    </circle>
+    <circle cx="44.00" cy="56.00" r="2.40" class="composite" data-number="200" data-x="-7" data-y="4">
+      <title>Liczba 200 (złożona) na pozycji (-7, 4)</title>
+    </circle>
+    <circle cx="44.00" cy="59.00" r="2.40" class="composite" data-number="201" data-x="-7" data-y="3">
+      <title>Liczba 201 (złożona) na pozycji (-7, 3)</title>
+    </circle>
+    <circle cx="44.00" cy="62.00" r="2.40" class="composite" data-number="202" data-x="-7" data-y="2">
+      <title>Liczba 202 (złożona) na pozycji (-7, 2)</title>
+    </circle>
+    <circle cx="44.00" cy="65.00" r="2.40" class="composite" data-number="203" data-x="-7" data-y="1">
+      <title>Liczba 203 (złożona) na pozycji (-7, 1)</title>
+    </circle>
+    <circle cx="44.00" cy="68.00" r="2.40" class="composite" data-number="204" data-x="-7" data-y="0">
+      <title>Liczba 204 (złożona) na pozycji (-7, 0)</title>
+    </circle>
+    <circle cx="44.00" cy="71.00" r="2.40" class="composite" data-number="205" data-x="-7" data-y="-1">
+      <title>Liczba 205 (złożona) na pozycji (-7, -1)</title>
+    </circle>
+    <circle cx="44.00" cy="74.00" r="2.40" class="composite" data-number="206" data-x="-7" data-y="-2">
+      <title>Liczba 206 (złożona) na pozycji (-7, -2)</title>
+    </circle>
+    <circle cx="44.00" cy="77.00" r="2.40" class="composite" data-number="207" data-x="-7" data-y="-3">
+      <title>Liczba 207 (złożona) na pozycji (-7, -3)</title>
+    </circle>
+    <circle cx="44.00" cy="80.00" r="2.40" class="composite" data-number="208" data-x="-7" data-y="-4">
+      <title>Liczba 208 (złożona) na pozycji (-7, -4)</title>
+    </circle>
+    <circle cx="44.00" cy="83.00" r="2.40" class="composite" data-number="209" data-x="-7" data-y="-5">
+      <title>Liczba 209 (złożona) na pozycji (-7, -5)</title>
+    </circle>
+    <circle cx="44.00" cy="86.00" r="2.40" class="composite" data-number="210" data-x="-7" data-y="-6">
+      <title>Liczba 210 (złożona) na pozycji (-7, -6)</title>
+    </circle>
+    <circle cx="44.00" cy="89.00" r="2.40" class="prime" data-number="211" data-x="-7" data-y="-7">
+      <title>Liczba 211 (pierwsza) na pozycji (-7, -7)</title>
+    </circle>
+    <circle cx="47.00" cy="89.00" r="2.40" class="composite" data-number="212" data-x="-6" data-y="-7">
+      <title>Liczba 212 (złożona) na pozycji (-6, -7)</title>
+    </circle>
+    <circle cx="50.00" cy="89.00" r="2.40" class="composite" data-number="213" data-x="-5" data-y="-7">
+      <title>Liczba 213 (złożona) na pozycji (-5, -7)</title>
+    </circle>
+    <circle cx="53.00" cy="89.00" r="2.40" class="composite" data-number="214" data-x="-4" data-y="-7">
+      <title>Liczba 214 (złożona) na pozycji (-4, -7)</title>
+    </circle>
+    <circle cx="56.00" cy="89.00" r="2.40" class="composite" data-number="215" data-x="-3" data-y="-7">
+      <title>Liczba 215 (złożona) na pozycji (-3, -7)</title>
+    </circle>
+    <circle cx="59.00" cy="89.00" r="2.40" class="composite" data-number="216" data-x="-2" data-y="-7">
+      <title>Liczba 216 (złożona) na pozycji (-2, -7)</title>
+    </circle>
+    <circle cx="62.00" cy="89.00" r="2.40" class="composite" data-number="217" data-x="-1" data-y="-7">
+      <title>Liczba 217 (złożona) na pozycji (-1, -7)</title>
+    </circle>
+    <circle cx="65.00" cy="89.00" r="2.40" class="composite" data-number="218" data-x="0" data-y="-7">
+      <title>Liczba 218 (złożona) na pozycji (0, -7)</title>
+    </circle>
+    <circle cx="68.00" cy="89.00" r="2.40" class="composite" data-number="219" data-x="1" data-y="-7">
+      <title>Liczba 219 (złożona) na pozycji (1, -7)</title>
+    </circle>
+    <circle cx="71.00" cy="89.00" r="2.40" class="composite" data-number="220" data-x="2" data-y="-7">
+      <title>Liczba 220 (złożona) na pozycji (2, -7)</title>
+    </circle>
+    <circle cx="74.00" cy="89.00" r="2.40" class="composite" data-number="221" data-x="3" data-y="-7">
+      <title>Liczba 221 (złożona) na pozycji (3, -7)</title>
+    </circle>
+    <circle cx="77.00" cy="89.00" r="2.40" class="composite" data-number="222" data-x="4" data-y="-7">
+      <title>Liczba 222 (złożona) na pozycji (4, -7)</title>
+    </circle>
+    <circle cx="80.00" cy="89.00" r="2.40" class="prime" data-number="223" data-x="5" data-y="-7">
+      <title>Liczba 223 (pierwsza) na pozycji (5, -7)</title>
+    </circle>
+    <circle cx="83.00" cy="89.00" r="2.40" class="composite" data-number="224" data-x="6" data-y="-7">
+      <title>Liczba 224 (złożona) na pozycji (6, -7)</title>
+    </circle>
+    <circle cx="86.00" cy="89.00" r="2.40" class="composite" data-number="225" data-x="7" data-y="-7">
+      <title>Liczba 225 (złożona) na pozycji (7, -7)</title>
+    </circle>
+    <circle cx="89.00" cy="89.00" r="2.40" class="composite" data-number="226" data-x="8" data-y="-7">
+      <title>Liczba 226 (złożona) na pozycji (8, -7)</title>
+    </circle>
+    <circle cx="89.00" cy="86.00" r="2.40" class="prime" data-number="227" data-x="8" data-y="-6">
+      <title>Liczba 227 (pierwsza) na pozycji (8, -6)</title>
+    </circle>
+    <circle cx="89.00" cy="83.00" r="2.40" class="composite" data-number="228" data-x="8" data-y="-5">
+      <title>Liczba 228 (złożona) na pozycji (8, -5)</title>
+    </circle>
+    <circle cx="89.00" cy="80.00" r="2.40" class="prime" data-number="229" data-x="8" data-y="-4">
+      <title>Liczba 229 (pierwsza) na pozycji (8, -4)</title>
+    </circle>
+    <circle cx="89.00" cy="77.00" r="2.40" class="composite" data-number="230" data-x="8" data-y="-3">
+      <title>Liczba 230 (złożona) na pozycji (8, -3)</title>
+    </circle>
+    <circle cx="89.00" cy="74.00" r="2.40" class="composite" data-number="231" data-x="8" data-y="-2">
+      <title>Liczba 231 (złożona) na pozycji (8, -2)</title>
+    </circle>
+    <circle cx="89.00" cy="71.00" r="2.40" class="composite" data-number="232" data-x="8" data-y="-1">
+      <title>Liczba 232 (złożona) na pozycji (8, -1)</title>
+    </circle>
+    <circle cx="89.00" cy="68.00" r="2.40" class="prime" data-number="233" data-x="8" data-y="0">
+      <title>Liczba 233 (pierwsza) na pozycji (8, 0)</title>
+    </circle>
+    <circle cx="89.00" cy="65.00" r="2.40" class="composite" data-number="234" data-x="8" data-y="1">
+      <title>Liczba 234 (złożona) na pozycji (8, 1)</title>
+    </circle>
+    <circle cx="89.00" cy="62.00" r="2.40" class="composite" data-number="235" data-x="8" data-y="2">
+      <title>Liczba 235 (złożona) na pozycji (8, 2)</title>
+    </circle>
+    <circle cx="89.00" cy="59.00" r="2.40" class="composite" data-number="236" data-x="8" data-y="3">
+      <title>Liczba 236 (złożona) na pozycji (8, 3)</title>
+    </circle>
+    <circle cx="89.00" cy="56.00" r="2.40" class="composite" data-number="237" data-x="8" data-y="4">
+      <title>Liczba 237 (złożona) na pozycji (8, 4)</title>
+    </circle>
+    <circle cx="89.00" cy="53.00" r="2.40" class="composite" data-number="238" data-x="8" data-y="5">
+      <title>Liczba 238 (złożona) na pozycji (8, 5)</title>
+    </circle>
+    <circle cx="89.00" cy="50.00" r="2.40" class="prime" data-number="239" data-x="8" data-y="6">
+      <title>Liczba 239 (pierwsza) na pozycji (8, 6)</title>
+    </circle>
+    <circle cx="89.00" cy="47.00" r="2.40" class="composite" data-number="240" data-x="8" data-y="7">
+      <title>Liczba 240 (złożona) na pozycji (8, 7)</title>
+    </circle>
+    <circle cx="89.00" cy="44.00" r="2.40" class="prime" data-number="241" data-x="8" data-y="8">
+      <title>Liczba 241 (pierwsza) na pozycji (8, 8)</title>
+    </circle>
+    <circle cx="86.00" cy="44.00" r="2.40" class="composite" data-number="242" data-x="7" data-y="8">
+      <title>Liczba 242 (złożona) na pozycji (7, 8)</title>
+    </circle>
+    <circle cx="83.00" cy="44.00" r="2.40" class="composite" data-number="243" data-x="6" data-y="8">
+      <title>Liczba 243 (złożona) na pozycji (6, 8)</title>
+    </circle>
+    <circle cx="80.00" cy="44.00" r="2.40" class="composite" data-number="244" data-x="5" data-y="8">
+      <title>Liczba 244 (złożona) na pozycji (5, 8)</title>
+    </circle>
+    <circle cx="77.00" cy="44.00" r="2.40" class="composite" data-number="245" data-x="4" data-y="8">
+      <title>Liczba 245 (złożona) na pozycji (4, 8)</title>
+    </circle>
+    <circle cx="74.00" cy="44.00" r="2.40" class="composite" data-number="246" data-x="3" data-y="8">
+      <title>Liczba 246 (złożona) na pozycji (3, 8)</title>
+    </circle>
+    <circle cx="71.00" cy="44.00" r="2.40" class="composite" data-number="247" data-x="2" data-y="8">
+      <title>Liczba 247 (złożona) na pozycji (2, 8)</title>
+    </circle>
+    <circle cx="68.00" cy="44.00" r="2.40" class="composite" data-number="248" data-x="1" data-y="8">
+      <title>Liczba 248 (złożona) na pozycji (1, 8)</title>
+    </circle>
+    <circle cx="65.00" cy="44.00" r="2.40" class="composite" data-number="249" data-x="0" data-y="8">
+      <title>Liczba 249 (złożona) na pozycji (0, 8)</title>
+    </circle>
+    <circle cx="62.00" cy="44.00" r="2.40" class="composite" data-number="250" data-x="-1" data-y="8">
+      <title>Liczba 250 (złożona) na pozycji (-1, 8)</title>
+    </circle>
+    <circle cx="59.00" cy="44.00" r="2.40" class="prime" data-number="251" data-x="-2" data-y="8">
+      <title>Liczba 251 (pierwsza) na pozycji (-2, 8)</title>
+    </circle>
+    <circle cx="56.00" cy="44.00" r="2.40" class="composite" data-number="252" data-x="-3" data-y="8">
+      <title>Liczba 252 (złożona) na pozycji (-3, 8)</title>
+    </circle>
+    <circle cx="53.00" cy="44.00" r="2.40" class="composite" data-number="253" data-x="-4" data-y="8">
+      <title>Liczba 253 (złożona) na pozycji (-4, 8)</title>
+    </circle>
+    <circle cx="50.00" cy="44.00" r="2.40" class="composite" data-number="254" data-x="-5" data-y="8">
+      <title>Liczba 254 (złożona) na pozycji (-5, 8)</title>
+    </circle>
+    <circle cx="47.00" cy="44.00" r="2.40" class="composite" data-number="255" data-x="-6" data-y="8">
+      <title>Liczba 255 (złożona) na pozycji (-6, 8)</title>
+    </circle>
+    <circle cx="44.00" cy="44.00" r="2.40" class="composite" data-number="256" data-x="-7" data-y="8">
+      <title>Liczba 256 (złożona) na pozycji (-7, 8)</title>
+    </circle>
+    <circle cx="41.00" cy="44.00" r="2.40" class="prime" data-number="257" data-x="-8" data-y="8">
+      <title>Liczba 257 (pierwsza) na pozycji (-8, 8)</title>
+    </circle>
+    <circle cx="41.00" cy="47.00" r="2.40" class="composite" data-number="258" data-x="-8" data-y="7">
+      <title>Liczba 258 (złożona) na pozycji (-8, 7)</title>
+    </circle>
+    <circle cx="41.00" cy="50.00" r="2.40" class="composite" data-number="259" data-x="-8" data-y="6">
+      <title>Liczba 259 (złożona) na pozycji (-8, 6)</title>
+    </circle>
+    <circle cx="41.00" cy="53.00" r="2.40" class="composite" data-number="260" data-x="-8" data-y="5">
+      <title>Liczba 260 (złożona) na pozycji (-8, 5)</title>
+    </circle>
+    <circle cx="41.00" cy="56.00" r="2.40" class="composite" data-number="261" data-x="-8" data-y="4">
+      <title>Liczba 261 (złożona) na pozycji (-8, 4)</title>
+    </circle>
+    <circle cx="41.00" cy="59.00" r="2.40" class="composite" data-number="262" data-x="-8" data-y="3">
+      <title>Liczba 262 (złożona) na pozycji (-8, 3)</title>
+    </circle>
+    <circle cx="41.00" cy="62.00" r="2.40" class="prime" data-number="263" data-x="-8" data-y="2">
+      <title>Liczba 263 (pierwsza) na pozycji (-8, 2)</title>
+    </circle>
+    <circle cx="41.00" cy="65.00" r="2.40" class="composite" data-number="264" data-x="-8" data-y="1">
+      <title>Liczba 264 (złożona) na pozycji (-8, 1)</title>
+    </circle>
+    <circle cx="41.00" cy="68.00" r="2.40" class="composite" data-number="265" data-x="-8" data-y="0">
+      <title>Liczba 265 (złożona) na pozycji (-8, 0)</title>
+    </circle>
+    <circle cx="41.00" cy="71.00" r="2.40" class="composite" data-number="266" data-x="-8" data-y="-1">
+      <title>Liczba 266 (złożona) na pozycji (-8, -1)</title>
+    </circle>
+    <circle cx="41.00" cy="74.00" r="2.40" class="composite" data-number="267" data-x="-8" data-y="-2">
+      <title>Liczba 267 (złożona) na pozycji (-8, -2)</title>
+    </circle>
+    <circle cx="41.00" cy="77.00" r="2.40" class="composite" data-number="268" data-x="-8" data-y="-3">
+      <title>Liczba 268 (złożona) na pozycji (-8, -3)</title>
+    </circle>
+    <circle cx="41.00" cy="80.00" r="2.40" class="prime" data-number="269" data-x="-8" data-y="-4">
+      <title>Liczba 269 (pierwsza) na pozycji (-8, -4)</title>
+    </circle>
+    <circle cx="41.00" cy="83.00" r="2.40" class="composite" data-number="270" data-x="-8" data-y="-5">
+      <title>Liczba 270 (złożona) na pozycji (-8, -5)</title>
+    </circle>
+    <circle cx="41.00" cy="86.00" r="2.40" class="prime" data-number="271" data-x="-8" data-y="-6">
+      <title>Liczba 271 (pierwsza) na pozycji (-8, -6)</title>
+    </circle>
+    <circle cx="41.00" cy="89.00" r="2.40" class="composite" data-number="272" data-x="-8" data-y="-7">
+      <title>Liczba 272 (złożona) na pozycji (-8, -7)</title>
+    </circle>
+    <circle cx="41.00" cy="92.00" r="2.40" class="composite" data-number="273" data-x="-8" data-y="-8">
+      <title>Liczba 273 (złożona) na pozycji (-8, -8)</title>
+    </circle>
+    <circle cx="44.00" cy="92.00" r="2.40" class="composite" data-number="274" data-x="-7" data-y="-8">
+      <title>Liczba 274 (złożona) na pozycji (-7, -8)</title>
+    </circle>
+    <circle cx="47.00" cy="92.00" r="2.40" class="composite" data-number="275" data-x="-6" data-y="-8">
+      <title>Liczba 275 (złożona) na pozycji (-6, -8)</title>
+    </circle>
+    <circle cx="50.00" cy="92.00" r="2.40" class="composite" data-number="276" data-x="-5" data-y="-8">
+      <title>Liczba 276 (złożona) na pozycji (-5, -8)</title>
+    </circle>
+    <circle cx="53.00" cy="92.00" r="2.40" class="prime" data-number="277" data-x="-4" data-y="-8">
+      <title>Liczba 277 (pierwsza) na pozycji (-4, -8)</title>
+    </circle>
+    <circle cx="56.00" cy="92.00" r="2.40" class="composite" data-number="278" data-x="-3" data-y="-8">
+      <title>Liczba 278 (złożona) na pozycji (-3, -8)</title>
+    </circle>
+    <circle cx="59.00" cy="92.00" r="2.40" class="composite" data-number="279" data-x="-2" data-y="-8">
+      <title>Liczba 279 (złożona) na pozycji (-2, -8)</title>
+    </circle>
+    <circle cx="62.00" cy="92.00" r="2.40" class="composite" data-number="280" data-x="-1" data-y="-8">
+      <title>Liczba 280 (złożona) na pozycji (-1, -8)</title>
+    </circle>
+    <circle cx="65.00" cy="92.00" r="2.40" class="prime" data-number="281" data-x="0" data-y="-8">
+      <title>Liczba 281 (pierwsza) na pozycji (0, -8)</title>
+    </circle>
+    <circle cx="68.00" cy="92.00" r="2.40" class="composite" data-number="282" data-x="1" data-y="-8">
+      <title>Liczba 282 (złożona) na pozycji (1, -8)</title>
+    </circle>
+    <circle cx="71.00" cy="92.00" r="2.40" class="prime" data-number="283" data-x="2" data-y="-8">
+      <title>Liczba 283 (pierwsza) na pozycji (2, -8)</title>
+    </circle>
+    <circle cx="74.00" cy="92.00" r="2.40" class="composite" data-number="284" data-x="3" data-y="-8">
+      <title>Liczba 284 (złożona) na pozycji (3, -8)</title>
+    </circle>
+    <circle cx="77.00" cy="92.00" r="2.40" class="composite" data-number="285" data-x="4" data-y="-8">
+      <title>Liczba 285 (złożona) na pozycji (4, -8)</title>
+    </circle>
+    <circle cx="80.00" cy="92.00" r="2.40" class="composite" data-number="286" data-x="5" data-y="-8">
+      <title>Liczba 286 (złożona) na pozycji (5, -8)</title>
+    </circle>
+    <circle cx="83.00" cy="92.00" r="2.40" class="composite" data-number="287" data-x="6" data-y="-8">
+      <title>Liczba 287 (złożona) na pozycji (6, -8)</title>
+    </circle>
+    <circle cx="86.00" cy="92.00" r="2.40" class="composite" data-number="288" data-x="7" data-y="-8">
+      <title>Liczba 288 (złożona) na pozycji (7, -8)</title>
+    </circle>
+    <circle cx="89.00" cy="92.00" r="2.40" class="composite" data-number="289" data-x="8" data-y="-8">
+      <title>Liczba 289 (złożona) na pozycji (8, -8)</title>
+    </circle>
+    <circle cx="92.00" cy="92.00" r="2.40" class="composite" data-number="290" data-x="9" data-y="-8">
+      <title>Liczba 290 (złożona) na pozycji (9, -8)</title>
+    </circle>
+    <circle cx="92.00" cy="89.00" r="2.40" class="composite" data-number="291" data-x="9" data-y="-7">
+      <title>Liczba 291 (złożona) na pozycji (9, -7)</title>
+    </circle>
+    <circle cx="92.00" cy="86.00" r="2.40" class="composite" data-number="292" data-x="9" data-y="-6">
+      <title>Liczba 292 (złożona) na pozycji (9, -6)</title>
+    </circle>
+    <circle cx="92.00" cy="83.00" r="2.40" class="prime" data-number="293" data-x="9" data-y="-5">
+      <title>Liczba 293 (pierwsza) na pozycji (9, -5)</title>
+    </circle>
+    <circle cx="92.00" cy="80.00" r="2.40" class="composite" data-number="294" data-x="9" data-y="-4">
+      <title>Liczba 294 (złożona) na pozycji (9, -4)</title>
+    </circle>
+    <circle cx="92.00" cy="77.00" r="2.40" class="composite" data-number="295" data-x="9" data-y="-3">
+      <title>Liczba 295 (złożona) na pozycji (9, -3)</title>
+    </circle>
+    <circle cx="92.00" cy="74.00" r="2.40" class="composite" data-number="296" data-x="9" data-y="-2">
+      <title>Liczba 296 (złożona) na pozycji (9, -2)</title>
+    </circle>
+    <circle cx="92.00" cy="71.00" r="2.40" class="composite" data-number="297" data-x="9" data-y="-1">
+      <title>Liczba 297 (złożona) na pozycji (9, -1)</title>
+    </circle>
+    <circle cx="92.00" cy="68.00" r="2.40" class="composite" data-number="298" data-x="9" data-y="0">
+      <title>Liczba 298 (złożona) na pozycji (9, 0)</title>
+    </circle>
+    <circle cx="92.00" cy="65.00" r="2.40" class="composite" data-number="299" data-x="9" data-y="1">
+      <title>Liczba 299 (złożona) na pozycji (9, 1)</title>
+    </circle>
+    <circle cx="92.00" cy="62.00" r="2.40" class="composite" data-number="300" data-x="9" data-y="2">
+      <title>Liczba 300 (złożona) na pozycji (9, 2)</title>
+    </circle>
+    <circle cx="92.00" cy="59.00" r="2.40" class="composite" data-number="301" data-x="9" data-y="3">
+      <title>Liczba 301 (złożona) na pozycji (9, 3)</title>
+    </circle>
+    <circle cx="92.00" cy="56.00" r="2.40" class="composite" data-number="302" data-x="9" data-y="4">
+      <title>Liczba 302 (złożona) na pozycji (9, 4)</title>
+    </circle>
+    <circle cx="92.00" cy="53.00" r="2.40" class="composite" data-number="303" data-x="9" data-y="5">
+      <title>Liczba 303 (złożona) na pozycji (9, 5)</title>
+    </circle>
+    <circle cx="92.00" cy="50.00" r="2.40" class="composite" data-number="304" data-x="9" data-y="6">
+      <title>Liczba 304 (złożona) na pozycji (9, 6)</title>
+    </circle>
+    <circle cx="92.00" cy="47.00" r="2.40" class="composite" data-number="305" data-x="9" data-y="7">
+      <title>Liczba 305 (złożona) na pozycji (9, 7)</title>
+    </circle>
+    <circle cx="92.00" cy="44.00" r="2.40" class="composite" data-number="306" data-x="9" data-y="8">
+      <title>Liczba 306 (złożona) na pozycji (9, 8)</title>
+    </circle>
+    <circle cx="92.00" cy="41.00" r="2.40" class="prime" data-number="307" data-x="9" data-y="9">
+      <title>Liczba 307 (pierwsza) na pozycji (9, 9)</title>
+    </circle>
+    <circle cx="89.00" cy="41.00" r="2.40" class="composite" data-number="308" data-x="8" data-y="9">
+      <title>Liczba 308 (złożona) na pozycji (8, 9)</title>
+    </circle>
+    <circle cx="86.00" cy="41.00" r="2.40" class="composite" data-number="309" data-x="7" data-y="9">
+      <title>Liczba 309 (złożona) na pozycji (7, 9)</title>
+    </circle>
+    <circle cx="83.00" cy="41.00" r="2.40" class="composite" data-number="310" data-x="6" data-y="9">
+      <title>Liczba 310 (złożona) na pozycji (6, 9)</title>
+    </circle>
+    <circle cx="80.00" cy="41.00" r="2.40" class="prime" data-number="311" data-x="5" data-y="9">
+      <title>Liczba 311 (pierwsza) na pozycji (5, 9)</title>
+    </circle>
+    <circle cx="77.00" cy="41.00" r="2.40" class="composite" data-number="312" data-x="4" data-y="9">
+      <title>Liczba 312 (złożona) na pozycji (4, 9)</title>
+    </circle>
+    <circle cx="74.00" cy="41.00" r="2.40" class="prime" data-number="313" data-x="3" data-y="9">
+      <title>Liczba 313 (pierwsza) na pozycji (3, 9)</title>
+    </circle>
+    <circle cx="71.00" cy="41.00" r="2.40" class="composite" data-number="314" data-x="2" data-y="9">
+      <title>Liczba 314 (złożona) na pozycji (2, 9)</title>
+    </circle>
+    <circle cx="68.00" cy="41.00" r="2.40" class="composite" data-number="315" data-x="1" data-y="9">
+      <title>Liczba 315 (złożona) na pozycji (1, 9)</title>
+    </circle>
+    <circle cx="65.00" cy="41.00" r="2.40" class="composite" data-number="316" data-x="0" data-y="9">
+      <title>Liczba 316 (złożona) na pozycji (0, 9)</title>
+    </circle>
+    <circle cx="62.00" cy="41.00" r="2.40" class="prime" data-number="317" data-x="-1" data-y="9">
+      <title>Liczba 317 (pierwsza) na pozycji (-1, 9)</title>
+    </circle>
+    <circle cx="59.00" cy="41.00" r="2.40" class="composite" data-number="318" data-x="-2" data-y="9">
+      <title>Liczba 318 (złożona) na pozycji (-2, 9)</title>
+    </circle>
+    <circle cx="56.00" cy="41.00" r="2.40" class="composite" data-number="319" data-x="-3" data-y="9">
+      <title>Liczba 319 (złożona) na pozycji (-3, 9)</title>
+    </circle>
+    <circle cx="53.00" cy="41.00" r="2.40" class="composite" data-number="320" data-x="-4" data-y="9">
+      <title>Liczba 320 (złożona) na pozycji (-4, 9)</title>
+    </circle>
+    <circle cx="50.00" cy="41.00" r="2.40" class="composite" data-number="321" data-x="-5" data-y="9">
+      <title>Liczba 321 (złożona) na pozycji (-5, 9)</title>
+    </circle>
+    <circle cx="47.00" cy="41.00" r="2.40" class="composite" data-number="322" data-x="-6" data-y="9">
+      <title>Liczba 322 (złożona) na pozycji (-6, 9)</title>
+    </circle>
+    <circle cx="44.00" cy="41.00" r="2.40" class="composite" data-number="323" data-x="-7" data-y="9">
+      <title>Liczba 323 (złożona) na pozycji (-7, 9)</title>
+    </circle>
+    <circle cx="41.00" cy="41.00" r="2.40" class="composite" data-number="324" data-x="-8" data-y="9">
+      <title>Liczba 324 (złożona) na pozycji (-8, 9)</title>
+    </circle>
+    <circle cx="38.00" cy="41.00" r="2.40" class="composite" data-number="325" data-x="-9" data-y="9">
+      <title>Liczba 325 (złożona) na pozycji (-9, 9)</title>
+    </circle>
+    <circle cx="38.00" cy="44.00" r="2.40" class="composite" data-number="326" data-x="-9" data-y="8">
+      <title>Liczba 326 (złożona) na pozycji (-9, 8)</title>
+    </circle>
+    <circle cx="38.00" cy="47.00" r="2.40" class="composite" data-number="327" data-x="-9" data-y="7">
+      <title>Liczba 327 (złożona) na pozycji (-9, 7)</title>
+    </circle>
+    <circle cx="38.00" cy="50.00" r="2.40" class="composite" data-number="328" data-x="-9" data-y="6">
+      <title>Liczba 328 (złożona) na pozycji (-9, 6)</title>
+    </circle>
+    <circle cx="38.00" cy="53.00" r="2.40" class="composite" data-number="329" data-x="-9" data-y="5">
+      <title>Liczba 329 (złożona) na pozycji (-9, 5)</title>
+    </circle>
+    <circle cx="38.00" cy="56.00" r="2.40" class="composite" data-number="330" data-x="-9" data-y="4">
+      <title>Liczba 330 (złożona) na pozycji (-9, 4)</title>
+    </circle>
+    <circle cx="38.00" cy="59.00" r="2.40" class="prime" data-number="331" data-x="-9" data-y="3">
+      <title>Liczba 331 (pierwsza) na pozycji (-9, 3)</title>
+    </circle>
+    <circle cx="38.00" cy="62.00" r="2.40" class="composite" data-number="332" data-x="-9" data-y="2">
+      <title>Liczba 332 (złożona) na pozycji (-9, 2)</title>
+    </circle>
+    <circle cx="38.00" cy="65.00" r="2.40" class="composite" data-number="333" data-x="-9" data-y="1">
+      <title>Liczba 333 (złożona) na pozycji (-9, 1)</title>
+    </circle>
+    <circle cx="38.00" cy="68.00" r="2.40" class="composite" data-number="334" data-x="-9" data-y="0">
+      <title>Liczba 334 (złożona) na pozycji (-9, 0)</title>
+    </circle>
+    <circle cx="38.00" cy="71.00" r="2.40" class="composite" data-number="335" data-x="-9" data-y="-1">
+      <title>Liczba 335 (złożona) na pozycji (-9, -1)</title>
+    </circle>
+    <circle cx="38.00" cy="74.00" r="2.40" class="composite" data-number="336" data-x="-9" data-y="-2">
+      <title>Liczba 336 (złożona) na pozycji (-9, -2)</title>
+    </circle>
+    <circle cx="38.00" cy="77.00" r="2.40" class="prime" data-number="337" data-x="-9" data-y="-3">
+      <title>Liczba 337 (pierwsza) na pozycji (-9, -3)</title>
+    </circle>
+    <circle cx="38.00" cy="80.00" r="2.40" class="composite" data-number="338" data-x="-9" data-y="-4">
+      <title>Liczba 338 (złożona) na pozycji (-9, -4)</title>
+    </circle>
+    <circle cx="38.00" cy="83.00" r="2.40" class="composite" data-number="339" data-x="-9" data-y="-5">
+      <title>Liczba 339 (złożona) na pozycji (-9, -5)</title>
+    </circle>
+    <circle cx="38.00" cy="86.00" r="2.40" class="composite" data-number="340" data-x="-9" data-y="-6">
+      <title>Liczba 340 (złożona) na pozycji (-9, -6)</title>
+    </circle>
+    <circle cx="38.00" cy="89.00" r="2.40" class="composite" data-number="341" data-x="-9" data-y="-7">
+      <title>Liczba 341 (złożona) na pozycji (-9, -7)</title>
+    </circle>
+    <circle cx="38.00" cy="92.00" r="2.40" class="composite" data-number="342" data-x="-9" data-y="-8">
+      <title>Liczba 342 (złożona) na pozycji (-9, -8)</title>
+    </circle>
+    <circle cx="38.00" cy="95.00" r="2.40" class="composite" data-number="343" data-x="-9" data-y="-9">
+      <title>Liczba 343 (złożona) na pozycji (-9, -9)</title>
+    </circle>
+    <circle cx="41.00" cy="95.00" r="2.40" class="composite" data-number="344" data-x="-8" data-y="-9">
+      <title>Liczba 344 (złożona) na pozycji (-8, -9)</title>
+    </circle>
+    <circle cx="44.00" cy="95.00" r="2.40" class="composite" data-number="345" data-x="-7" data-y="-9">
+      <title>Liczba 345 (złożona) na pozycji (-7, -9)</title>
+    </circle>
+    <circle cx="47.00" cy="95.00" r="2.40" class="composite" data-number="346" data-x="-6" data-y="-9">
+      <title>Liczba 346 (złożona) na pozycji (-6, -9)</title>
+    </circle>
+    <circle cx="50.00" cy="95.00" r="2.40" class="prime" data-number="347" data-x="-5" data-y="-9">
+      <title>Liczba 347 (pierwsza) na pozycji (-5, -9)</title>
+    </circle>
+    <circle cx="53.00" cy="95.00" r="2.40" class="composite" data-number="348" data-x="-4" data-y="-9">
+      <title>Liczba 348 (złożona) na pozycji (-4, -9)</title>
+    </circle>
+    <circle cx="56.00" cy="95.00" r="2.40" class="prime" data-number="349" data-x="-3" data-y="-9">
+      <title>Liczba 349 (pierwsza) na pozycji (-3, -9)</title>
+    </circle>
+    <circle cx="59.00" cy="95.00" r="2.40" class="composite" data-number="350" data-x="-2" data-y="-9">
+      <title>Liczba 350 (złożona) na pozycji (-2, -9)</title>
+    </circle>
+    <circle cx="62.00" cy="95.00" r="2.40" class="composite" data-number="351" data-x="-1" data-y="-9">
+      <title>Liczba 351 (złożona) na pozycji (-1, -9)</title>
+    </circle>
+    <circle cx="65.00" cy="95.00" r="2.40" class="composite" data-number="352" data-x="0" data-y="-9">
+      <title>Liczba 352 (złożona) na pozycji (0, -9)</title>
+    </circle>
+    <circle cx="68.00" cy="95.00" r="2.40" class="prime" data-number="353" data-x="1" data-y="-9">
+      <title>Liczba 353 (pierwsza) na pozycji (1, -9)</title>
+    </circle>
+    <circle cx="71.00" cy="95.00" r="2.40" class="composite" data-number="354" data-x="2" data-y="-9">
+      <title>Liczba 354 (złożona) na pozycji (2, -9)</title>
+    </circle>
+    <circle cx="74.00" cy="95.00" r="2.40" class="composite" data-number="355" data-x="3" data-y="-9">
+      <title>Liczba 355 (złożona) na pozycji (3, -9)</title>
+    </circle>
+    <circle cx="77.00" cy="95.00" r="2.40" class="composite" data-number="356" data-x="4" data-y="-9">
+      <title>Liczba 356 (złożona) na pozycji (4, -9)</title>
+    </circle>
+    <circle cx="80.00" cy="95.00" r="2.40" class="composite" data-number="357" data-x="5" data-y="-9">
+      <title>Liczba 357 (złożona) na pozycji (5, -9)</title>
+    </circle>
+    <circle cx="83.00" cy="95.00" r="2.40" class="composite" data-number="358" data-x="6" data-y="-9">
+      <title>Liczba 358 (złożona) na pozycji (6, -9)</title>
+    </circle>
+    <circle cx="86.00" cy="95.00" r="2.40" class="prime" data-number="359" data-x="7" data-y="-9">
+      <title>Liczba 359 (pierwsza) na pozycji (7, -9)</title>
+    </circle>
+    <circle cx="89.00" cy="95.00" r="2.40" class="composite" data-number="360" data-x="8" data-y="-9">
+      <title>Liczba 360 (złożona) na pozycji (8, -9)</title>
+    </circle>
+    <circle cx="92.00" cy="95.00" r="2.40" class="composite" data-number="361" data-x="9" data-y="-9">
+      <title>Liczba 361 (złożona) na pozycji (9, -9)</title>
+    </circle>
+    <circle cx="95.00" cy="95.00" r="2.40" class="composite" data-number="362" data-x="10" data-y="-9">
+      <title>Liczba 362 (złożona) na pozycji (10, -9)</title>
+    </circle>
+    <circle cx="95.00" cy="92.00" r="2.40" class="composite" data-number="363" data-x="10" data-y="-8">
+      <title>Liczba 363 (złożona) na pozycji (10, -8)</title>
+    </circle>
+    <circle cx="95.00" cy="89.00" r="2.40" class="composite" data-number="364" data-x="10" data-y="-7">
+      <title>Liczba 364 (złożona) na pozycji (10, -7)</title>
+    </circle>
+    <circle cx="95.00" cy="86.00" r="2.40" class="composite" data-number="365" data-x="10" data-y="-6">
+      <title>Liczba 365 (złożona) na pozycji (10, -6)</title>
+    </circle>
+    <circle cx="95.00" cy="83.00" r="2.40" class="composite" data-number="366" data-x="10" data-y="-5">
+      <title>Liczba 366 (złożona) na pozycji (10, -5)</title>
+    </circle>
+    <circle cx="95.00" cy="80.00" r="2.40" class="prime" data-number="367" data-x="10" data-y="-4">
+      <title>Liczba 367 (pierwsza) na pozycji (10, -4)</title>
+    </circle>
+    <circle cx="95.00" cy="77.00" r="2.40" class="composite" data-number="368" data-x="10" data-y="-3">
+      <title>Liczba 368 (złożona) na pozycji (10, -3)</title>
+    </circle>
+    <circle cx="95.00" cy="74.00" r="2.40" class="composite" data-number="369" data-x="10" data-y="-2">
+      <title>Liczba 369 (złożona) na pozycji (10, -2)</title>
+    </circle>
+    <circle cx="95.00" cy="71.00" r="2.40" class="composite" data-number="370" data-x="10" data-y="-1">
+      <title>Liczba 370 (złożona) na pozycji (10, -1)</title>
+    </circle>
+    <circle cx="95.00" cy="68.00" r="2.40" class="composite" data-number="371" data-x="10" data-y="0">
+      <title>Liczba 371 (złożona) na pozycji (10, 0)</title>
+    </circle>
+    <circle cx="95.00" cy="65.00" r="2.40" class="composite" data-number="372" data-x="10" data-y="1">
+      <title>Liczba 372 (złożona) na pozycji (10, 1)</title>
+    </circle>
+    <circle cx="95.00" cy="62.00" r="2.40" class="prime" data-number="373" data-x="10" data-y="2">
+      <title>Liczba 373 (pierwsza) na pozycji (10, 2)</title>
+    </circle>
+    <circle cx="95.00" cy="59.00" r="2.40" class="composite" data-number="374" data-x="10" data-y="3">
+      <title>Liczba 374 (złożona) na pozycji (10, 3)</title>
+    </circle>
+    <circle cx="95.00" cy="56.00" r="2.40" class="composite" data-number="375" data-x="10" data-y="4">
+      <title>Liczba 375 (złożona) na pozycji (10, 4)</title>
+    </circle>
+    <circle cx="95.00" cy="53.00" r="2.40" class="composite" data-number="376" data-x="10" data-y="5">
+      <title>Liczba 376 (złożona) na pozycji (10, 5)</title>
+    </circle>
+    <circle cx="95.00" cy="50.00" r="2.40" class="composite" data-number="377" data-x="10" data-y="6">
+      <title>Liczba 377 (złożona) na pozycji (10, 6)</title>
+    </circle>
+    <circle cx="95.00" cy="47.00" r="2.40" class="composite" data-number="378" data-x="10" data-y="7">
+      <title>Liczba 378 (złożona) na pozycji (10, 7)</title>
+    </circle>
+    <circle cx="95.00" cy="44.00" r="2.40" class="prime" data-number="379" data-x="10" data-y="8">
+      <title>Liczba 379 (pierwsza) na pozycji (10, 8)</title>
+    </circle>
+    <circle cx="95.00" cy="41.00" r="2.40" class="composite" data-number="380" data-x="10" data-y="9">
+      <title>Liczba 380 (złożona) na pozycji (10, 9)</title>
+    </circle>
+    <circle cx="95.00" cy="38.00" r="2.40" class="composite" data-number="381" data-x="10" data-y="10">
+      <title>Liczba 381 (złożona) na pozycji (10, 10)</title>
+    </circle>
+    <circle cx="92.00" cy="38.00" r="2.40" class="composite" data-number="382" data-x="9" data-y="10">
+      <title>Liczba 382 (złożona) na pozycji (9, 10)</title>
+    </circle>
+    <circle cx="89.00" cy="38.00" r="2.40" class="prime" data-number="383" data-x="8" data-y="10">
+      <title>Liczba 383 (pierwsza) na pozycji (8, 10)</title>
+    </circle>
+    <circle cx="86.00" cy="38.00" r="2.40" class="composite" data-number="384" data-x="7" data-y="10">
+      <title>Liczba 384 (złożona) na pozycji (7, 10)</title>
+    </circle>
+    <circle cx="83.00" cy="38.00" r="2.40" class="composite" data-number="385" data-x="6" data-y="10">
+      <title>Liczba 385 (złożona) na pozycji (6, 10)</title>
+    </circle>
+    <circle cx="80.00" cy="38.00" r="2.40" class="composite" data-number="386" data-x="5" data-y="10">
+      <title>Liczba 386 (złożona) na pozycji (5, 10)</title>
+    </circle>
+    <circle cx="77.00" cy="38.00" r="2.40" class="composite" data-number="387" data-x="4" data-y="10">
+      <title>Liczba 387 (złożona) na pozycji (4, 10)</title>
+    </circle>
+    <circle cx="74.00" cy="38.00" r="2.40" class="composite" data-number="388" data-x="3" data-y="10">
+      <title>Liczba 388 (złożona) na pozycji (3, 10)</title>
+    </circle>
+    <circle cx="71.00" cy="38.00" r="2.40" class="prime" data-number="389" data-x="2" data-y="10">
+      <title>Liczba 389 (pierwsza) na pozycji (2, 10)</title>
+    </circle>
+    <circle cx="68.00" cy="38.00" r="2.40" class="composite" data-number="390" data-x="1" data-y="10">
+      <title>Liczba 390 (złożona) na pozycji (1, 10)</title>
+    </circle>
+    <circle cx="65.00" cy="38.00" r="2.40" class="composite" data-number="391" data-x="0" data-y="10">
+      <title>Liczba 391 (złożona) na pozycji (0, 10)</title>
+    </circle>
+    <circle cx="62.00" cy="38.00" r="2.40" class="composite" data-number="392" data-x="-1" data-y="10">
+      <title>Liczba 392 (złożona) na pozycji (-1, 10)</title>
+    </circle>
+    <circle cx="59.00" cy="38.00" r="2.40" class="composite" data-number="393" data-x="-2" data-y="10">
+      <title>Liczba 393 (złożona) na pozycji (-2, 10)</title>
+    </circle>
+    <circle cx="56.00" cy="38.00" r="2.40" class="composite" data-number="394" data-x="-3" data-y="10">
+      <title>Liczba 394 (złożona) na pozycji (-3, 10)</title>
+    </circle>
+    <circle cx="53.00" cy="38.00" r="2.40" class="composite" data-number="395" data-x="-4" data-y="10">
+      <title>Liczba 395 (złożona) na pozycji (-4, 10)</title>
+    </circle>
+    <circle cx="50.00" cy="38.00" r="2.40" class="composite" data-number="396" data-x="-5" data-y="10">
+      <title>Liczba 396 (złożona) na pozycji (-5, 10)</title>
+    </circle>
+    <circle cx="47.00" cy="38.00" r="2.40" class="prime" data-number="397" data-x="-6" data-y="10">
+      <title>Liczba 397 (pierwsza) na pozycji (-6, 10)</title>
+    </circle>
+    <circle cx="44.00" cy="38.00" r="2.40" class="composite" data-number="398" data-x="-7" data-y="10">
+      <title>Liczba 398 (złożona) na pozycji (-7, 10)</title>
+    </circle>
+    <circle cx="41.00" cy="38.00" r="2.40" class="composite" data-number="399" data-x="-8" data-y="10">
+      <title>Liczba 399 (złożona) na pozycji (-8, 10)</title>
+    </circle>
+    <circle cx="38.00" cy="38.00" r="2.40" class="composite" data-number="400" data-x="-9" data-y="10">
+      <title>Liczba 400 (złożona) na pozycji (-9, 10)</title>
+    </circle>
+    <circle cx="35.00" cy="38.00" r="2.40" class="prime" data-number="401" data-x="-10" data-y="10">
+      <title>Liczba 401 (pierwsza) na pozycji (-10, 10)</title>
+    </circle>
+    <circle cx="35.00" cy="41.00" r="2.40" class="composite" data-number="402" data-x="-10" data-y="9">
+      <title>Liczba 402 (złożona) na pozycji (-10, 9)</title>
+    </circle>
+    <circle cx="35.00" cy="44.00" r="2.40" class="composite" data-number="403" data-x="-10" data-y="8">
+      <title>Liczba 403 (złożona) na pozycji (-10, 8)</title>
+    </circle>
+    <circle cx="35.00" cy="47.00" r="2.40" class="composite" data-number="404" data-x="-10" data-y="7">
+      <title>Liczba 404 (złożona) na pozycji (-10, 7)</title>
+    </circle>
+    <circle cx="35.00" cy="50.00" r="2.40" class="composite" data-number="405" data-x="-10" data-y="6">
+      <title>Liczba 405 (złożona) na pozycji (-10, 6)</title>
+    </circle>
+    <circle cx="35.00" cy="53.00" r="2.40" class="composite" data-number="406" data-x="-10" data-y="5">
+      <title>Liczba 406 (złożona) na pozycji (-10, 5)</title>
+    </circle>
+    <circle cx="35.00" cy="56.00" r="2.40" class="composite" data-number="407" data-x="-10" data-y="4">
+      <title>Liczba 407 (złożona) na pozycji (-10, 4)</title>
+    </circle>
+    <circle cx="35.00" cy="59.00" r="2.40" class="composite" data-number="408" data-x="-10" data-y="3">
+      <title>Liczba 408 (złożona) na pozycji (-10, 3)</title>
+    </circle>
+    <circle cx="35.00" cy="62.00" r="2.40" class="prime" data-number="409" data-x="-10" data-y="2">
+      <title>Liczba 409 (pierwsza) na pozycji (-10, 2)</title>
+    </circle>
+    <circle cx="35.00" cy="65.00" r="2.40" class="composite" data-number="410" data-x="-10" data-y="1">
+      <title>Liczba 410 (złożona) na pozycji (-10, 1)</title>
+    </circle>
+    <circle cx="35.00" cy="68.00" r="2.40" class="composite" data-number="411" data-x="-10" data-y="0">
+      <title>Liczba 411 (złożona) na pozycji (-10, 0)</title>
+    </circle>
+    <circle cx="35.00" cy="71.00" r="2.40" class="composite" data-number="412" data-x="-10" data-y="-1">
+      <title>Liczba 412 (złożona) na pozycji (-10, -1)</title>
+    </circle>
+    <circle cx="35.00" cy="74.00" r="2.40" class="composite" data-number="413" data-x="-10" data-y="-2">
+      <title>Liczba 413 (złożona) na pozycji (-10, -2)</title>
+    </circle>
+    <circle cx="35.00" cy="77.00" r="2.40" class="composite" data-number="414" data-x="-10" data-y="-3">
+      <title>Liczba 414 (złożona) na pozycji (-10, -3)</title>
+    </circle>
+    <circle cx="35.00" cy="80.00" r="2.40" class="composite" data-number="415" data-x="-10" data-y="-4">
+      <title>Liczba 415 (złożona) na pozycji (-10, -4)</title>
+    </circle>
+    <circle cx="35.00" cy="83.00" r="2.40" class="composite" data-number="416" data-x="-10" data-y="-5">
+      <title>Liczba 416 (złożona) na pozycji (-10, -5)</title>
+    </circle>
+    <circle cx="35.00" cy="86.00" r="2.40" class="composite" data-number="417" data-x="-10" data-y="-6">
+      <title>Liczba 417 (złożona) na pozycji (-10, -6)</title>
+    </circle>
+    <circle cx="35.00" cy="89.00" r="2.40" class="composite" data-number="418" data-x="-10" data-y="-7">
+      <title>Liczba 418 (złożona) na pozycji (-10, -7)</title>
+    </circle>
+    <circle cx="35.00" cy="92.00" r="2.40" class="prime" data-number="419" data-x="-10" data-y="-8">
+      <title>Liczba 419 (pierwsza) na pozycji (-10, -8)</title>
+    </circle>
+    <circle cx="35.00" cy="95.00" r="2.40" class="composite" data-number="420" data-x="-10" data-y="-9">
+      <title>Liczba 420 (złożona) na pozycji (-10, -9)</title>
+    </circle>
+    <circle cx="35.00" cy="98.00" r="2.40" class="prime" data-number="421" data-x="-10" data-y="-10">
+      <title>Liczba 421 (pierwsza) na pozycji (-10, -10)</title>
+    </circle>
+    <circle cx="38.00" cy="98.00" r="2.40" class="composite" data-number="422" data-x="-9" data-y="-10">
+      <title>Liczba 422 (złożona) na pozycji (-9, -10)</title>
+    </circle>
+    <circle cx="41.00" cy="98.00" r="2.40" class="composite" data-number="423" data-x="-8" data-y="-10">
+      <title>Liczba 423 (złożona) na pozycji (-8, -10)</title>
+    </circle>
+    <circle cx="44.00" cy="98.00" r="2.40" class="composite" data-number="424" data-x="-7" data-y="-10">
+      <title>Liczba 424 (złożona) na pozycji (-7, -10)</title>
+    </circle>
+    <circle cx="47.00" cy="98.00" r="2.40" class="composite" data-number="425" data-x="-6" data-y="-10">
+      <title>Liczba 425 (złożona) na pozycji (-6, -10)</title>
+    </circle>
+    <circle cx="50.00" cy="98.00" r="2.40" class="composite" data-number="426" data-x="-5" data-y="-10">
+      <title>Liczba 426 (złożona) na pozycji (-5, -10)</title>
+    </circle>
+    <circle cx="53.00" cy="98.00" r="2.40" class="composite" data-number="427" data-x="-4" data-y="-10">
+      <title>Liczba 427 (złożona) na pozycji (-4, -10)</title>
+    </circle>
+    <circle cx="56.00" cy="98.00" r="2.40" class="composite" data-number="428" data-x="-3" data-y="-10">
+      <title>Liczba 428 (złożona) na pozycji (-3, -10)</title>
+    </circle>
+    <circle cx="59.00" cy="98.00" r="2.40" class="composite" data-number="429" data-x="-2" data-y="-10">
+      <title>Liczba 429 (złożona) na pozycji (-2, -10)</title>
+    </circle>
+    <circle cx="62.00" cy="98.00" r="2.40" class="composite" data-number="430" data-x="-1" data-y="-10">
+      <title>Liczba 430 (złożona) na pozycji (-1, -10)</title>
+    </circle>
+    <circle cx="65.00" cy="98.00" r="2.40" class="prime" data-number="431" data-x="0" data-y="-10">
+      <title>Liczba 431 (pierwsza) na pozycji (0, -10)</title>
+    </circle>
+    <circle cx="68.00" cy="98.00" r="2.40" class="composite" data-number="432" data-x="1" data-y="-10">
+      <title>Liczba 432 (złożona) na pozycji (1, -10)</title>
+    </circle>
+    <circle cx="71.00" cy="98.00" r="2.40" class="prime" data-number="433" data-x="2" data-y="-10">
+      <title>Liczba 433 (pierwsza) na pozycji (2, -10)</title>
+    </circle>
+    <circle cx="74.00" cy="98.00" r="2.40" class="composite" data-number="434" data-x="3" data-y="-10">
+      <title>Liczba 434 (złożona) na pozycji (3, -10)</title>
+    </circle>
+    <circle cx="77.00" cy="98.00" r="2.40" class="composite" data-number="435" data-x="4" data-y="-10">
+      <title>Liczba 435 (złożona) na pozycji (4, -10)</title>
+    </circle>
+    <circle cx="80.00" cy="98.00" r="2.40" class="composite" data-number="436" data-x="5" data-y="-10">
+      <title>Liczba 436 (złożona) na pozycji (5, -10)</title>
+    </circle>
+    <circle cx="83.00" cy="98.00" r="2.40" class="composite" data-number="437" data-x="6" data-y="-10">
+      <title>Liczba 437 (złożona) na pozycji (6, -10)</title>
+    </circle>
+    <circle cx="86.00" cy="98.00" r="2.40" class="composite" data-number="438" data-x="7" data-y="-10">
+      <title>Liczba 438 (złożona) na pozycji (7, -10)</title>
+    </circle>
+    <circle cx="89.00" cy="98.00" r="2.40" class="prime" data-number="439" data-x="8" data-y="-10">
+      <title>Liczba 439 (pierwsza) na pozycji (8, -10)</title>
+    </circle>
+    <circle cx="92.00" cy="98.00" r="2.40" class="composite" data-number="440" data-x="9" data-y="-10">
+      <title>Liczba 440 (złożona) na pozycji (9, -10)</title>
+    </circle>
+    <circle cx="95.00" cy="98.00" r="2.40" class="composite" data-number="441" data-x="10" data-y="-10">
+      <title>Liczba 441 (złożona) na pozycji (10, -10)</title>
+    </circle>
+    <circle cx="98.00" cy="98.00" r="2.40" class="composite" data-number="442" data-x="11" data-y="-10">
+      <title>Liczba 442 (złożona) na pozycji (11, -10)</title>
+    </circle>
+    <circle cx="98.00" cy="95.00" r="2.40" class="prime" data-number="443" data-x="11" data-y="-9">
+      <title>Liczba 443 (pierwsza) na pozycji (11, -9)</title>
+    </circle>
+    <circle cx="98.00" cy="92.00" r="2.40" class="composite" data-number="444" data-x="11" data-y="-8">
+      <title>Liczba 444 (złożona) na pozycji (11, -8)</title>
+    </circle>
+    <circle cx="98.00" cy="89.00" r="2.40" class="composite" data-number="445" data-x="11" data-y="-7">
+      <title>Liczba 445 (złożona) na pozycji (11, -7)</title>
+    </circle>
+    <circle cx="98.00" cy="86.00" r="2.40" class="composite" data-number="446" data-x="11" data-y="-6">
+      <title>Liczba 446 (złożona) na pozycji (11, -6)</title>
+    </circle>
+    <circle cx="98.00" cy="83.00" r="2.40" class="composite" data-number="447" data-x="11" data-y="-5">
+      <title>Liczba 447 (złożona) na pozycji (11, -5)</title>
+    </circle>
+    <circle cx="98.00" cy="80.00" r="2.40" class="composite" data-number="448" data-x="11" data-y="-4">
+      <title>Liczba 448 (złożona) na pozycji (11, -4)</title>
+    </circle>
+    <circle cx="98.00" cy="77.00" r="2.40" class="prime" data-number="449" data-x="11" data-y="-3">
+      <title>Liczba 449 (pierwsza) na pozycji (11, -3)</title>
+    </circle>
+    <circle cx="98.00" cy="74.00" r="2.40" class="composite" data-number="450" data-x="11" data-y="-2">
+      <title>Liczba 450 (złożona) na pozycji (11, -2)</title>
+    </circle>
+    <circle cx="98.00" cy="71.00" r="2.40" class="composite" data-number="451" data-x="11" data-y="-1">
+      <title>Liczba 451 (złożona) na pozycji (11, -1)</title>
+    </circle>
+    <circle cx="98.00" cy="68.00" r="2.40" class="composite" data-number="452" data-x="11" data-y="0">
+      <title>Liczba 452 (złożona) na pozycji (11, 0)</title>
+    </circle>
+    <circle cx="98.00" cy="65.00" r="2.40" class="composite" data-number="453" data-x="11" data-y="1">
+      <title>Liczba 453 (złożona) na pozycji (11, 1)</title>
+    </circle>
+    <circle cx="98.00" cy="62.00" r="2.40" class="composite" data-number="454" data-x="11" data-y="2">
+      <title>Liczba 454 (złożona) na pozycji (11, 2)</title>
+    </circle>
+    <circle cx="98.00" cy="59.00" r="2.40" class="composite" data-number="455" data-x="11" data-y="3">
+      <title>Liczba 455 (złożona) na pozycji (11, 3)</title>
+    </circle>
+    <circle cx="98.00" cy="56.00" r="2.40" class="composite" data-number="456" data-x="11" data-y="4">
+      <title>Liczba 456 (złożona) na pozycji (11, 4)</title>
+    </circle>
+    <circle cx="98.00" cy="53.00" r="2.40" class="prime" data-number="457" data-x="11" data-y="5">
+      <title>Liczba 457 (pierwsza) na pozycji (11, 5)</title>
+    </circle>
+    <circle cx="98.00" cy="50.00" r="2.40" class="composite" data-number="458" data-x="11" data-y="6">
+      <title>Liczba 458 (złożona) na pozycji (11, 6)</title>
+    </circle>
+    <circle cx="98.00" cy="47.00" r="2.40" class="composite" data-number="459" data-x="11" data-y="7">
+      <title>Liczba 459 (złożona) na pozycji (11, 7)</title>
+    </circle>
+    <circle cx="98.00" cy="44.00" r="2.40" class="composite" data-number="460" data-x="11" data-y="8">
+      <title>Liczba 460 (złożona) na pozycji (11, 8)</title>
+    </circle>
+    <circle cx="98.00" cy="41.00" r="2.40" class="prime" data-number="461" data-x="11" data-y="9">
+      <title>Liczba 461 (pierwsza) na pozycji (11, 9)</title>
+    </circle>
+    <circle cx="98.00" cy="38.00" r="2.40" class="composite" data-number="462" data-x="11" data-y="10">
+      <title>Liczba 462 (złożona) na pozycji (11, 10)</title>
+    </circle>
+    <circle cx="98.00" cy="35.00" r="2.40" class="prime" data-number="463" data-x="11" data-y="11">
+      <title>Liczba 463 (pierwsza) na pozycji (11, 11)</title>
+    </circle>
+    <circle cx="95.00" cy="35.00" r="2.40" class="composite" data-number="464" data-x="10" data-y="11">
+      <title>Liczba 464 (złożona) na pozycji (10, 11)</title>
+    </circle>
+    <circle cx="92.00" cy="35.00" r="2.40" class="composite" data-number="465" data-x="9" data-y="11">
+      <title>Liczba 465 (złożona) na pozycji (9, 11)</title>
+    </circle>
+    <circle cx="89.00" cy="35.00" r="2.40" class="composite" data-number="466" data-x="8" data-y="11">
+      <title>Liczba 466 (złożona) na pozycji (8, 11)</title>
+    </circle>
+    <circle cx="86.00" cy="35.00" r="2.40" class="prime" data-number="467" data-x="7" data-y="11">
+      <title>Liczba 467 (pierwsza) na pozycji (7, 11)</title>
+    </circle>
+    <circle cx="83.00" cy="35.00" r="2.40" class="composite" data-number="468" data-x="6" data-y="11">
+      <title>Liczba 468 (złożona) na pozycji (6, 11)</title>
+    </circle>
+    <circle cx="80.00" cy="35.00" r="2.40" class="composite" data-number="469" data-x="5" data-y="11">
+      <title>Liczba 469 (złożona) na pozycji (5, 11)</title>
+    </circle>
+    <circle cx="77.00" cy="35.00" r="2.40" class="composite" data-number="470" data-x="4" data-y="11">
+      <title>Liczba 470 (złożona) na pozycji (4, 11)</title>
+    </circle>
+    <circle cx="74.00" cy="35.00" r="2.40" class="composite" data-number="471" data-x="3" data-y="11">
+      <title>Liczba 471 (złożona) na pozycji (3, 11)</title>
+    </circle>
+    <circle cx="71.00" cy="35.00" r="2.40" class="composite" data-number="472" data-x="2" data-y="11">
+      <title>Liczba 472 (złożona) na pozycji (2, 11)</title>
+    </circle>
+    <circle cx="68.00" cy="35.00" r="2.40" class="composite" data-number="473" data-x="1" data-y="11">
+      <title>Liczba 473 (złożona) na pozycji (1, 11)</title>
+    </circle>
+    <circle cx="65.00" cy="35.00" r="2.40" class="composite" data-number="474" data-x="0" data-y="11">
+      <title>Liczba 474 (złożona) na pozycji (0, 11)</title>
+    </circle>
+    <circle cx="62.00" cy="35.00" r="2.40" class="composite" data-number="475" data-x="-1" data-y="11">
+      <title>Liczba 475 (złożona) na pozycji (-1, 11)</title>
+    </circle>
+    <circle cx="59.00" cy="35.00" r="2.40" class="composite" data-number="476" data-x="-2" data-y="11">
+      <title>Liczba 476 (złożona) na pozycji (-2, 11)</title>
+    </circle>
+    <circle cx="56.00" cy="35.00" r="2.40" class="composite" data-number="477" data-x="-3" data-y="11">
+      <title>Liczba 477 (złożona) na pozycji (-3, 11)</title>
+    </circle>
+    <circle cx="53.00" cy="35.00" r="2.40" class="composite" data-number="478" data-x="-4" data-y="11">
+      <title>Liczba 478 (złożona) na pozycji (-4, 11)</title>
+    </circle>
+    <circle cx="50.00" cy="35.00" r="2.40" class="prime" data-number="479" data-x="-5" data-y="11">
+      <title>Liczba 479 (pierwsza) na pozycji (-5, 11)</title>
+    </circle>
+    <circle cx="47.00" cy="35.00" r="2.40" class="composite" data-number="480" data-x="-6" data-y="11">
+      <title>Liczba 480 (złożona) na pozycji (-6, 11)</title>
+    </circle>
+    <circle cx="44.00" cy="35.00" r="2.40" class="composite" data-number="481" data-x="-7" data-y="11">
+      <title>Liczba 481 (złożona) na pozycji (-7, 11)</title>
+    </circle>
+    <circle cx="41.00" cy="35.00" r="2.40" class="composite" data-number="482" data-x="-8" data-y="11">
+      <title>Liczba 482 (złożona) na pozycji (-8, 11)</title>
+    </circle>
+    <circle cx="38.00" cy="35.00" r="2.40" class="composite" data-number="483" data-x="-9" data-y="11">
+      <title>Liczba 483 (złożona) na pozycji (-9, 11)</title>
+    </circle>
+    <circle cx="35.00" cy="35.00" r="2.40" class="composite" data-number="484" data-x="-10" data-y="11">
+      <title>Liczba 484 (złożona) na pozycji (-10, 11)</title>
+    </circle>
+    <circle cx="32.00" cy="35.00" r="2.40" class="composite" data-number="485" data-x="-11" data-y="11">
+      <title>Liczba 485 (złożona) na pozycji (-11, 11)</title>
+    </circle>
+    <circle cx="32.00" cy="38.00" r="2.40" class="composite" data-number="486" data-x="-11" data-y="10">
+      <title>Liczba 486 (złożona) na pozycji (-11, 10)</title>
+    </circle>
+    <circle cx="32.00" cy="41.00" r="2.40" class="prime" data-number="487" data-x="-11" data-y="9">
+      <title>Liczba 487 (pierwsza) na pozycji (-11, 9)</title>
+    </circle>
+    <circle cx="32.00" cy="44.00" r="2.40" class="composite" data-number="488" data-x="-11" data-y="8">
+      <title>Liczba 488 (złożona) na pozycji (-11, 8)</title>
+    </circle>
+    <circle cx="32.00" cy="47.00" r="2.40" class="composite" data-number="489" data-x="-11" data-y="7">
+      <title>Liczba 489 (złożona) na pozycji (-11, 7)</title>
+    </circle>
+    <circle cx="32.00" cy="50.00" r="2.40" class="composite" data-number="490" data-x="-11" data-y="6">
+      <title>Liczba 490 (złożona) na pozycji (-11, 6)</title>
+    </circle>
+    <circle cx="32.00" cy="53.00" r="2.40" class="prime" data-number="491" data-x="-11" data-y="5">
+      <title>Liczba 491 (pierwsza) na pozycji (-11, 5)</title>
+    </circle>
+    <circle cx="32.00" cy="56.00" r="2.40" class="composite" data-number="492" data-x="-11" data-y="4">
+      <title>Liczba 492 (złożona) na pozycji (-11, 4)</title>
+    </circle>
+    <circle cx="32.00" cy="59.00" r="2.40" class="composite" data-number="493" data-x="-11" data-y="3">
+      <title>Liczba 493 (złożona) na pozycji (-11, 3)</title>
+    </circle>
+    <circle cx="32.00" cy="62.00" r="2.40" class="composite" data-number="494" data-x="-11" data-y="2">
+      <title>Liczba 494 (złożona) na pozycji (-11, 2)</title>
+    </circle>
+    <circle cx="32.00" cy="65.00" r="2.40" class="composite" data-number="495" data-x="-11" data-y="1">
+      <title>Liczba 495 (złożona) na pozycji (-11, 1)</title>
+    </circle>
+    <circle cx="32.00" cy="68.00" r="2.40" class="composite" data-number="496" data-x="-11" data-y="0">
+      <title>Liczba 496 (złożona) na pozycji (-11, 0)</title>
+    </circle>
+    <circle cx="32.00" cy="71.00" r="2.40" class="composite" data-number="497" data-x="-11" data-y="-1">
+      <title>Liczba 497 (złożona) na pozycji (-11, -1)</title>
+    </circle>
+    <circle cx="32.00" cy="74.00" r="2.40" class="composite" data-number="498" data-x="-11" data-y="-2">
+      <title>Liczba 498 (złożona) na pozycji (-11, -2)</title>
+    </circle>
+    <circle cx="32.00" cy="77.00" r="2.40" class="prime" data-number="499" data-x="-11" data-y="-3">
+      <title>Liczba 499 (pierwsza) na pozycji (-11, -3)</title>
+    </circle>
+    <circle cx="32.00" cy="80.00" r="2.40" class="composite" data-number="500" data-x="-11" data-y="-4">
+      <title>Liczba 500 (złożona) na pozycji (-11, -4)</title>
+    </circle>
+    <circle cx="32.00" cy="83.00" r="2.40" class="composite" data-number="501" data-x="-11" data-y="-5">
+      <title>Liczba 501 (złożona) na pozycji (-11, -5)</title>
+    </circle>
+    <circle cx="32.00" cy="86.00" r="2.40" class="composite" data-number="502" data-x="-11" data-y="-6">
+      <title>Liczba 502 (złożona) na pozycji (-11, -6)</title>
+    </circle>
+    <circle cx="32.00" cy="89.00" r="2.40" class="prime" data-number="503" data-x="-11" data-y="-7">
+      <title>Liczba 503 (pierwsza) na pozycji (-11, -7)</title>
+    </circle>
+    <circle cx="32.00" cy="92.00" r="2.40" class="composite" data-number="504" data-x="-11" data-y="-8">
+      <title>Liczba 504 (złożona) na pozycji (-11, -8)</title>
+    </circle>
+    <circle cx="32.00" cy="95.00" r="2.40" class="composite" data-number="505" data-x="-11" data-y="-9">
+      <title>Liczba 505 (złożona) na pozycji (-11, -9)</title>
+    </circle>
+    <circle cx="32.00" cy="98.00" r="2.40" class="composite" data-number="506" data-x="-11" data-y="-10">
+      <title>Liczba 506 (złożona) na pozycji (-11, -10)</title>
+    </circle>
+    <circle cx="32.00" cy="101.00" r="2.40" class="composite" data-number="507" data-x="-11" data-y="-11">
+      <title>Liczba 507 (złożona) na pozycji (-11, -11)</title>
+    </circle>
+    <circle cx="35.00" cy="101.00" r="2.40" class="composite" data-number="508" data-x="-10" data-y="-11">
+      <title>Liczba 508 (złożona) na pozycji (-10, -11)</title>
+    </circle>
+    <circle cx="38.00" cy="101.00" r="2.40" class="prime" data-number="509" data-x="-9" data-y="-11">
+      <title>Liczba 509 (pierwsza) na pozycji (-9, -11)</title>
+    </circle>
+    <circle cx="41.00" cy="101.00" r="2.40" class="composite" data-number="510" data-x="-8" data-y="-11">
+      <title>Liczba 510 (złożona) na pozycji (-8, -11)</title>
+    </circle>
+    <circle cx="44.00" cy="101.00" r="2.40" class="composite" data-number="511" data-x="-7" data-y="-11">
+      <title>Liczba 511 (złożona) na pozycji (-7, -11)</title>
+    </circle>
+    <circle cx="47.00" cy="101.00" r="2.40" class="composite" data-number="512" data-x="-6" data-y="-11">
+      <title>Liczba 512 (złożona) na pozycji (-6, -11)</title>
+    </circle>
+    <circle cx="50.00" cy="101.00" r="2.40" class="composite" data-number="513" data-x="-5" data-y="-11">
+      <title>Liczba 513 (złożona) na pozycji (-5, -11)</title>
+    </circle>
+    <circle cx="53.00" cy="101.00" r="2.40" class="composite" data-number="514" data-x="-4" data-y="-11">
+      <title>Liczba 514 (złożona) na pozycji (-4, -11)</title>
+    </circle>
+    <circle cx="56.00" cy="101.00" r="2.40" class="composite" data-number="515" data-x="-3" data-y="-11">
+      <title>Liczba 515 (złożona) na pozycji (-3, -11)</title>
+    </circle>
+    <circle cx="59.00" cy="101.00" r="2.40" class="composite" data-number="516" data-x="-2" data-y="-11">
+      <title>Liczba 516 (złożona) na pozycji (-2, -11)</title>
+    </circle>
+    <circle cx="62.00" cy="101.00" r="2.40" class="composite" data-number="517" data-x="-1" data-y="-11">
+      <title>Liczba 517 (złożona) na pozycji (-1, -11)</title>
+    </circle>
+    <circle cx="65.00" cy="101.00" r="2.40" class="composite" data-number="518" data-x="0" data-y="-11">
+      <title>Liczba 518 (złożona) na pozycji (0, -11)</title>
+    </circle>
+    <circle cx="68.00" cy="101.00" r="2.40" class="composite" data-number="519" data-x="1" data-y="-11">
+      <title>Liczba 519 (złożona) na pozycji (1, -11)</title>
+    </circle>
+    <circle cx="71.00" cy="101.00" r="2.40" class="composite" data-number="520" data-x="2" data-y="-11">
+      <title>Liczba 520 (złożona) na pozycji (2, -11)</title>
+    </circle>
+    <circle cx="74.00" cy="101.00" r="2.40" class="prime" data-number="521" data-x="3" data-y="-11">
+      <title>Liczba 521 (pierwsza) na pozycji (3, -11)</title>
+    </circle>
+    <circle cx="77.00" cy="101.00" r="2.40" class="composite" data-number="522" data-x="4" data-y="-11">
+      <title>Liczba 522 (złożona) na pozycji (4, -11)</title>
+    </circle>
+    <circle cx="80.00" cy="101.00" r="2.40" class="prime" data-number="523" data-x="5" data-y="-11">
+      <title>Liczba 523 (pierwsza) na pozycji (5, -11)</title>
+    </circle>
+    <circle cx="83.00" cy="101.00" r="2.40" class="composite" data-number="524" data-x="6" data-y="-11">
+      <title>Liczba 524 (złożona) na pozycji (6, -11)</title>
+    </circle>
+    <circle cx="86.00" cy="101.00" r="2.40" class="composite" data-number="525" data-x="7" data-y="-11">
+      <title>Liczba 525 (złożona) na pozycji (7, -11)</title>
+    </circle>
+    <circle cx="89.00" cy="101.00" r="2.40" class="composite" data-number="526" data-x="8" data-y="-11">
+      <title>Liczba 526 (złożona) na pozycji (8, -11)</title>
+    </circle>
+    <circle cx="92.00" cy="101.00" r="2.40" class="composite" data-number="527" data-x="9" data-y="-11">
+      <title>Liczba 527 (złożona) na pozycji (9, -11)</title>
+    </circle>
+    <circle cx="95.00" cy="101.00" r="2.40" class="composite" data-number="528" data-x="10" data-y="-11">
+      <title>Liczba 528 (złożona) na pozycji (10, -11)</title>
+    </circle>
+    <circle cx="98.00" cy="101.00" r="2.40" class="composite" data-number="529" data-x="11" data-y="-11">
+      <title>Liczba 529 (złożona) na pozycji (11, -11)</title>
+    </circle>
+    <circle cx="101.00" cy="101.00" r="2.40" class="composite" data-number="530" data-x="12" data-y="-11">
+      <title>Liczba 530 (złożona) na pozycji (12, -11)</title>
+    </circle>
+    <circle cx="101.00" cy="98.00" r="2.40" class="composite" data-number="531" data-x="12" data-y="-10">
+      <title>Liczba 531 (złożona) na pozycji (12, -10)</title>
+    </circle>
+    <circle cx="101.00" cy="95.00" r="2.40" class="composite" data-number="532" data-x="12" data-y="-9">
+      <title>Liczba 532 (złożona) na pozycji (12, -9)</title>
+    </circle>
+    <circle cx="101.00" cy="92.00" r="2.40" class="composite" data-number="533" data-x="12" data-y="-8">
+      <title>Liczba 533 (złożona) na pozycji (12, -8)</title>
+    </circle>
+    <circle cx="101.00" cy="89.00" r="2.40" class="composite" data-number="534" data-x="12" data-y="-7">
+      <title>Liczba 534 (złożona) na pozycji (12, -7)</title>
+    </circle>
+    <circle cx="101.00" cy="86.00" r="2.40" class="composite" data-number="535" data-x="12" data-y="-6">
+      <title>Liczba 535 (złożona) na pozycji (12, -6)</title>
+    </circle>
+    <circle cx="101.00" cy="83.00" r="2.40" class="composite" data-number="536" data-x="12" data-y="-5">
+      <title>Liczba 536 (złożona) na pozycji (12, -5)</title>
+    </circle>
+    <circle cx="101.00" cy="80.00" r="2.40" class="composite" data-number="537" data-x="12" data-y="-4">
+      <title>Liczba 537 (złożona) na pozycji (12, -4)</title>
+    </circle>
+    <circle cx="101.00" cy="77.00" r="2.40" class="composite" data-number="538" data-x="12" data-y="-3">
+      <title>Liczba 538 (złożona) na pozycji (12, -3)</title>
+    </circle>
+    <circle cx="101.00" cy="74.00" r="2.40" class="composite" data-number="539" data-x="12" data-y="-2">
+      <title>Liczba 539 (złożona) na pozycji (12, -2)</title>
+    </circle>
+    <circle cx="101.00" cy="71.00" r="2.40" class="composite" data-number="540" data-x="12" data-y="-1">
+      <title>Liczba 540 (złożona) na pozycji (12, -1)</title>
+    </circle>
+    <circle cx="101.00" cy="68.00" r="2.40" class="prime" data-number="541" data-x="12" data-y="0">
+      <title>Liczba 541 (pierwsza) na pozycji (12, 0)</title>
+    </circle>
+    <circle cx="101.00" cy="65.00" r="2.40" class="composite" data-number="542" data-x="12" data-y="1">
+      <title>Liczba 542 (złożona) na pozycji (12, 1)</title>
+    </circle>
+    <circle cx="101.00" cy="62.00" r="2.40" class="composite" data-number="543" data-x="12" data-y="2">
+      <title>Liczba 543 (złożona) na pozycji (12, 2)</title>
+    </circle>
+    <circle cx="101.00" cy="59.00" r="2.40" class="composite" data-number="544" data-x="12" data-y="3">
+      <title>Liczba 544 (złożona) na pozycji (12, 3)</title>
+    </circle>
+    <circle cx="101.00" cy="56.00" r="2.40" class="composite" data-number="545" data-x="12" data-y="4">
+      <title>Liczba 545 (złożona) na pozycji (12, 4)</title>
+    </circle>
+    <circle cx="101.00" cy="53.00" r="2.40" class="composite" data-number="546" data-x="12" data-y="5">
+      <title>Liczba 546 (złożona) na pozycji (12, 5)</title>
+    </circle>
+    <circle cx="101.00" cy="50.00" r="2.40" class="prime" data-number="547" data-x="12" data-y="6">
+      <title>Liczba 547 (pierwsza) na pozycji (12, 6)</title>
+    </circle>
+    <circle cx="101.00" cy="47.00" r="2.40" class="composite" data-number="548" data-x="12" data-y="7">
+      <title>Liczba 548 (złożona) na pozycji (12, 7)</title>
+    </circle>
+    <circle cx="101.00" cy="44.00" r="2.40" class="composite" data-number="549" data-x="12" data-y="8">
+      <title>Liczba 549 (złożona) na pozycji (12, 8)</title>
+    </circle>
+    <circle cx="101.00" cy="41.00" r="2.40" class="composite" data-number="550" data-x="12" data-y="9">
+      <title>Liczba 550 (złożona) na pozycji (12, 9)</title>
+    </circle>
+    <circle cx="101.00" cy="38.00" r="2.40" class="composite" data-number="551" data-x="12" data-y="10">
+      <title>Liczba 551 (złożona) na pozycji (12, 10)</title>
+    </circle>
+    <circle cx="101.00" cy="35.00" r="2.40" class="composite" data-number="552" data-x="12" data-y="11">
+      <title>Liczba 552 (złożona) na pozycji (12, 11)</title>
+    </circle>
+    <circle cx="101.00" cy="32.00" r="2.40" class="composite" data-number="553" data-x="12" data-y="12">
+      <title>Liczba 553 (złożona) na pozycji (12, 12)</title>
+    </circle>
+    <circle cx="98.00" cy="32.00" r="2.40" class="composite" data-number="554" data-x="11" data-y="12">
+      <title>Liczba 554 (złożona) na pozycji (11, 12)</title>
+    </circle>
+    <circle cx="95.00" cy="32.00" r="2.40" class="composite" data-number="555" data-x="10" data-y="12">
+      <title>Liczba 555 (złożona) na pozycji (10, 12)</title>
+    </circle>
+    <circle cx="92.00" cy="32.00" r="2.40" class="composite" data-number="556" data-x="9" data-y="12">
+      <title>Liczba 556 (złożona) na pozycji (9, 12)</title>
+    </circle>
+    <circle cx="89.00" cy="32.00" r="2.40" class="prime" data-number="557" data-x="8" data-y="12">
+      <title>Liczba 557 (pierwsza) na pozycji (8, 12)</title>
+    </circle>
+    <circle cx="86.00" cy="32.00" r="2.40" class="composite" data-number="558" data-x="7" data-y="12">
+      <title>Liczba 558 (złożona) na pozycji (7, 12)</title>
+    </circle>
+    <circle cx="83.00" cy="32.00" r="2.40" class="composite" data-number="559" data-x="6" data-y="12">
+      <title>Liczba 559 (złożona) na pozycji (6, 12)</title>
+    </circle>
+    <circle cx="80.00" cy="32.00" r="2.40" class="composite" data-number="560" data-x="5" data-y="12">
+      <title>Liczba 560 (złożona) na pozycji (5, 12)</title>
+    </circle>
+    <circle cx="77.00" cy="32.00" r="2.40" class="composite" data-number="561" data-x="4" data-y="12">
+      <title>Liczba 561 (złożona) na pozycji (4, 12)</title>
+    </circle>
+    <circle cx="74.00" cy="32.00" r="2.40" class="composite" data-number="562" data-x="3" data-y="12">
+      <title>Liczba 562 (złożona) na pozycji (3, 12)</title>
+    </circle>
+    <circle cx="71.00" cy="32.00" r="2.40" class="prime" data-number="563" data-x="2" data-y="12">
+      <title>Liczba 563 (pierwsza) na pozycji (2, 12)</title>
+    </circle>
+    <circle cx="68.00" cy="32.00" r="2.40" class="composite" data-number="564" data-x="1" data-y="12">
+      <title>Liczba 564 (złożona) na pozycji (1, 12)</title>
+    </circle>
+    <circle cx="65.00" cy="32.00" r="2.40" class="composite" data-number="565" data-x="0" data-y="12">
+      <title>Liczba 565 (złożona) na pozycji (0, 12)</title>
+    </circle>
+    <circle cx="62.00" cy="32.00" r="2.40" class="composite" data-number="566" data-x="-1" data-y="12">
+      <title>Liczba 566 (złożona) na pozycji (-1, 12)</title>
+    </circle>
+    <circle cx="59.00" cy="32.00" r="2.40" class="composite" data-number="567" data-x="-2" data-y="12">
+      <title>Liczba 567 (złożona) na pozycji (-2, 12)</title>
+    </circle>
+    <circle cx="56.00" cy="32.00" r="2.40" class="composite" data-number="568" data-x="-3" data-y="12">
+      <title>Liczba 568 (złożona) na pozycji (-3, 12)</title>
+    </circle>
+    <circle cx="53.00" cy="32.00" r="2.40" class="prime" data-number="569" data-x="-4" data-y="12">
+      <title>Liczba 569 (pierwsza) na pozycji (-4, 12)</title>
+    </circle>
+    <circle cx="50.00" cy="32.00" r="2.40" class="composite" data-number="570" data-x="-5" data-y="12">
+      <title>Liczba 570 (złożona) na pozycji (-5, 12)</title>
+    </circle>
+    <circle cx="47.00" cy="32.00" r="2.40" class="prime" data-number="571" data-x="-6" data-y="12">
+      <title>Liczba 571 (pierwsza) na pozycji (-6, 12)</title>
+    </circle>
+    <circle cx="44.00" cy="32.00" r="2.40" class="composite" data-number="572" data-x="-7" data-y="12">
+      <title>Liczba 572 (złożona) na pozycji (-7, 12)</title>
+    </circle>
+    <circle cx="41.00" cy="32.00" r="2.40" class="composite" data-number="573" data-x="-8" data-y="12">
+      <title>Liczba 573 (złożona) na pozycji (-8, 12)</title>
+    </circle>
+    <circle cx="38.00" cy="32.00" r="2.40" class="composite" data-number="574" data-x="-9" data-y="12">
+      <title>Liczba 574 (złożona) na pozycji (-9, 12)</title>
+    </circle>
+    <circle cx="35.00" cy="32.00" r="2.40" class="composite" data-number="575" data-x="-10" data-y="12">
+      <title>Liczba 575 (złożona) na pozycji (-10, 12)</title>
+    </circle>
+    <circle cx="32.00" cy="32.00" r="2.40" class="composite" data-number="576" data-x="-11" data-y="12">
+      <title>Liczba 576 (złożona) na pozycji (-11, 12)</title>
+    </circle>
+    <circle cx="29.00" cy="32.00" r="2.40" class="prime" data-number="577" data-x="-12" data-y="12">
+      <title>Liczba 577 (pierwsza) na pozycji (-12, 12)</title>
+    </circle>
+    <circle cx="29.00" cy="35.00" r="2.40" class="composite" data-number="578" data-x="-12" data-y="11">
+      <title>Liczba 578 (złożona) na pozycji (-12, 11)</title>
+    </circle>
+    <circle cx="29.00" cy="38.00" r="2.40" class="composite" data-number="579" data-x="-12" data-y="10">
+      <title>Liczba 579 (złożona) na pozycji (-12, 10)</title>
+    </circle>
+    <circle cx="29.00" cy="41.00" r="2.40" class="composite" data-number="580" data-x="-12" data-y="9">
+      <title>Liczba 580 (złożona) na pozycji (-12, 9)</title>
+    </circle>
+    <circle cx="29.00" cy="44.00" r="2.40" class="composite" data-number="581" data-x="-12" data-y="8">
+      <title>Liczba 581 (złożona) na pozycji (-12, 8)</title>
+    </circle>
+    <circle cx="29.00" cy="47.00" r="2.40" class="composite" data-number="582" data-x="-12" data-y="7">
+      <title>Liczba 582 (złożona) na pozycji (-12, 7)</title>
+    </circle>
+    <circle cx="29.00" cy="50.00" r="2.40" class="composite" data-number="583" data-x="-12" data-y="6">
+      <title>Liczba 583 (złożona) na pozycji (-12, 6)</title>
+    </circle>
+    <circle cx="29.00" cy="53.00" r="2.40" class="composite" data-number="584" data-x="-12" data-y="5">
+      <title>Liczba 584 (złożona) na pozycji (-12, 5)</title>
+    </circle>
+    <circle cx="29.00" cy="56.00" r="2.40" class="composite" data-number="585" data-x="-12" data-y="4">
+      <title>Liczba 585 (złożona) na pozycji (-12, 4)</title>
+    </circle>
+    <circle cx="29.00" cy="59.00" r="2.40" class="composite" data-number="586" data-x="-12" data-y="3">
+      <title>Liczba 586 (złożona) na pozycji (-12, 3)</title>
+    </circle>
+    <circle cx="29.00" cy="62.00" r="2.40" class="prime" data-number="587" data-x="-12" data-y="2">
+      <title>Liczba 587 (pierwsza) na pozycji (-12, 2)</title>
+    </circle>
+    <circle cx="29.00" cy="65.00" r="2.40" class="composite" data-number="588" data-x="-12" data-y="1">
+      <title>Liczba 588 (złożona) na pozycji (-12, 1)</title>
+    </circle>
+    <circle cx="29.00" cy="68.00" r="2.40" class="composite" data-number="589" data-x="-12" data-y="0">
+      <title>Liczba 589 (złożona) na pozycji (-12, 0)</title>
+    </circle>
+    <circle cx="29.00" cy="71.00" r="2.40" class="composite" data-number="590" data-x="-12" data-y="-1">
+      <title>Liczba 590 (złożona) na pozycji (-12, -1)</title>
+    </circle>
+    <circle cx="29.00" cy="74.00" r="2.40" class="composite" data-number="591" data-x="-12" data-y="-2">
+      <title>Liczba 591 (złożona) na pozycji (-12, -2)</title>
+    </circle>
+    <circle cx="29.00" cy="77.00" r="2.40" class="composite" data-number="592" data-x="-12" data-y="-3">
+      <title>Liczba 592 (złożona) na pozycji (-12, -3)</title>
+    </circle>
+    <circle cx="29.00" cy="80.00" r="2.40" class="prime" data-number="593" data-x="-12" data-y="-4">
+      <title>Liczba 593 (pierwsza) na pozycji (-12, -4)</title>
+    </circle>
+    <circle cx="29.00" cy="83.00" r="2.40" class="composite" data-number="594" data-x="-12" data-y="-5">
+      <title>Liczba 594 (złożona) na pozycji (-12, -5)</title>
+    </circle>
+    <circle cx="29.00" cy="86.00" r="2.40" class="composite" data-number="595" data-x="-12" data-y="-6">
+      <title>Liczba 595 (złożona) na pozycji (-12, -6)</title>
+    </circle>
+    <circle cx="29.00" cy="89.00" r="2.40" class="composite" data-number="596" data-x="-12" data-y="-7">
+      <title>Liczba 596 (złożona) na pozycji (-12, -7)</title>
+    </circle>
+    <circle cx="29.00" cy="92.00" r="2.40" class="composite" data-number="597" data-x="-12" data-y="-8">
+      <title>Liczba 597 (złożona) na pozycji (-12, -8)</title>
+    </circle>
+    <circle cx="29.00" cy="95.00" r="2.40" class="composite" data-number="598" data-x="-12" data-y="-9">
+      <title>Liczba 598 (złożona) na pozycji (-12, -9)</title>
+    </circle>
+    <circle cx="29.00" cy="98.00" r="2.40" class="prime" data-number="599" data-x="-12" data-y="-10">
+      <title>Liczba 599 (pierwsza) na pozycji (-12, -10)</title>
+    </circle>
+    <circle cx="29.00" cy="101.00" r="2.40" class="composite" data-number="600" data-x="-12" data-y="-11">
+      <title>Liczba 600 (złożona) na pozycji (-12, -11)</title>
+    </circle>
+    <circle cx="29.00" cy="104.00" r="2.40" class="prime" data-number="601" data-x="-12" data-y="-12">
+      <title>Liczba 601 (pierwsza) na pozycji (-12, -12)</title>
+    </circle>
+    <circle cx="32.00" cy="104.00" r="2.40" class="composite" data-number="602" data-x="-11" data-y="-12">
+      <title>Liczba 602 (złożona) na pozycji (-11, -12)</title>
+    </circle>
+    <circle cx="35.00" cy="104.00" r="2.40" class="composite" data-number="603" data-x="-10" data-y="-12">
+      <title>Liczba 603 (złożona) na pozycji (-10, -12)</title>
+    </circle>
+    <circle cx="38.00" cy="104.00" r="2.40" class="composite" data-number="604" data-x="-9" data-y="-12">
+      <title>Liczba 604 (złożona) na pozycji (-9, -12)</title>
+    </circle>
+    <circle cx="41.00" cy="104.00" r="2.40" class="composite" data-number="605" data-x="-8" data-y="-12">
+      <title>Liczba 605 (złożona) na pozycji (-8, -12)</title>
+    </circle>
+    <circle cx="44.00" cy="104.00" r="2.40" class="composite" data-number="606" data-x="-7" data-y="-12">
+      <title>Liczba 606 (złożona) na pozycji (-7, -12)</title>
+    </circle>
+    <circle cx="47.00" cy="104.00" r="2.40" class="prime" data-number="607" data-x="-6" data-y="-12">
+      <title>Liczba 607 (pierwsza) na pozycji (-6, -12)</title>
+    </circle>
+    <circle cx="50.00" cy="104.00" r="2.40" class="composite" data-number="608" data-x="-5" data-y="-12">
+      <title>Liczba 608 (złożona) na pozycji (-5, -12)</title>
+    </circle>
+    <circle cx="53.00" cy="104.00" r="2.40" class="composite" data-number="609" data-x="-4" data-y="-12">
+      <title>Liczba 609 (złożona) na pozycji (-4, -12)</title>
+    </circle>
+    <circle cx="56.00" cy="104.00" r="2.40" class="composite" data-number="610" data-x="-3" data-y="-12">
+      <title>Liczba 610 (złożona) na pozycji (-3, -12)</title>
+    </circle>
+    <circle cx="59.00" cy="104.00" r="2.40" class="composite" data-number="611" data-x="-2" data-y="-12">
+      <title>Liczba 611 (złożona) na pozycji (-2, -12)</title>
+    </circle>
+    <circle cx="62.00" cy="104.00" r="2.40" class="composite" data-number="612" data-x="-1" data-y="-12">
+      <title>Liczba 612 (złożona) na pozycji (-1, -12)</title>
+    </circle>
+    <circle cx="65.00" cy="104.00" r="2.40" class="prime" data-number="613" data-x="0" data-y="-12">
+      <title>Liczba 613 (pierwsza) na pozycji (0, -12)</title>
+    </circle>
+    <circle cx="68.00" cy="104.00" r="2.40" class="composite" data-number="614" data-x="1" data-y="-12">
+      <title>Liczba 614 (złożona) na pozycji (1, -12)</title>
+    </circle>
+    <circle cx="71.00" cy="104.00" r="2.40" class="composite" data-number="615" data-x="2" data-y="-12">
+      <title>Liczba 615 (złożona) na pozycji (2, -12)</title>
+    </circle>
+    <circle cx="74.00" cy="104.00" r="2.40" class="composite" data-number="616" data-x="3" data-y="-12">
+      <title>Liczba 616 (złożona) na pozycji (3, -12)</title>
+    </circle>
+    <circle cx="77.00" cy="104.00" r="2.40" class="prime" data-number="617" data-x="4" data-y="-12">
+      <title>Liczba 617 (pierwsza) na pozycji (4, -12)</title>
+    </circle>
+    <circle cx="80.00" cy="104.00" r="2.40" class="composite" data-number="618" data-x="5" data-y="-12">
+      <title>Liczba 618 (złożona) na pozycji (5, -12)</title>
+    </circle>
+    <circle cx="83.00" cy="104.00" r="2.40" class="prime" data-number="619" data-x="6" data-y="-12">
+      <title>Liczba 619 (pierwsza) na pozycji (6, -12)</title>
+    </circle>
+    <circle cx="86.00" cy="104.00" r="2.40" class="composite" data-number="620" data-x="7" data-y="-12">
+      <title>Liczba 620 (złożona) na pozycji (7, -12)</title>
+    </circle>
+    <circle cx="89.00" cy="104.00" r="2.40" class="composite" data-number="621" data-x="8" data-y="-12">
+      <title>Liczba 621 (złożona) na pozycji (8, -12)</title>
+    </circle>
+    <circle cx="92.00" cy="104.00" r="2.40" class="composite" data-number="622" data-x="9" data-y="-12">
+      <title>Liczba 622 (złożona) na pozycji (9, -12)</title>
+    </circle>
+    <circle cx="95.00" cy="104.00" r="2.40" class="composite" data-number="623" data-x="10" data-y="-12">
+      <title>Liczba 623 (złożona) na pozycji (10, -12)</title>
+    </circle>
+    <circle cx="98.00" cy="104.00" r="2.40" class="composite" data-number="624" data-x="11" data-y="-12">
+      <title>Liczba 624 (złożona) na pozycji (11, -12)</title>
+    </circle>
+    <circle cx="101.00" cy="104.00" r="2.40" class="composite" data-number="625" data-x="12" data-y="-12">
+      <title>Liczba 625 (złożona) na pozycji (12, -12)</title>
+    </circle>
+    <circle cx="104.00" cy="104.00" r="2.40" class="composite" data-number="626" data-x="13" data-y="-12">
+      <title>Liczba 626 (złożona) na pozycji (13, -12)</title>
+    </circle>
+    <circle cx="104.00" cy="101.00" r="2.40" class="composite" data-number="627" data-x="13" data-y="-11">
+      <title>Liczba 627 (złożona) na pozycji (13, -11)</title>
+    </circle>
+    <circle cx="104.00" cy="98.00" r="2.40" class="composite" data-number="628" data-x="13" data-y="-10">
+      <title>Liczba 628 (złożona) na pozycji (13, -10)</title>
+    </circle>
+    <circle cx="104.00" cy="95.00" r="2.40" class="composite" data-number="629" data-x="13" data-y="-9">
+      <title>Liczba 629 (złożona) na pozycji (13, -9)</title>
+    </circle>
+    <circle cx="104.00" cy="92.00" r="2.40" class="composite" data-number="630" data-x="13" data-y="-8">
+      <title>Liczba 630 (złożona) na pozycji (13, -8)</title>
+    </circle>
+    <circle cx="104.00" cy="89.00" r="2.40" class="prime" data-number="631" data-x="13" data-y="-7">
+      <title>Liczba 631 (pierwsza) na pozycji (13, -7)</title>
+    </circle>
+    <circle cx="104.00" cy="86.00" r="2.40" class="composite" data-number="632" data-x="13" data-y="-6">
+      <title>Liczba 632 (złożona) na pozycji (13, -6)</title>
+    </circle>
+    <circle cx="104.00" cy="83.00" r="2.40" class="composite" data-number="633" data-x="13" data-y="-5">
+      <title>Liczba 633 (złożona) na pozycji (13, -5)</title>
+    </circle>
+    <circle cx="104.00" cy="80.00" r="2.40" class="composite" data-number="634" data-x="13" data-y="-4">
+      <title>Liczba 634 (złożona) na pozycji (13, -4)</title>
+    </circle>
+    <circle cx="104.00" cy="77.00" r="2.40" class="composite" data-number="635" data-x="13" data-y="-3">
+      <title>Liczba 635 (złożona) na pozycji (13, -3)</title>
+    </circle>
+    <circle cx="104.00" cy="74.00" r="2.40" class="composite" data-number="636" data-x="13" data-y="-2">
+      <title>Liczba 636 (złożona) na pozycji (13, -2)</title>
+    </circle>
+    <circle cx="104.00" cy="71.00" r="2.40" class="composite" data-number="637" data-x="13" data-y="-1">
+      <title>Liczba 637 (złożona) na pozycji (13, -1)</title>
+    </circle>
+    <circle cx="104.00" cy="68.00" r="2.40" class="composite" data-number="638" data-x="13" data-y="0">
+      <title>Liczba 638 (złożona) na pozycji (13, 0)</title>
+    </circle>
+    <circle cx="104.00" cy="65.00" r="2.40" class="composite" data-number="639" data-x="13" data-y="1">
+      <title>Liczba 639 (złożona) na pozycji (13, 1)</title>
+    </circle>
+    <circle cx="104.00" cy="62.00" r="2.40" class="composite" data-number="640" data-x="13" data-y="2">
+      <title>Liczba 640 (złożona) na pozycji (13, 2)</title>
+    </circle>
+    <circle cx="104.00" cy="59.00" r="2.40" class="prime" data-number="641" data-x="13" data-y="3">
+      <title>Liczba 641 (pierwsza) na pozycji (13, 3)</title>
+    </circle>
+    <circle cx="104.00" cy="56.00" r="2.40" class="composite" data-number="642" data-x="13" data-y="4">
+      <title>Liczba 642 (złożona) na pozycji (13, 4)</title>
+    </circle>
+    <circle cx="104.00" cy="53.00" r="2.40" class="prime" data-number="643" data-x="13" data-y="5">
+      <title>Liczba 643 (pierwsza) na pozycji (13, 5)</title>
+    </circle>
+    <circle cx="104.00" cy="50.00" r="2.40" class="composite" data-number="644" data-x="13" data-y="6">
+      <title>Liczba 644 (złożona) na pozycji (13, 6)</title>
+    </circle>
+    <circle cx="104.00" cy="47.00" r="2.40" class="composite" data-number="645" data-x="13" data-y="7">
+      <title>Liczba 645 (złożona) na pozycji (13, 7)</title>
+    </circle>
+    <circle cx="104.00" cy="44.00" r="2.40" class="composite" data-number="646" data-x="13" data-y="8">
+      <title>Liczba 646 (złożona) na pozycji (13, 8)</title>
+    </circle>
+    <circle cx="104.00" cy="41.00" r="2.40" class="prime" data-number="647" data-x="13" data-y="9">
+      <title>Liczba 647 (pierwsza) na pozycji (13, 9)</title>
+    </circle>
+    <circle cx="104.00" cy="38.00" r="2.40" class="composite" data-number="648" data-x="13" data-y="10">
+      <title>Liczba 648 (złożona) na pozycji (13, 10)</title>
+    </circle>
+    <circle cx="104.00" cy="35.00" r="2.40" class="composite" data-number="649" data-x="13" data-y="11">
+      <title>Liczba 649 (złożona) na pozycji (13, 11)</title>
+    </circle>
+    <circle cx="104.00" cy="32.00" r="2.40" class="composite" data-number="650" data-x="13" data-y="12">
+      <title>Liczba 650 (złożona) na pozycji (13, 12)</title>
+    </circle>
+    <circle cx="104.00" cy="29.00" r="2.40" class="composite" data-number="651" data-x="13" data-y="13">
+      <title>Liczba 651 (złożona) na pozycji (13, 13)</title>
+    </circle>
+    <circle cx="101.00" cy="29.00" r="2.40" class="composite" data-number="652" data-x="12" data-y="13">
+      <title>Liczba 652 (złożona) na pozycji (12, 13)</title>
+    </circle>
+    <circle cx="98.00" cy="29.00" r="2.40" class="prime" data-number="653" data-x="11" data-y="13">
+      <title>Liczba 653 (pierwsza) na pozycji (11, 13)</title>
+    </circle>
+    <circle cx="95.00" cy="29.00" r="2.40" class="composite" data-number="654" data-x="10" data-y="13">
+      <title>Liczba 654 (złożona) na pozycji (10, 13)</title>
+    </circle>
+    <circle cx="92.00" cy="29.00" r="2.40" class="composite" data-number="655" data-x="9" data-y="13">
+      <title>Liczba 655 (złożona) na pozycji (9, 13)</title>
+    </circle>
+    <circle cx="89.00" cy="29.00" r="2.40" class="composite" data-number="656" data-x="8" data-y="13">
+      <title>Liczba 656 (złożona) na pozycji (8, 13)</title>
+    </circle>
+    <circle cx="86.00" cy="29.00" r="2.40" class="composite" data-number="657" data-x="7" data-y="13">
+      <title>Liczba 657 (złożona) na pozycji (7, 13)</title>
+    </circle>
+    <circle cx="83.00" cy="29.00" r="2.40" class="composite" data-number="658" data-x="6" data-y="13">
+      <title>Liczba 658 (złożona) na pozycji (6, 13)</title>
+    </circle>
+    <circle cx="80.00" cy="29.00" r="2.40" class="prime" data-number="659" data-x="5" data-y="13">
+      <title>Liczba 659 (pierwsza) na pozycji (5, 13)</title>
+    </circle>
+    <circle cx="77.00" cy="29.00" r="2.40" class="composite" data-number="660" data-x="4" data-y="13">
+      <title>Liczba 660 (złożona) na pozycji (4, 13)</title>
+    </circle>
+    <circle cx="74.00" cy="29.00" r="2.40" class="prime" data-number="661" data-x="3" data-y="13">
+      <title>Liczba 661 (pierwsza) na pozycji (3, 13)</title>
+    </circle>
+    <circle cx="71.00" cy="29.00" r="2.40" class="composite" data-number="662" data-x="2" data-y="13">
+      <title>Liczba 662 (złożona) na pozycji (2, 13)</title>
+    </circle>
+    <circle cx="68.00" cy="29.00" r="2.40" class="composite" data-number="663" data-x="1" data-y="13">
+      <title>Liczba 663 (złożona) na pozycji (1, 13)</title>
+    </circle>
+    <circle cx="65.00" cy="29.00" r="2.40" class="composite" data-number="664" data-x="0" data-y="13">
+      <title>Liczba 664 (złożona) na pozycji (0, 13)</title>
+    </circle>
+    <circle cx="62.00" cy="29.00" r="2.40" class="composite" data-number="665" data-x="-1" data-y="13">
+      <title>Liczba 665 (złożona) na pozycji (-1, 13)</title>
+    </circle>
+    <circle cx="59.00" cy="29.00" r="2.40" class="composite" data-number="666" data-x="-2" data-y="13">
+      <title>Liczba 666 (złożona) na pozycji (-2, 13)</title>
+    </circle>
+    <circle cx="56.00" cy="29.00" r="2.40" class="composite" data-number="667" data-x="-3" data-y="13">
+      <title>Liczba 667 (złożona) na pozycji (-3, 13)</title>
+    </circle>
+    <circle cx="53.00" cy="29.00" r="2.40" class="composite" data-number="668" data-x="-4" data-y="13">
+      <title>Liczba 668 (złożona) na pozycji (-4, 13)</title>
+    </circle>
+    <circle cx="50.00" cy="29.00" r="2.40" class="composite" data-number="669" data-x="-5" data-y="13">
+      <title>Liczba 669 (złożona) na pozycji (-5, 13)</title>
+    </circle>
+    <circle cx="47.00" cy="29.00" r="2.40" class="composite" data-number="670" data-x="-6" data-y="13">
+      <title>Liczba 670 (złożona) na pozycji (-6, 13)</title>
+    </circle>
+    <circle cx="44.00" cy="29.00" r="2.40" class="composite" data-number="671" data-x="-7" data-y="13">
+      <title>Liczba 671 (złożona) na pozycji (-7, 13)</title>
+    </circle>
+    <circle cx="41.00" cy="29.00" r="2.40" class="composite" data-number="672" data-x="-8" data-y="13">
+      <title>Liczba 672 (złożona) na pozycji (-8, 13)</title>
+    </circle>
+    <circle cx="38.00" cy="29.00" r="2.40" class="prime" data-number="673" data-x="-9" data-y="13">
+      <title>Liczba 673 (pierwsza) na pozycji (-9, 13)</title>
+    </circle>
+    <circle cx="35.00" cy="29.00" r="2.40" class="composite" data-number="674" data-x="-10" data-y="13">
+      <title>Liczba 674 (złożona) na pozycji (-10, 13)</title>
+    </circle>
+    <circle cx="32.00" cy="29.00" r="2.40" class="composite" data-number="675" data-x="-11" data-y="13">
+      <title>Liczba 675 (złożona) na pozycji (-11, 13)</title>
+    </circle>
+    <circle cx="29.00" cy="29.00" r="2.40" class="composite" data-number="676" data-x="-12" data-y="13">
+      <title>Liczba 676 (złożona) na pozycji (-12, 13)</title>
+    </circle>
+    <circle cx="26.00" cy="29.00" r="2.40" class="prime" data-number="677" data-x="-13" data-y="13">
+      <title>Liczba 677 (pierwsza) na pozycji (-13, 13)</title>
+    </circle>
+    <circle cx="26.00" cy="32.00" r="2.40" class="composite" data-number="678" data-x="-13" data-y="12">
+      <title>Liczba 678 (złożona) na pozycji (-13, 12)</title>
+    </circle>
+    <circle cx="26.00" cy="35.00" r="2.40" class="composite" data-number="679" data-x="-13" data-y="11">
+      <title>Liczba 679 (złożona) na pozycji (-13, 11)</title>
+    </circle>
+    <circle cx="26.00" cy="38.00" r="2.40" class="composite" data-number="680" data-x="-13" data-y="10">
+      <title>Liczba 680 (złożona) na pozycji (-13, 10)</title>
+    </circle>
+    <circle cx="26.00" cy="41.00" r="2.40" class="composite" data-number="681" data-x="-13" data-y="9">
+      <title>Liczba 681 (złożona) na pozycji (-13, 9)</title>
+    </circle>
+    <circle cx="26.00" cy="44.00" r="2.40" class="composite" data-number="682" data-x="-13" data-y="8">
+      <title>Liczba 682 (złożona) na pozycji (-13, 8)</title>
+    </circle>
+    <circle cx="26.00" cy="47.00" r="2.40" class="prime" data-number="683" data-x="-13" data-y="7">
+      <title>Liczba 683 (pierwsza) na pozycji (-13, 7)</title>
+    </circle>
+    <circle cx="26.00" cy="50.00" r="2.40" class="composite" data-number="684" data-x="-13" data-y="6">
+      <title>Liczba 684 (złożona) na pozycji (-13, 6)</title>
+    </circle>
+    <circle cx="26.00" cy="53.00" r="2.40" class="composite" data-number="685" data-x="-13" data-y="5">
+      <title>Liczba 685 (złożona) na pozycji (-13, 5)</title>
+    </circle>
+    <circle cx="26.00" cy="56.00" r="2.40" class="composite" data-number="686" data-x="-13" data-y="4">
+      <title>Liczba 686 (złożona) na pozycji (-13, 4)</title>
+    </circle>
+    <circle cx="26.00" cy="59.00" r="2.40" class="composite" data-number="687" data-x="-13" data-y="3">
+      <title>Liczba 687 (złożona) na pozycji (-13, 3)</title>
+    </circle>
+    <circle cx="26.00" cy="62.00" r="2.40" class="composite" data-number="688" data-x="-13" data-y="2">
+      <title>Liczba 688 (złożona) na pozycji (-13, 2)</title>
+    </circle>
+    <circle cx="26.00" cy="65.00" r="2.40" class="composite" data-number="689" data-x="-13" data-y="1">
+      <title>Liczba 689 (złożona) na pozycji (-13, 1)</title>
+    </circle>
+    <circle cx="26.00" cy="68.00" r="2.40" class="composite" data-number="690" data-x="-13" data-y="0">
+      <title>Liczba 690 (złożona) na pozycji (-13, 0)</title>
+    </circle>
+    <circle cx="26.00" cy="71.00" r="2.40" class="prime" data-number="691" data-x="-13" data-y="-1">
+      <title>Liczba 691 (pierwsza) na pozycji (-13, -1)</title>
+    </circle>
+    <circle cx="26.00" cy="74.00" r="2.40" class="composite" data-number="692" data-x="-13" data-y="-2">
+      <title>Liczba 692 (złożona) na pozycji (-13, -2)</title>
+    </circle>
+    <circle cx="26.00" cy="77.00" r="2.40" class="composite" data-number="693" data-x="-13" data-y="-3">
+      <title>Liczba 693 (złożona) na pozycji (-13, -3)</title>
+    </circle>
+    <circle cx="26.00" cy="80.00" r="2.40" class="composite" data-number="694" data-x="-13" data-y="-4">
+      <title>Liczba 694 (złożona) na pozycji (-13, -4)</title>
+    </circle>
+    <circle cx="26.00" cy="83.00" r="2.40" class="composite" data-number="695" data-x="-13" data-y="-5">
+      <title>Liczba 695 (złożona) na pozycji (-13, -5)</title>
+    </circle>
+    <circle cx="26.00" cy="86.00" r="2.40" class="composite" data-number="696" data-x="-13" data-y="-6">
+      <title>Liczba 696 (złożona) na pozycji (-13, -6)</title>
+    </circle>
+    <circle cx="26.00" cy="89.00" r="2.40" class="composite" data-number="697" data-x="-13" data-y="-7">
+      <title>Liczba 697 (złożona) na pozycji (-13, -7)</title>
+    </circle>
+    <circle cx="26.00" cy="92.00" r="2.40" class="composite" data-number="698" data-x="-13" data-y="-8">
+      <title>Liczba 698 (złożona) na pozycji (-13, -8)</title>
+    </circle>
+    <circle cx="26.00" cy="95.00" r="2.40" class="composite" data-number="699" data-x="-13" data-y="-9">
+      <title>Liczba 699 (złożona) na pozycji (-13, -9)</title>
+    </circle>
+    <circle cx="26.00" cy="98.00" r="2.40" class="composite" data-number="700" data-x="-13" data-y="-10">
+      <title>Liczba 700 (złożona) na pozycji (-13, -10)</title>
+    </circle>
+    <circle cx="26.00" cy="101.00" r="2.40" class="prime" data-number="701" data-x="-13" data-y="-11">
+      <title>Liczba 701 (pierwsza) na pozycji (-13, -11)</title>
+    </circle>
+    <circle cx="26.00" cy="104.00" r="2.40" class="composite" data-number="702" data-x="-13" data-y="-12">
+      <title>Liczba 702 (złożona) na pozycji (-13, -12)</title>
+    </circle>
+    <circle cx="26.00" cy="107.00" r="2.40" class="composite" data-number="703" data-x="-13" data-y="-13">
+      <title>Liczba 703 (złożona) na pozycji (-13, -13)</title>
+    </circle>
+    <circle cx="29.00" cy="107.00" r="2.40" class="composite" data-number="704" data-x="-12" data-y="-13">
+      <title>Liczba 704 (złożona) na pozycji (-12, -13)</title>
+    </circle>
+    <circle cx="32.00" cy="107.00" r="2.40" class="composite" data-number="705" data-x="-11" data-y="-13">
+      <title>Liczba 705 (złożona) na pozycji (-11, -13)</title>
+    </circle>
+    <circle cx="35.00" cy="107.00" r="2.40" class="composite" data-number="706" data-x="-10" data-y="-13">
+      <title>Liczba 706 (złożona) na pozycji (-10, -13)</title>
+    </circle>
+    <circle cx="38.00" cy="107.00" r="2.40" class="composite" data-number="707" data-x="-9" data-y="-13">
+      <title>Liczba 707 (złożona) na pozycji (-9, -13)</title>
+    </circle>
+    <circle cx="41.00" cy="107.00" r="2.40" class="composite" data-number="708" data-x="-8" data-y="-13">
+      <title>Liczba 708 (złożona) na pozycji (-8, -13)</title>
+    </circle>
+    <circle cx="44.00" cy="107.00" r="2.40" class="prime" data-number="709" data-x="-7" data-y="-13">
+      <title>Liczba 709 (pierwsza) na pozycji (-7, -13)</title>
+    </circle>
+    <circle cx="47.00" cy="107.00" r="2.40" class="composite" data-number="710" data-x="-6" data-y="-13">
+      <title>Liczba 710 (złożona) na pozycji (-6, -13)</title>
+    </circle>
+    <circle cx="50.00" cy="107.00" r="2.40" class="composite" data-number="711" data-x="-5" data-y="-13">
+      <title>Liczba 711 (złożona) na pozycji (-5, -13)</title>
+    </circle>
+    <circle cx="53.00" cy="107.00" r="2.40" class="composite" data-number="712" data-x="-4" data-y="-13">
+      <title>Liczba 712 (złożona) na pozycji (-4, -13)</title>
+    </circle>
+    <circle cx="56.00" cy="107.00" r="2.40" class="composite" data-number="713" data-x="-3" data-y="-13">
+      <title>Liczba 713 (złożona) na pozycji (-3, -13)</title>
+    </circle>
+    <circle cx="59.00" cy="107.00" r="2.40" class="composite" data-number="714" data-x="-2" data-y="-13">
+      <title>Liczba 714 (złożona) na pozycji (-2, -13)</title>
+    </circle>
+    <circle cx="62.00" cy="107.00" r="2.40" class="composite" data-number="715" data-x="-1" data-y="-13">
+      <title>Liczba 715 (złożona) na pozycji (-1, -13)</title>
+    </circle>
+    <circle cx="65.00" cy="107.00" r="2.40" class="composite" data-number="716" data-x="0" data-y="-13">
+      <title>Liczba 716 (złożona) na pozycji (0, -13)</title>
+    </circle>
+    <circle cx="68.00" cy="107.00" r="2.40" class="composite" data-number="717" data-x="1" data-y="-13">
+      <title>Liczba 717 (złożona) na pozycji (1, -13)</title>
+    </circle>
+    <circle cx="71.00" cy="107.00" r="2.40" class="composite" data-number="718" data-x="2" data-y="-13">
+      <title>Liczba 718 (złożona) na pozycji (2, -13)</title>
+    </circle>
+    <circle cx="74.00" cy="107.00" r="2.40" class="prime" data-number="719" data-x="3" data-y="-13">
+      <title>Liczba 719 (pierwsza) na pozycji (3, -13)</title>
+    </circle>
+    <circle cx="77.00" cy="107.00" r="2.40" class="composite" data-number="720" data-x="4" data-y="-13">
+      <title>Liczba 720 (złożona) na pozycji (4, -13)</title>
+    </circle>
+    <circle cx="80.00" cy="107.00" r="2.40" class="composite" data-number="721" data-x="5" data-y="-13">
+      <title>Liczba 721 (złożona) na pozycji (5, -13)</title>
+    </circle>
+    <circle cx="83.00" cy="107.00" r="2.40" class="composite" data-number="722" data-x="6" data-y="-13">
+      <title>Liczba 722 (złożona) na pozycji (6, -13)</title>
+    </circle>
+    <circle cx="86.00" cy="107.00" r="2.40" class="composite" data-number="723" data-x="7" data-y="-13">
+      <title>Liczba 723 (złożona) na pozycji (7, -13)</title>
+    </circle>
+    <circle cx="89.00" cy="107.00" r="2.40" class="composite" data-number="724" data-x="8" data-y="-13">
+      <title>Liczba 724 (złożona) na pozycji (8, -13)</title>
+    </circle>
+    <circle cx="92.00" cy="107.00" r="2.40" class="composite" data-number="725" data-x="9" data-y="-13">
+      <title>Liczba 725 (złożona) na pozycji (9, -13)</title>
+    </circle>
+    <circle cx="95.00" cy="107.00" r="2.40" class="composite" data-number="726" data-x="10" data-y="-13">
+      <title>Liczba 726 (złożona) na pozycji (10, -13)</title>
+    </circle>
+    <circle cx="98.00" cy="107.00" r="2.40" class="prime" data-number="727" data-x="11" data-y="-13">
+      <title>Liczba 727 (pierwsza) na pozycji (11, -13)</title>
+    </circle>
+    <circle cx="101.00" cy="107.00" r="2.40" class="composite" data-number="728" data-x="12" data-y="-13">
+      <title>Liczba 728 (złożona) na pozycji (12, -13)</title>
+    </circle>
+    <circle cx="104.00" cy="107.00" r="2.40" class="composite" data-number="729" data-x="13" data-y="-13">
+      <title>Liczba 729 (złożona) na pozycji (13, -13)</title>
+    </circle>
+    <circle cx="107.00" cy="107.00" r="2.40" class="composite" data-number="730" data-x="14" data-y="-13">
+      <title>Liczba 730 (złożona) na pozycji (14, -13)</title>
+    </circle>
+    <circle cx="107.00" cy="104.00" r="2.40" class="composite" data-number="731" data-x="14" data-y="-12">
+      <title>Liczba 731 (złożona) na pozycji (14, -12)</title>
+    </circle>
+    <circle cx="107.00" cy="101.00" r="2.40" class="composite" data-number="732" data-x="14" data-y="-11">
+      <title>Liczba 732 (złożona) na pozycji (14, -11)</title>
+    </circle>
+    <circle cx="107.00" cy="98.00" r="2.40" class="prime" data-number="733" data-x="14" data-y="-10">
+      <title>Liczba 733 (pierwsza) na pozycji (14, -10)</title>
+    </circle>
+    <circle cx="107.00" cy="95.00" r="2.40" class="composite" data-number="734" data-x="14" data-y="-9">
+      <title>Liczba 734 (złożona) na pozycji (14, -9)</title>
+    </circle>
+    <circle cx="107.00" cy="92.00" r="2.40" class="composite" data-number="735" data-x="14" data-y="-8">
+      <title>Liczba 735 (złożona) na pozycji (14, -8)</title>
+    </circle>
+    <circle cx="107.00" cy="89.00" r="2.40" class="composite" data-number="736" data-x="14" data-y="-7">
+      <title>Liczba 736 (złożona) na pozycji (14, -7)</title>
+    </circle>
+    <circle cx="107.00" cy="86.00" r="2.40" class="composite" data-number="737" data-x="14" data-y="-6">
+      <title>Liczba 737 (złożona) na pozycji (14, -6)</title>
+    </circle>
+    <circle cx="107.00" cy="83.00" r="2.40" class="composite" data-number="738" data-x="14" data-y="-5">
+      <title>Liczba 738 (złożona) na pozycji (14, -5)</title>
+    </circle>
+    <circle cx="107.00" cy="80.00" r="2.40" class="prime" data-number="739" data-x="14" data-y="-4">
+      <title>Liczba 739 (pierwsza) na pozycji (14, -4)</title>
+    </circle>
+    <circle cx="107.00" cy="77.00" r="2.40" class="composite" data-number="740" data-x="14" data-y="-3">
+      <title>Liczba 740 (złożona) na pozycji (14, -3)</title>
+    </circle>
+    <circle cx="107.00" cy="74.00" r="2.40" class="composite" data-number="741" data-x="14" data-y="-2">
+      <title>Liczba 741 (złożona) na pozycji (14, -2)</title>
+    </circle>
+    <circle cx="107.00" cy="71.00" r="2.40" class="composite" data-number="742" data-x="14" data-y="-1">
+      <title>Liczba 742 (złożona) na pozycji (14, -1)</title>
+    </circle>
+    <circle cx="107.00" cy="68.00" r="2.40" class="prime" data-number="743" data-x="14" data-y="0">
+      <title>Liczba 743 (pierwsza) na pozycji (14, 0)</title>
+    </circle>
+    <circle cx="107.00" cy="65.00" r="2.40" class="composite" data-number="744" data-x="14" data-y="1">
+      <title>Liczba 744 (złożona) na pozycji (14, 1)</title>
+    </circle>
+    <circle cx="107.00" cy="62.00" r="2.40" class="composite" data-number="745" data-x="14" data-y="2">
+      <title>Liczba 745 (złożona) na pozycji (14, 2)</title>
+    </circle>
+    <circle cx="107.00" cy="59.00" r="2.40" class="composite" data-number="746" data-x="14" data-y="3">
+      <title>Liczba 746 (złożona) na pozycji (14, 3)</title>
+    </circle>
+    <circle cx="107.00" cy="56.00" r="2.40" class="composite" data-number="747" data-x="14" data-y="4">
+      <title>Liczba 747 (złożona) na pozycji (14, 4)</title>
+    </circle>
+    <circle cx="107.00" cy="53.00" r="2.40" class="composite" data-number="748" data-x="14" data-y="5">
+      <title>Liczba 748 (złożona) na pozycji (14, 5)</title>
+    </circle>
+    <circle cx="107.00" cy="50.00" r="2.40" class="composite" data-number="749" data-x="14" data-y="6">
+      <title>Liczba 749 (złożona) na pozycji (14, 6)</title>
+    </circle>
+    <circle cx="107.00" cy="47.00" r="2.40" class="composite" data-number="750" data-x="14" data-y="7">
+      <title>Liczba 750 (złożona) na pozycji (14, 7)</title>
+    </circle>
+    <circle cx="107.00" cy="44.00" r="2.40" class="prime" data-number="751" data-x="14" data-y="8">
+      <title>Liczba 751 (pierwsza) na pozycji (14, 8)</title>
+    </circle>
+    <circle cx="107.00" cy="41.00" r="2.40" class="composite" data-number="752" data-x="14" data-y="9">
+      <title>Liczba 752 (złożona) na pozycji (14, 9)</title>
+    </circle>
+    <circle cx="107.00" cy="38.00" r="2.40" class="composite" data-number="753" data-x="14" data-y="10">
+      <title>Liczba 753 (złożona) na pozycji (14, 10)</title>
+    </circle>
+    <circle cx="107.00" cy="35.00" r="2.40" class="composite" data-number="754" data-x="14" data-y="11">
+      <title>Liczba 754 (złożona) na pozycji (14, 11)</title>
+    </circle>
+    <circle cx="107.00" cy="32.00" r="2.40" class="composite" data-number="755" data-x="14" data-y="12">
+      <title>Liczba 755 (złożona) na pozycji (14, 12)</title>
+    </circle>
+    <circle cx="107.00" cy="29.00" r="2.40" class="composite" data-number="756" data-x="14" data-y="13">
+      <title>Liczba 756 (złożona) na pozycji (14, 13)</title>
+    </circle>
+    <circle cx="107.00" cy="26.00" r="2.40" class="prime" data-number="757" data-x="14" data-y="14">
+      <title>Liczba 757 (pierwsza) na pozycji (14, 14)</title>
+    </circle>
+    <circle cx="104.00" cy="26.00" r="2.40" class="composite" data-number="758" data-x="13" data-y="14">
+      <title>Liczba 758 (złożona) na pozycji (13, 14)</title>
+    </circle>
+    <circle cx="101.00" cy="26.00" r="2.40" class="composite" data-number="759" data-x="12" data-y="14">
+      <title>Liczba 759 (złożona) na pozycji (12, 14)</title>
+    </circle>
+    <circle cx="98.00" cy="26.00" r="2.40" class="composite" data-number="760" data-x="11" data-y="14">
+      <title>Liczba 760 (złożona) na pozycji (11, 14)</title>
+    </circle>
+    <circle cx="95.00" cy="26.00" r="2.40" class="prime" data-number="761" data-x="10" data-y="14">
+      <title>Liczba 761 (pierwsza) na pozycji (10, 14)</title>
+    </circle>
+    <circle cx="92.00" cy="26.00" r="2.40" class="composite" data-number="762" data-x="9" data-y="14">
+      <title>Liczba 762 (złożona) na pozycji (9, 14)</title>
+    </circle>
+    <circle cx="89.00" cy="26.00" r="2.40" class="composite" data-number="763" data-x="8" data-y="14">
+      <title>Liczba 763 (złożona) na pozycji (8, 14)</title>
+    </circle>
+    <circle cx="86.00" cy="26.00" r="2.40" class="composite" data-number="764" data-x="7" data-y="14">
+      <title>Liczba 764 (złożona) na pozycji (7, 14)</title>
+    </circle>
+    <circle cx="83.00" cy="26.00" r="2.40" class="composite" data-number="765" data-x="6" data-y="14">
+      <title>Liczba 765 (złożona) na pozycji (6, 14)</title>
+    </circle>
+    <circle cx="80.00" cy="26.00" r="2.40" class="composite" data-number="766" data-x="5" data-y="14">
+      <title>Liczba 766 (złożona) na pozycji (5, 14)</title>
+    </circle>
+    <circle cx="77.00" cy="26.00" r="2.40" class="composite" data-number="767" data-x="4" data-y="14">
+      <title>Liczba 767 (złożona) na pozycji (4, 14)</title>
+    </circle>
+    <circle cx="74.00" cy="26.00" r="2.40" class="composite" data-number="768" data-x="3" data-y="14">
+      <title>Liczba 768 (złożona) na pozycji (3, 14)</title>
+    </circle>
+    <circle cx="71.00" cy="26.00" r="2.40" class="prime" data-number="769" data-x="2" data-y="14">
+      <title>Liczba 769 (pierwsza) na pozycji (2, 14)</title>
+    </circle>
+    <circle cx="68.00" cy="26.00" r="2.40" class="composite" data-number="770" data-x="1" data-y="14">
+      <title>Liczba 770 (złożona) na pozycji (1, 14)</title>
+    </circle>
+    <circle cx="65.00" cy="26.00" r="2.40" class="composite" data-number="771" data-x="0" data-y="14">
+      <title>Liczba 771 (złożona) na pozycji (0, 14)</title>
+    </circle>
+    <circle cx="62.00" cy="26.00" r="2.40" class="composite" data-number="772" data-x="-1" data-y="14">
+      <title>Liczba 772 (złożona) na pozycji (-1, 14)</title>
+    </circle>
+    <circle cx="59.00" cy="26.00" r="2.40" class="prime" data-number="773" data-x="-2" data-y="14">
+      <title>Liczba 773 (pierwsza) na pozycji (-2, 14)</title>
+    </circle>
+    <circle cx="56.00" cy="26.00" r="2.40" class="composite" data-number="774" data-x="-3" data-y="14">
+      <title>Liczba 774 (złożona) na pozycji (-3, 14)</title>
+    </circle>
+    <circle cx="53.00" cy="26.00" r="2.40" class="composite" data-number="775" data-x="-4" data-y="14">
+      <title>Liczba 775 (złożona) na pozycji (-4, 14)</title>
+    </circle>
+    <circle cx="50.00" cy="26.00" r="2.40" class="composite" data-number="776" data-x="-5" data-y="14">
+      <title>Liczba 776 (złożona) na pozycji (-5, 14)</title>
+    </circle>
+    <circle cx="47.00" cy="26.00" r="2.40" class="composite" data-number="777" data-x="-6" data-y="14">
+      <title>Liczba 777 (złożona) na pozycji (-6, 14)</title>
+    </circle>
+    <circle cx="44.00" cy="26.00" r="2.40" class="composite" data-number="778" data-x="-7" data-y="14">
+      <title>Liczba 778 (złożona) na pozycji (-7, 14)</title>
+    </circle>
+    <circle cx="41.00" cy="26.00" r="2.40" class="composite" data-number="779" data-x="-8" data-y="14">
+      <title>Liczba 779 (złożona) na pozycji (-8, 14)</title>
+    </circle>
+    <circle cx="38.00" cy="26.00" r="2.40" class="composite" data-number="780" data-x="-9" data-y="14">
+      <title>Liczba 780 (złożona) na pozycji (-9, 14)</title>
+    </circle>
+    <circle cx="35.00" cy="26.00" r="2.40" class="composite" data-number="781" data-x="-10" data-y="14">
+      <title>Liczba 781 (złożona) na pozycji (-10, 14)</title>
+    </circle>
+    <circle cx="32.00" cy="26.00" r="2.40" class="composite" data-number="782" data-x="-11" data-y="14">
+      <title>Liczba 782 (złożona) na pozycji (-11, 14)</title>
+    </circle>
+    <circle cx="29.00" cy="26.00" r="2.40" class="composite" data-number="783" data-x="-12" data-y="14">
+      <title>Liczba 783 (złożona) na pozycji (-12, 14)</title>
+    </circle>
+    <circle cx="26.00" cy="26.00" r="2.40" class="composite" data-number="784" data-x="-13" data-y="14">
+      <title>Liczba 784 (złożona) na pozycji (-13, 14)</title>
+    </circle>
+    <circle cx="23.00" cy="26.00" r="2.40" class="composite" data-number="785" data-x="-14" data-y="14">
+      <title>Liczba 785 (złożona) na pozycji (-14, 14)</title>
+    </circle>
+    <circle cx="23.00" cy="29.00" r="2.40" class="composite" data-number="786" data-x="-14" data-y="13">
+      <title>Liczba 786 (złożona) na pozycji (-14, 13)</title>
+    </circle>
+    <circle cx="23.00" cy="32.00" r="2.40" class="prime" data-number="787" data-x="-14" data-y="12">
+      <title>Liczba 787 (pierwsza) na pozycji (-14, 12)</title>
+    </circle>
+    <circle cx="23.00" cy="35.00" r="2.40" class="composite" data-number="788" data-x="-14" data-y="11">
+      <title>Liczba 788 (złożona) na pozycji (-14, 11)</title>
+    </circle>
+    <circle cx="23.00" cy="38.00" r="2.40" class="composite" data-number="789" data-x="-14" data-y="10">
+      <title>Liczba 789 (złożona) na pozycji (-14, 10)</title>
+    </circle>
+    <circle cx="23.00" cy="41.00" r="2.40" class="composite" data-number="790" data-x="-14" data-y="9">
+      <title>Liczba 790 (złożona) na pozycji (-14, 9)</title>
+    </circle>
+    <circle cx="23.00" cy="44.00" r="2.40" class="composite" data-number="791" data-x="-14" data-y="8">
+      <title>Liczba 791 (złożona) na pozycji (-14, 8)</title>
+    </circle>
+    <circle cx="23.00" cy="47.00" r="2.40" class="composite" data-number="792" data-x="-14" data-y="7">
+      <title>Liczba 792 (złożona) na pozycji (-14, 7)</title>
+    </circle>
+    <circle cx="23.00" cy="50.00" r="2.40" class="composite" data-number="793" data-x="-14" data-y="6">
+      <title>Liczba 793 (złożona) na pozycji (-14, 6)</title>
+    </circle>
+    <circle cx="23.00" cy="53.00" r="2.40" class="composite" data-number="794" data-x="-14" data-y="5">
+      <title>Liczba 794 (złożona) na pozycji (-14, 5)</title>
+    </circle>
+    <circle cx="23.00" cy="56.00" r="2.40" class="composite" data-number="795" data-x="-14" data-y="4">
+      <title>Liczba 795 (złożona) na pozycji (-14, 4)</title>
+    </circle>
+    <circle cx="23.00" cy="59.00" r="2.40" class="composite" data-number="796" data-x="-14" data-y="3">
+      <title>Liczba 796 (złożona) na pozycji (-14, 3)</title>
+    </circle>
+    <circle cx="23.00" cy="62.00" r="2.40" class="prime" data-number="797" data-x="-14" data-y="2">
+      <title>Liczba 797 (pierwsza) na pozycji (-14, 2)</title>
+    </circle>
+    <circle cx="23.00" cy="65.00" r="2.40" class="composite" data-number="798" data-x="-14" data-y="1">
+      <title>Liczba 798 (złożona) na pozycji (-14, 1)</title>
+    </circle>
+    <circle cx="23.00" cy="68.00" r="2.40" class="composite" data-number="799" data-x="-14" data-y="0">
+      <title>Liczba 799 (złożona) na pozycji (-14, 0)</title>
+    </circle>
+    <circle cx="23.00" cy="71.00" r="2.40" class="composite" data-number="800" data-x="-14" data-y="-1">
+      <title>Liczba 800 (złożona) na pozycji (-14, -1)</title>
+    </circle>
+    <circle cx="23.00" cy="74.00" r="2.40" class="composite" data-number="801" data-x="-14" data-y="-2">
+      <title>Liczba 801 (złożona) na pozycji (-14, -2)</title>
+    </circle>
+    <circle cx="23.00" cy="77.00" r="2.40" class="composite" data-number="802" data-x="-14" data-y="-3">
+      <title>Liczba 802 (złożona) na pozycji (-14, -3)</title>
+    </circle>
+    <circle cx="23.00" cy="80.00" r="2.40" class="composite" data-number="803" data-x="-14" data-y="-4">
+      <title>Liczba 803 (złożona) na pozycji (-14, -4)</title>
+    </circle>
+    <circle cx="23.00" cy="83.00" r="2.40" class="composite" data-number="804" data-x="-14" data-y="-5">
+      <title>Liczba 804 (złożona) na pozycji (-14, -5)</title>
+    </circle>
+    <circle cx="23.00" cy="86.00" r="2.40" class="composite" data-number="805" data-x="-14" data-y="-6">
+      <title>Liczba 805 (złożona) na pozycji (-14, -6)</title>
+    </circle>
+    <circle cx="23.00" cy="89.00" r="2.40" class="composite" data-number="806" data-x="-14" data-y="-7">
+      <title>Liczba 806 (złożona) na pozycji (-14, -7)</title>
+    </circle>
+    <circle cx="23.00" cy="92.00" r="2.40" class="composite" data-number="807" data-x="-14" data-y="-8">
+      <title>Liczba 807 (złożona) na pozycji (-14, -8)</title>
+    </circle>
+    <circle cx="23.00" cy="95.00" r="2.40" class="composite" data-number="808" data-x="-14" data-y="-9">
+      <title>Liczba 808 (złożona) na pozycji (-14, -9)</title>
+    </circle>
+    <circle cx="23.00" cy="98.00" r="2.40" class="prime" data-number="809" data-x="-14" data-y="-10">
+      <title>Liczba 809 (pierwsza) na pozycji (-14, -10)</title>
+    </circle>
+    <circle cx="23.00" cy="101.00" r="2.40" class="composite" data-number="810" data-x="-14" data-y="-11">
+      <title>Liczba 810 (złożona) na pozycji (-14, -11)</title>
+    </circle>
+    <circle cx="23.00" cy="104.00" r="2.40" class="prime" data-number="811" data-x="-14" data-y="-12">
+      <title>Liczba 811 (pierwsza) na pozycji (-14, -12)</title>
+    </circle>
+    <circle cx="23.00" cy="107.00" r="2.40" class="composite" data-number="812" data-x="-14" data-y="-13">
+      <title>Liczba 812 (złożona) na pozycji (-14, -13)</title>
+    </circle>
+    <circle cx="23.00" cy="110.00" r="2.40" class="composite" data-number="813" data-x="-14" data-y="-14">
+      <title>Liczba 813 (złożona) na pozycji (-14, -14)</title>
+    </circle>
+    <circle cx="26.00" cy="110.00" r="2.40" class="composite" data-number="814" data-x="-13" data-y="-14">
+      <title>Liczba 814 (złożona) na pozycji (-13, -14)</title>
+    </circle>
+    <circle cx="29.00" cy="110.00" r="2.40" class="composite" data-number="815" data-x="-12" data-y="-14">
+      <title>Liczba 815 (złożona) na pozycji (-12, -14)</title>
+    </circle>
+    <circle cx="32.00" cy="110.00" r="2.40" class="composite" data-number="816" data-x="-11" data-y="-14">
+      <title>Liczba 816 (złożona) na pozycji (-11, -14)</title>
+    </circle>
+    <circle cx="35.00" cy="110.00" r="2.40" class="composite" data-number="817" data-x="-10" data-y="-14">
+      <title>Liczba 817 (złożona) na pozycji (-10, -14)</title>
+    </circle>
+    <circle cx="38.00" cy="110.00" r="2.40" class="composite" data-number="818" data-x="-9" data-y="-14">
+      <title>Liczba 818 (złożona) na pozycji (-9, -14)</title>
+    </circle>
+    <circle cx="41.00" cy="110.00" r="2.40" class="composite" data-number="819" data-x="-8" data-y="-14">
+      <title>Liczba 819 (złożona) na pozycji (-8, -14)</title>
+    </circle>
+    <circle cx="44.00" cy="110.00" r="2.40" class="composite" data-number="820" data-x="-7" data-y="-14">
+      <title>Liczba 820 (złożona) na pozycji (-7, -14)</title>
+    </circle>
+    <circle cx="47.00" cy="110.00" r="2.40" class="prime" data-number="821" data-x="-6" data-y="-14">
+      <title>Liczba 821 (pierwsza) na pozycji (-6, -14)</title>
+    </circle>
+    <circle cx="50.00" cy="110.00" r="2.40" class="composite" data-number="822" data-x="-5" data-y="-14">
+      <title>Liczba 822 (złożona) na pozycji (-5, -14)</title>
+    </circle>
+    <circle cx="53.00" cy="110.00" r="2.40" class="prime" data-number="823" data-x="-4" data-y="-14">
+      <title>Liczba 823 (pierwsza) na pozycji (-4, -14)</title>
+    </circle>
+    <circle cx="56.00" cy="110.00" r="2.40" class="composite" data-number="824" data-x="-3" data-y="-14">
+      <title>Liczba 824 (złożona) na pozycji (-3, -14)</title>
+    </circle>
+    <circle cx="59.00" cy="110.00" r="2.40" class="composite" data-number="825" data-x="-2" data-y="-14">
+      <title>Liczba 825 (złożona) na pozycji (-2, -14)</title>
+    </circle>
+    <circle cx="62.00" cy="110.00" r="2.40" class="composite" data-number="826" data-x="-1" data-y="-14">
+      <title>Liczba 826 (złożona) na pozycji (-1, -14)</title>
+    </circle>
+    <circle cx="65.00" cy="110.00" r="2.40" class="prime" data-number="827" data-x="0" data-y="-14">
+      <title>Liczba 827 (pierwsza) na pozycji (0, -14)</title>
+    </circle>
+    <circle cx="68.00" cy="110.00" r="2.40" class="composite" data-number="828" data-x="1" data-y="-14">
+      <title>Liczba 828 (złożona) na pozycji (1, -14)</title>
+    </circle>
+    <circle cx="71.00" cy="110.00" r="2.40" class="prime" data-number="829" data-x="2" data-y="-14">
+      <title>Liczba 829 (pierwsza) na pozycji (2, -14)</title>
+    </circle>
+    <circle cx="74.00" cy="110.00" r="2.40" class="composite" data-number="830" data-x="3" data-y="-14">
+      <title>Liczba 830 (złożona) na pozycji (3, -14)</title>
+    </circle>
+    <circle cx="77.00" cy="110.00" r="2.40" class="composite" data-number="831" data-x="4" data-y="-14">
+      <title>Liczba 831 (złożona) na pozycji (4, -14)</title>
+    </circle>
+    <circle cx="80.00" cy="110.00" r="2.40" class="composite" data-number="832" data-x="5" data-y="-14">
+      <title>Liczba 832 (złożona) na pozycji (5, -14)</title>
+    </circle>
+    <circle cx="83.00" cy="110.00" r="2.40" class="composite" data-number="833" data-x="6" data-y="-14">
+      <title>Liczba 833 (złożona) na pozycji (6, -14)</title>
+    </circle>
+    <circle cx="86.00" cy="110.00" r="2.40" class="composite" data-number="834" data-x="7" data-y="-14">
+      <title>Liczba 834 (złożona) na pozycji (7, -14)</title>
+    </circle>
+    <circle cx="89.00" cy="110.00" r="2.40" class="composite" data-number="835" data-x="8" data-y="-14">
+      <title>Liczba 835 (złożona) na pozycji (8, -14)</title>
+    </circle>
+    <circle cx="92.00" cy="110.00" r="2.40" class="composite" data-number="836" data-x="9" data-y="-14">
+      <title>Liczba 836 (złożona) na pozycji (9, -14)</title>
+    </circle>
+    <circle cx="95.00" cy="110.00" r="2.40" class="composite" data-number="837" data-x="10" data-y="-14">
+      <title>Liczba 837 (złożona) na pozycji (10, -14)</title>
+    </circle>
+    <circle cx="98.00" cy="110.00" r="2.40" class="composite" data-number="838" data-x="11" data-y="-14">
+      <title>Liczba 838 (złożona) na pozycji (11, -14)</title>
+    </circle>
+    <circle cx="101.00" cy="110.00" r="2.40" class="prime" data-number="839" data-x="12" data-y="-14">
+      <title>Liczba 839 (pierwsza) na pozycji (12, -14)</title>
+    </circle>
+    <circle cx="104.00" cy="110.00" r="2.40" class="composite" data-number="840" data-x="13" data-y="-14">
+      <title>Liczba 840 (złożona) na pozycji (13, -14)</title>
+    </circle>
+    <circle cx="107.00" cy="110.00" r="2.40" class="composite" data-number="841" data-x="14" data-y="-14">
+      <title>Liczba 841 (złożona) na pozycji (14, -14)</title>
+    </circle>
+    <circle cx="110.00" cy="110.00" r="2.40" class="composite" data-number="842" data-x="15" data-y="-14">
+      <title>Liczba 842 (złożona) na pozycji (15, -14)</title>
+    </circle>
+    <circle cx="110.00" cy="107.00" r="2.40" class="composite" data-number="843" data-x="15" data-y="-13">
+      <title>Liczba 843 (złożona) na pozycji (15, -13)</title>
+    </circle>
+    <circle cx="110.00" cy="104.00" r="2.40" class="composite" data-number="844" data-x="15" data-y="-12">
+      <title>Liczba 844 (złożona) na pozycji (15, -12)</title>
+    </circle>
+    <circle cx="110.00" cy="101.00" r="2.40" class="composite" data-number="845" data-x="15" data-y="-11">
+      <title>Liczba 845 (złożona) na pozycji (15, -11)</title>
+    </circle>
+    <circle cx="110.00" cy="98.00" r="2.40" class="composite" data-number="846" data-x="15" data-y="-10">
+      <title>Liczba 846 (złożona) na pozycji (15, -10)</title>
+    </circle>
+    <circle cx="110.00" cy="95.00" r="2.40" class="composite" data-number="847" data-x="15" data-y="-9">
+      <title>Liczba 847 (złożona) na pozycji (15, -9)</title>
+    </circle>
+    <circle cx="110.00" cy="92.00" r="2.40" class="composite" data-number="848" data-x="15" data-y="-8">
+      <title>Liczba 848 (złożona) na pozycji (15, -8)</title>
+    </circle>
+    <circle cx="110.00" cy="89.00" r="2.40" class="composite" data-number="849" data-x="15" data-y="-7">
+      <title>Liczba 849 (złożona) na pozycji (15, -7)</title>
+    </circle>
+    <circle cx="110.00" cy="86.00" r="2.40" class="composite" data-number="850" data-x="15" data-y="-6">
+      <title>Liczba 850 (złożona) na pozycji (15, -6)</title>
+    </circle>
+    <circle cx="110.00" cy="83.00" r="2.40" class="composite" data-number="851" data-x="15" data-y="-5">
+      <title>Liczba 851 (złożona) na pozycji (15, -5)</title>
+    </circle>
+    <circle cx="110.00" cy="80.00" r="2.40" class="composite" data-number="852" data-x="15" data-y="-4">
+      <title>Liczba 852 (złożona) na pozycji (15, -4)</title>
+    </circle>
+    <circle cx="110.00" cy="77.00" r="2.40" class="prime" data-number="853" data-x="15" data-y="-3">
+      <title>Liczba 853 (pierwsza) na pozycji (15, -3)</title>
+    </circle>
+    <circle cx="110.00" cy="74.00" r="2.40" class="composite" data-number="854" data-x="15" data-y="-2">
+      <title>Liczba 854 (złożona) na pozycji (15, -2)</title>
+    </circle>
+    <circle cx="110.00" cy="71.00" r="2.40" class="composite" data-number="855" data-x="15" data-y="-1">
+      <title>Liczba 855 (złożona) na pozycji (15, -1)</title>
+    </circle>
+    <circle cx="110.00" cy="68.00" r="2.40" class="composite" data-number="856" data-x="15" data-y="0">
+      <title>Liczba 856 (złożona) na pozycji (15, 0)</title>
+    </circle>
+    <circle cx="110.00" cy="65.00" r="2.40" class="prime" data-number="857" data-x="15" data-y="1">
+      <title>Liczba 857 (pierwsza) na pozycji (15, 1)</title>
+    </circle>
+    <circle cx="110.00" cy="62.00" r="2.40" class="composite" data-number="858" data-x="15" data-y="2">
+      <title>Liczba 858 (złożona) na pozycji (15, 2)</title>
+    </circle>
+    <circle cx="110.00" cy="59.00" r="2.40" class="prime" data-number="859" data-x="15" data-y="3">
+      <title>Liczba 859 (pierwsza) na pozycji (15, 3)</title>
+    </circle>
+    <circle cx="110.00" cy="56.00" r="2.40" class="composite" data-number="860" data-x="15" data-y="4">
+      <title>Liczba 860 (złożona) na pozycji (15, 4)</title>
+    </circle>
+    <circle cx="110.00" cy="53.00" r="2.40" class="composite" data-number="861" data-x="15" data-y="5">
+      <title>Liczba 861 (złożona) na pozycji (15, 5)</title>
+    </circle>
+    <circle cx="110.00" cy="50.00" r="2.40" class="composite" data-number="862" data-x="15" data-y="6">
+      <title>Liczba 862 (złożona) na pozycji (15, 6)</title>
+    </circle>
+    <circle cx="110.00" cy="47.00" r="2.40" class="prime" data-number="863" data-x="15" data-y="7">
+      <title>Liczba 863 (pierwsza) na pozycji (15, 7)</title>
+    </circle>
+    <circle cx="110.00" cy="44.00" r="2.40" class="composite" data-number="864" data-x="15" data-y="8">
+      <title>Liczba 864 (złożona) na pozycji (15, 8)</title>
+    </circle>
+    <circle cx="110.00" cy="41.00" r="2.40" class="composite" data-number="865" data-x="15" data-y="9">
+      <title>Liczba 865 (złożona) na pozycji (15, 9)</title>
+    </circle>
+    <circle cx="110.00" cy="38.00" r="2.40" class="composite" data-number="866" data-x="15" data-y="10">
+      <title>Liczba 866 (złożona) na pozycji (15, 10)</title>
+    </circle>
+    <circle cx="110.00" cy="35.00" r="2.40" class="composite" data-number="867" data-x="15" data-y="11">
+      <title>Liczba 867 (złożona) na pozycji (15, 11)</title>
+    </circle>
+    <circle cx="110.00" cy="32.00" r="2.40" class="composite" data-number="868" data-x="15" data-y="12">
+      <title>Liczba 868 (złożona) na pozycji (15, 12)</title>
+    </circle>
+    <circle cx="110.00" cy="29.00" r="2.40" class="composite" data-number="869" data-x="15" data-y="13">
+      <title>Liczba 869 (złożona) na pozycji (15, 13)</title>
+    </circle>
+    <circle cx="110.00" cy="26.00" r="2.40" class="composite" data-number="870" data-x="15" data-y="14">
+      <title>Liczba 870 (złożona) na pozycji (15, 14)</title>
+    </circle>
+    <circle cx="110.00" cy="23.00" r="2.40" class="composite" data-number="871" data-x="15" data-y="15">
+      <title>Liczba 871 (złożona) na pozycji (15, 15)</title>
+    </circle>
+    <circle cx="107.00" cy="23.00" r="2.40" class="composite" data-number="872" data-x="14" data-y="15">
+      <title>Liczba 872 (złożona) na pozycji (14, 15)</title>
+    </circle>
+    <circle cx="104.00" cy="23.00" r="2.40" class="composite" data-number="873" data-x="13" data-y="15">
+      <title>Liczba 873 (złożona) na pozycji (13, 15)</title>
+    </circle>
+    <circle cx="101.00" cy="23.00" r="2.40" class="composite" data-number="874" data-x="12" data-y="15">
+      <title>Liczba 874 (złożona) na pozycji (12, 15)</title>
+    </circle>
+    <circle cx="98.00" cy="23.00" r="2.40" class="composite" data-number="875" data-x="11" data-y="15">
+      <title>Liczba 875 (złożona) na pozycji (11, 15)</title>
+    </circle>
+    <circle cx="95.00" cy="23.00" r="2.40" class="composite" data-number="876" data-x="10" data-y="15">
+      <title>Liczba 876 (złożona) na pozycji (10, 15)</title>
+    </circle>
+    <circle cx="92.00" cy="23.00" r="2.40" class="prime" data-number="877" data-x="9" data-y="15">
+      <title>Liczba 877 (pierwsza) na pozycji (9, 15)</title>
+    </circle>
+    <circle cx="89.00" cy="23.00" r="2.40" class="composite" data-number="878" data-x="8" data-y="15">
+      <title>Liczba 878 (złożona) na pozycji (8, 15)</title>
+    </circle>
+    <circle cx="86.00" cy="23.00" r="2.40" class="composite" data-number="879" data-x="7" data-y="15">
+      <title>Liczba 879 (złożona) na pozycji (7, 15)</title>
+    </circle>
+    <circle cx="83.00" cy="23.00" r="2.40" class="composite" data-number="880" data-x="6" data-y="15">
+      <title>Liczba 880 (złożona) na pozycji (6, 15)</title>
+    </circle>
+    <circle cx="80.00" cy="23.00" r="2.40" class="prime" data-number="881" data-x="5" data-y="15">
+      <title>Liczba 881 (pierwsza) na pozycji (5, 15)</title>
+    </circle>
+    <circle cx="77.00" cy="23.00" r="2.40" class="composite" data-number="882" data-x="4" data-y="15">
+      <title>Liczba 882 (złożona) na pozycji (4, 15)</title>
+    </circle>
+    <circle cx="74.00" cy="23.00" r="2.40" class="prime" data-number="883" data-x="3" data-y="15">
+      <title>Liczba 883 (pierwsza) na pozycji (3, 15)</title>
+    </circle>
+    <circle cx="71.00" cy="23.00" r="2.40" class="composite" data-number="884" data-x="2" data-y="15">
+      <title>Liczba 884 (złożona) na pozycji (2, 15)</title>
+    </circle>
+    <circle cx="68.00" cy="23.00" r="2.40" class="composite" data-number="885" data-x="1" data-y="15">
+      <title>Liczba 885 (złożona) na pozycji (1, 15)</title>
+    </circle>
+    <circle cx="65.00" cy="23.00" r="2.40" class="composite" data-number="886" data-x="0" data-y="15">
+      <title>Liczba 886 (złożona) na pozycji (0, 15)</title>
+    </circle>
+    <circle cx="62.00" cy="23.00" r="2.40" class="prime" data-number="887" data-x="-1" data-y="15">
+      <title>Liczba 887 (pierwsza) na pozycji (-1, 15)</title>
+    </circle>
+    <circle cx="59.00" cy="23.00" r="2.40" class="composite" data-number="888" data-x="-2" data-y="15">
+      <title>Liczba 888 (złożona) na pozycji (-2, 15)</title>
+    </circle>
+    <circle cx="56.00" cy="23.00" r="2.40" class="composite" data-number="889" data-x="-3" data-y="15">
+      <title>Liczba 889 (złożona) na pozycji (-3, 15)</title>
+    </circle>
+    <circle cx="53.00" cy="23.00" r="2.40" class="composite" data-number="890" data-x="-4" data-y="15">
+      <title>Liczba 890 (złożona) na pozycji (-4, 15)</title>
+    </circle>
+    <circle cx="50.00" cy="23.00" r="2.40" class="composite" data-number="891" data-x="-5" data-y="15">
+      <title>Liczba 891 (złożona) na pozycji (-5, 15)</title>
+    </circle>
+    <circle cx="47.00" cy="23.00" r="2.40" class="composite" data-number="892" data-x="-6" data-y="15">
+      <title>Liczba 892 (złożona) na pozycji (-6, 15)</title>
+    </circle>
+    <circle cx="44.00" cy="23.00" r="2.40" class="composite" data-number="893" data-x="-7" data-y="15">
+      <title>Liczba 893 (złożona) na pozycji (-7, 15)</title>
+    </circle>
+    <circle cx="41.00" cy="23.00" r="2.40" class="composite" data-number="894" data-x="-8" data-y="15">
+      <title>Liczba 894 (złożona) na pozycji (-8, 15)</title>
+    </circle>
+    <circle cx="38.00" cy="23.00" r="2.40" class="composite" data-number="895" data-x="-9" data-y="15">
+      <title>Liczba 895 (złożona) na pozycji (-9, 15)</title>
+    </circle>
+    <circle cx="35.00" cy="23.00" r="2.40" class="composite" data-number="896" data-x="-10" data-y="15">
+      <title>Liczba 896 (złożona) na pozycji (-10, 15)</title>
+    </circle>
+    <circle cx="32.00" cy="23.00" r="2.40" class="composite" data-number="897" data-x="-11" data-y="15">
+      <title>Liczba 897 (złożona) na pozycji (-11, 15)</title>
+    </circle>
+    <circle cx="29.00" cy="23.00" r="2.40" class="composite" data-number="898" data-x="-12" data-y="15">
+      <title>Liczba 898 (złożona) na pozycji (-12, 15)</title>
+    </circle>
+    <circle cx="26.00" cy="23.00" r="2.40" class="composite" data-number="899" data-x="-13" data-y="15">
+      <title>Liczba 899 (złożona) na pozycji (-13, 15)</title>
+    </circle>
+    <circle cx="23.00" cy="23.00" r="2.40" class="composite" data-number="900" data-x="-14" data-y="15">
+      <title>Liczba 900 (złożona) na pozycji (-14, 15)</title>
+    </circle>
+    <circle cx="20.00" cy="23.00" r="2.40" class="composite" data-number="901" data-x="-15" data-y="15">
+      <title>Liczba 901 (złożona) na pozycji (-15, 15)</title>
+    </circle>
+    <circle cx="20.00" cy="26.00" r="2.40" class="composite" data-number="902" data-x="-15" data-y="14">
+      <title>Liczba 902 (złożona) na pozycji (-15, 14)</title>
+    </circle>
+    <circle cx="20.00" cy="29.00" r="2.40" class="composite" data-number="903" data-x="-15" data-y="13">
+      <title>Liczba 903 (złożona) na pozycji (-15, 13)</title>
+    </circle>
+    <circle cx="20.00" cy="32.00" r="2.40" class="composite" data-number="904" data-x="-15" data-y="12">
+      <title>Liczba 904 (złożona) na pozycji (-15, 12)</title>
+    </circle>
+    <circle cx="20.00" cy="35.00" r="2.40" class="composite" data-number="905" data-x="-15" data-y="11">
+      <title>Liczba 905 (złożona) na pozycji (-15, 11)</title>
+    </circle>
+    <circle cx="20.00" cy="38.00" r="2.40" class="composite" data-number="906" data-x="-15" data-y="10">
+      <title>Liczba 906 (złożona) na pozycji (-15, 10)</title>
+    </circle>
+    <circle cx="20.00" cy="41.00" r="2.40" class="prime" data-number="907" data-x="-15" data-y="9">
+      <title>Liczba 907 (pierwsza) na pozycji (-15, 9)</title>
+    </circle>
+    <circle cx="20.00" cy="44.00" r="2.40" class="composite" data-number="908" data-x="-15" data-y="8">
+      <title>Liczba 908 (złożona) na pozycji (-15, 8)</title>
+    </circle>
+    <circle cx="20.00" cy="47.00" r="2.40" class="composite" data-number="909" data-x="-15" data-y="7">
+      <title>Liczba 909 (złożona) na pozycji (-15, 7)</title>
+    </circle>
+    <circle cx="20.00" cy="50.00" r="2.40" class="composite" data-number="910" data-x="-15" data-y="6">
+      <title>Liczba 910 (złożona) na pozycji (-15, 6)</title>
+    </circle>
+    <circle cx="20.00" cy="53.00" r="2.40" class="prime" data-number="911" data-x="-15" data-y="5">
+      <title>Liczba 911 (pierwsza) na pozycji (-15, 5)</title>
+    </circle>
+    <circle cx="20.00" cy="56.00" r="2.40" class="composite" data-number="912" data-x="-15" data-y="4">
+      <title>Liczba 912 (złożona) na pozycji (-15, 4)</title>
+    </circle>
+    <circle cx="20.00" cy="59.00" r="2.40" class="composite" data-number="913" data-x="-15" data-y="3">
+      <title>Liczba 913 (złożona) na pozycji (-15, 3)</title>
+    </circle>
+    <circle cx="20.00" cy="62.00" r="2.40" class="composite" data-number="914" data-x="-15" data-y="2">
+      <title>Liczba 914 (złożona) na pozycji (-15, 2)</title>
+    </circle>
+    <circle cx="20.00" cy="65.00" r="2.40" class="composite" data-number="915" data-x="-15" data-y="1">
+      <title>Liczba 915 (złożona) na pozycji (-15, 1)</title>
+    </circle>
+    <circle cx="20.00" cy="68.00" r="2.40" class="composite" data-number="916" data-x="-15" data-y="0">
+      <title>Liczba 916 (złożona) na pozycji (-15, 0)</title>
+    </circle>
+    <circle cx="20.00" cy="71.00" r="2.40" class="composite" data-number="917" data-x="-15" data-y="-1">
+      <title>Liczba 917 (złożona) na pozycji (-15, -1)</title>
+    </circle>
+    <circle cx="20.00" cy="74.00" r="2.40" class="composite" data-number="918" data-x="-15" data-y="-2">
+      <title>Liczba 918 (złożona) na pozycji (-15, -2)</title>
+    </circle>
+    <circle cx="20.00" cy="77.00" r="2.40" class="prime" data-number="919" data-x="-15" data-y="-3">
+      <title>Liczba 919 (pierwsza) na pozycji (-15, -3)</title>
+    </circle>
+    <circle cx="20.00" cy="80.00" r="2.40" class="composite" data-number="920" data-x="-15" data-y="-4">
+      <title>Liczba 920 (złożona) na pozycji (-15, -4)</title>
+    </circle>
+    <circle cx="20.00" cy="83.00" r="2.40" class="composite" data-number="921" data-x="-15" data-y="-5">
+      <title>Liczba 921 (złożona) na pozycji (-15, -5)</title>
+    </circle>
+    <circle cx="20.00" cy="86.00" r="2.40" class="composite" data-number="922" data-x="-15" data-y="-6">
+      <title>Liczba 922 (złożona) na pozycji (-15, -6)</title>
+    </circle>
+    <circle cx="20.00" cy="89.00" r="2.40" class="composite" data-number="923" data-x="-15" data-y="-7">
+      <title>Liczba 923 (złożona) na pozycji (-15, -7)</title>
+    </circle>
+    <circle cx="20.00" cy="92.00" r="2.40" class="composite" data-number="924" data-x="-15" data-y="-8">
+      <title>Liczba 924 (złożona) na pozycji (-15, -8)</title>
+    </circle>
+    <circle cx="20.00" cy="95.00" r="2.40" class="composite" data-number="925" data-x="-15" data-y="-9">
+      <title>Liczba 925 (złożona) na pozycji (-15, -9)</title>
+    </circle>
+    <circle cx="20.00" cy="98.00" r="2.40" class="composite" data-number="926" data-x="-15" data-y="-10">
+      <title>Liczba 926 (złożona) na pozycji (-15, -10)</title>
+    </circle>
+    <circle cx="20.00" cy="101.00" r="2.40" class="composite" data-number="927" data-x="-15" data-y="-11">
+      <title>Liczba 927 (złożona) na pozycji (-15, -11)</title>
+    </circle>
+    <circle cx="20.00" cy="104.00" r="2.40" class="composite" data-number="928" data-x="-15" data-y="-12">
+      <title>Liczba 928 (złożona) na pozycji (-15, -12)</title>
+    </circle>
+    <circle cx="20.00" cy="107.00" r="2.40" class="prime" data-number="929" data-x="-15" data-y="-13">
+      <title>Liczba 929 (pierwsza) na pozycji (-15, -13)</title>
+    </circle>
+    <circle cx="20.00" cy="110.00" r="2.40" class="composite" data-number="930" data-x="-15" data-y="-14">
+      <title>Liczba 930 (złożona) na pozycji (-15, -14)</title>
+    </circle>
+    <circle cx="20.00" cy="113.00" r="2.40" class="composite" data-number="931" data-x="-15" data-y="-15">
+      <title>Liczba 931 (złożona) na pozycji (-15, -15)</title>
+    </circle>
+    <circle cx="23.00" cy="113.00" r="2.40" class="composite" data-number="932" data-x="-14" data-y="-15">
+      <title>Liczba 932 (złożona) na pozycji (-14, -15)</title>
+    </circle>
+    <circle cx="26.00" cy="113.00" r="2.40" class="composite" data-number="933" data-x="-13" data-y="-15">
+      <title>Liczba 933 (złożona) na pozycji (-13, -15)</title>
+    </circle>
+    <circle cx="29.00" cy="113.00" r="2.40" class="composite" data-number="934" data-x="-12" data-y="-15">
+      <title>Liczba 934 (złożona) na pozycji (-12, -15)</title>
+    </circle>
+    <circle cx="32.00" cy="113.00" r="2.40" class="composite" data-number="935" data-x="-11" data-y="-15">
+      <title>Liczba 935 (złożona) na pozycji (-11, -15)</title>
+    </circle>
+    <circle cx="35.00" cy="113.00" r="2.40" class="composite" data-number="936" data-x="-10" data-y="-15">
+      <title>Liczba 936 (złożona) na pozycji (-10, -15)</title>
+    </circle>
+    <circle cx="38.00" cy="113.00" r="2.40" class="prime" data-number="937" data-x="-9" data-y="-15">
+      <title>Liczba 937 (pierwsza) na pozycji (-9, -15)</title>
+    </circle>
+    <circle cx="41.00" cy="113.00" r="2.40" class="composite" data-number="938" data-x="-8" data-y="-15">
+      <title>Liczba 938 (złożona) na pozycji (-8, -15)</title>
+    </circle>
+    <circle cx="44.00" cy="113.00" r="2.40" class="composite" data-number="939" data-x="-7" data-y="-15">
+      <title>Liczba 939 (złożona) na pozycji (-7, -15)</title>
+    </circle>
+    <circle cx="47.00" cy="113.00" r="2.40" class="composite" data-number="940" data-x="-6" data-y="-15">
+      <title>Liczba 940 (złożona) na pozycji (-6, -15)</title>
+    </circle>
+    <circle cx="50.00" cy="113.00" r="2.40" class="prime" data-number="941" data-x="-5" data-y="-15">
+      <title>Liczba 941 (pierwsza) na pozycji (-5, -15)</title>
+    </circle>
+    <circle cx="53.00" cy="113.00" r="2.40" class="composite" data-number="942" data-x="-4" data-y="-15">
+      <title>Liczba 942 (złożona) na pozycji (-4, -15)</title>
+    </circle>
+    <circle cx="56.00" cy="113.00" r="2.40" class="composite" data-number="943" data-x="-3" data-y="-15">
+      <title>Liczba 943 (złożona) na pozycji (-3, -15)</title>
+    </circle>
+    <circle cx="59.00" cy="113.00" r="2.40" class="composite" data-number="944" data-x="-2" data-y="-15">
+      <title>Liczba 944 (złożona) na pozycji (-2, -15)</title>
+    </circle>
+    <circle cx="62.00" cy="113.00" r="2.40" class="composite" data-number="945" data-x="-1" data-y="-15">
+      <title>Liczba 945 (złożona) na pozycji (-1, -15)</title>
+    </circle>
+    <circle cx="65.00" cy="113.00" r="2.40" class="composite" data-number="946" data-x="0" data-y="-15">
+      <title>Liczba 946 (złożona) na pozycji (0, -15)</title>
+    </circle>
+    <circle cx="68.00" cy="113.00" r="2.40" class="prime" data-number="947" data-x="1" data-y="-15">
+      <title>Liczba 947 (pierwsza) na pozycji (1, -15)</title>
+    </circle>
+    <circle cx="71.00" cy="113.00" r="2.40" class="composite" data-number="948" data-x="2" data-y="-15">
+      <title>Liczba 948 (złożona) na pozycji (2, -15)</title>
+    </circle>
+    <circle cx="74.00" cy="113.00" r="2.40" class="composite" data-number="949" data-x="3" data-y="-15">
+      <title>Liczba 949 (złożona) na pozycji (3, -15)</title>
+    </circle>
+    <circle cx="77.00" cy="113.00" r="2.40" class="composite" data-number="950" data-x="4" data-y="-15">
+      <title>Liczba 950 (złożona) na pozycji (4, -15)</title>
+    </circle>
+    <circle cx="80.00" cy="113.00" r="2.40" class="composite" data-number="951" data-x="5" data-y="-15">
+      <title>Liczba 951 (złożona) na pozycji (5, -15)</title>
+    </circle>
+    <circle cx="83.00" cy="113.00" r="2.40" class="composite" data-number="952" data-x="6" data-y="-15">
+      <title>Liczba 952 (złożona) na pozycji (6, -15)</title>
+    </circle>
+    <circle cx="86.00" cy="113.00" r="2.40" class="prime" data-number="953" data-x="7" data-y="-15">
+      <title>Liczba 953 (pierwsza) na pozycji (7, -15)</title>
+    </circle>
+    <circle cx="89.00" cy="113.00" r="2.40" class="composite" data-number="954" data-x="8" data-y="-15">
+      <title>Liczba 954 (złożona) na pozycji (8, -15)</title>
+    </circle>
+    <circle cx="92.00" cy="113.00" r="2.40" class="composite" data-number="955" data-x="9" data-y="-15">
+      <title>Liczba 955 (złożona) na pozycji (9, -15)</title>
+    </circle>
+    <circle cx="95.00" cy="113.00" r="2.40" class="composite" data-number="956" data-x="10" data-y="-15">
+      <title>Liczba 956 (złożona) na pozycji (10, -15)</title>
+    </circle>
+    <circle cx="98.00" cy="113.00" r="2.40" class="composite" data-number="957" data-x="11" data-y="-15">
+      <title>Liczba 957 (złożona) na pozycji (11, -15)</title>
+    </circle>
+    <circle cx="101.00" cy="113.00" r="2.40" class="composite" data-number="958" data-x="12" data-y="-15">
+      <title>Liczba 958 (złożona) na pozycji (12, -15)</title>
+    </circle>
+    <circle cx="104.00" cy="113.00" r="2.40" class="composite" data-number="959" data-x="13" data-y="-15">
+      <title>Liczba 959 (złożona) na pozycji (13, -15)</title>
+    </circle>
+    <circle cx="107.00" cy="113.00" r="2.40" class="composite" data-number="960" data-x="14" data-y="-15">
+      <title>Liczba 960 (złożona) na pozycji (14, -15)</title>
+    </circle>
+    <circle cx="110.00" cy="113.00" r="2.40" class="composite" data-number="961" data-x="15" data-y="-15">
+      <title>Liczba 961 (złożona) na pozycji (15, -15)</title>
+    </circle>
+    <circle cx="113.00" cy="113.00" r="2.40" class="composite" data-number="962" data-x="16" data-y="-15">
+      <title>Liczba 962 (złożona) na pozycji (16, -15)</title>
+    </circle>
+    <circle cx="113.00" cy="110.00" r="2.40" class="composite" data-number="963" data-x="16" data-y="-14">
+      <title>Liczba 963 (złożona) na pozycji (16, -14)</title>
+    </circle>
+    <circle cx="113.00" cy="107.00" r="2.40" class="composite" data-number="964" data-x="16" data-y="-13">
+      <title>Liczba 964 (złożona) na pozycji (16, -13)</title>
+    </circle>
+    <circle cx="113.00" cy="104.00" r="2.40" class="composite" data-number="965" data-x="16" data-y="-12">
+      <title>Liczba 965 (złożona) na pozycji (16, -12)</title>
+    </circle>
+    <circle cx="113.00" cy="101.00" r="2.40" class="composite" data-number="966" data-x="16" data-y="-11">
+      <title>Liczba 966 (złożona) na pozycji (16, -11)</title>
+    </circle>
+    <circle cx="113.00" cy="98.00" r="2.40" class="prime" data-number="967" data-x="16" data-y="-10">
+      <title>Liczba 967 (pierwsza) na pozycji (16, -10)</title>
+    </circle>
+    <circle cx="113.00" cy="95.00" r="2.40" class="composite" data-number="968" data-x="16" data-y="-9">
+      <title>Liczba 968 (złożona) na pozycji (16, -9)</title>
+    </circle>
+    <circle cx="113.00" cy="92.00" r="2.40" class="composite" data-number="969" data-x="16" data-y="-8">
+      <title>Liczba 969 (złożona) na pozycji (16, -8)</title>
+    </circle>
+    <circle cx="113.00" cy="89.00" r="2.40" class="composite" data-number="970" data-x="16" data-y="-7">
+      <title>Liczba 970 (złożona) na pozycji (16, -7)</title>
+    </circle>
+    <circle cx="113.00" cy="86.00" r="2.40" class="prime" data-number="971" data-x="16" data-y="-6">
+      <title>Liczba 971 (pierwsza) na pozycji (16, -6)</title>
+    </circle>
+    <circle cx="113.00" cy="83.00" r="2.40" class="composite" data-number="972" data-x="16" data-y="-5">
+      <title>Liczba 972 (złożona) na pozycji (16, -5)</title>
+    </circle>
+    <circle cx="113.00" cy="80.00" r="2.40" class="composite" data-number="973" data-x="16" data-y="-4">
+      <title>Liczba 973 (złożona) na pozycji (16, -4)</title>
+    </circle>
+    <circle cx="113.00" cy="77.00" r="2.40" class="composite" data-number="974" data-x="16" data-y="-3">
+      <title>Liczba 974 (złożona) na pozycji (16, -3)</title>
+    </circle>
+    <circle cx="113.00" cy="74.00" r="2.40" class="composite" data-number="975" data-x="16" data-y="-2">
+      <title>Liczba 975 (złożona) na pozycji (16, -2)</title>
+    </circle>
+    <circle cx="113.00" cy="71.00" r="2.40" class="composite" data-number="976" data-x="16" data-y="-1">
+      <title>Liczba 976 (złożona) na pozycji (16, -1)</title>
+    </circle>
+    <circle cx="113.00" cy="68.00" r="2.40" class="prime" data-number="977" data-x="16" data-y="0">
+      <title>Liczba 977 (pierwsza) na pozycji (16, 0)</title>
+    </circle>
+    <circle cx="113.00" cy="65.00" r="2.40" class="composite" data-number="978" data-x="16" data-y="1">
+      <title>Liczba 978 (złożona) na pozycji (16, 1)</title>
+    </circle>
+    <circle cx="113.00" cy="62.00" r="2.40" class="composite" data-number="979" data-x="16" data-y="2">
+      <title>Liczba 979 (złożona) na pozycji (16, 2)</title>
+    </circle>
+    <circle cx="113.00" cy="59.00" r="2.40" class="composite" data-number="980" data-x="16" data-y="3">
+      <title>Liczba 980 (złożona) na pozycji (16, 3)</title>
+    </circle>
+    <circle cx="113.00" cy="56.00" r="2.40" class="composite" data-number="981" data-x="16" data-y="4">
+      <title>Liczba 981 (złożona) na pozycji (16, 4)</title>
+    </circle>
+    <circle cx="113.00" cy="53.00" r="2.40" class="composite" data-number="982" data-x="16" data-y="5">
+      <title>Liczba 982 (złożona) na pozycji (16, 5)</title>
+    </circle>
+    <circle cx="113.00" cy="50.00" r="2.40" class="prime" data-number="983" data-x="16" data-y="6">
+      <title>Liczba 983 (pierwsza) na pozycji (16, 6)</title>
+    </circle>
+    <circle cx="113.00" cy="47.00" r="2.40" class="composite" data-number="984" data-x="16" data-y="7">
+      <title>Liczba 984 (złożona) na pozycji (16, 7)</title>
+    </circle>
+    <circle cx="113.00" cy="44.00" r="2.40" class="composite" data-number="985" data-x="16" data-y="8">
+      <title>Liczba 985 (złożona) na pozycji (16, 8)</title>
+    </circle>
+    <circle cx="113.00" cy="41.00" r="2.40" class="composite" data-number="986" data-x="16" data-y="9">
+      <title>Liczba 986 (złożona) na pozycji (16, 9)</title>
+    </circle>
+    <circle cx="113.00" cy="38.00" r="2.40" class="composite" data-number="987" data-x="16" data-y="10">
+      <title>Liczba 987 (złożona) na pozycji (16, 10)</title>
+    </circle>
+    <circle cx="113.00" cy="35.00" r="2.40" class="composite" data-number="988" data-x="16" data-y="11">
+      <title>Liczba 988 (złożona) na pozycji (16, 11)</title>
+    </circle>
+    <circle cx="113.00" cy="32.00" r="2.40" class="composite" data-number="989" data-x="16" data-y="12">
+      <title>Liczba 989 (złożona) na pozycji (16, 12)</title>
+    </circle>
+    <circle cx="113.00" cy="29.00" r="2.40" class="composite" data-number="990" data-x="16" data-y="13">
+      <title>Liczba 990 (złożona) na pozycji (16, 13)</title>
+    </circle>
+    <circle cx="113.00" cy="26.00" r="2.40" class="prime" data-number="991" data-x="16" data-y="14">
+      <title>Liczba 991 (pierwsza) na pozycji (16, 14)</title>
+    </circle>
+    <circle cx="113.00" cy="23.00" r="2.40" class="composite" data-number="992" data-x="16" data-y="15">
+      <title>Liczba 992 (złożona) na pozycji (16, 15)</title>
+    </circle>
+    <circle cx="113.00" cy="20.00" r="2.40" class="composite" data-number="993" data-x="16" data-y="16">
+      <title>Liczba 993 (złożona) na pozycji (16, 16)</title>
+    </circle>
+    <circle cx="110.00" cy="20.00" r="2.40" class="composite" data-number="994" data-x="15" data-y="16">
+      <title>Liczba 994 (złożona) na pozycji (15, 16)</title>
+    </circle>
+    <circle cx="107.00" cy="20.00" r="2.40" class="composite" data-number="995" data-x="14" data-y="16">
+      <title>Liczba 995 (złożona) na pozycji (14, 16)</title>
+    </circle>
+    <circle cx="104.00" cy="20.00" r="2.40" class="composite" data-number="996" data-x="13" data-y="16">
+      <title>Liczba 996 (złożona) na pozycji (13, 16)</title>
+    </circle>
+    <circle cx="101.00" cy="20.00" r="2.40" class="prime" data-number="997" data-x="12" data-y="16">
+      <title>Liczba 997 (pierwsza) na pozycji (12, 16)</title>
+    </circle>
+    <circle cx="98.00" cy="20.00" r="2.40" class="composite" data-number="998" data-x="11" data-y="16">
+      <title>Liczba 998 (złożona) na pozycji (11, 16)</title>
+    </circle>
+    <circle cx="95.00" cy="20.00" r="2.40" class="composite" data-number="999" data-x="10" data-y="16">
+      <title>Liczba 999 (złożona) na pozycji (10, 16)</title>
+    </circle>
+    <circle cx="92.00" cy="20.00" r="2.40" class="composite" data-number="1000" data-x="9" data-y="16">
+      <title>Liczba 1000 (złożona) na pozycji (9, 16)</title>
+    </circle>
+  </g>
+  <g id="legend">
+    <text x="20" y="73.0" font-weight="bold">Legenda:</text>
+    <circle cx="30" cy="88.0" r="4" class="prime" />
+    <text x="45" y="92.0">Liczby pierwsze (168)</text>
+    <text x="30" y="103.0">Liczby złożone: niewidoczne (832)</text>
+  </g>
+  <g id="stats">
+    <text x="-67.0" y="20" font-size="14" font-weight="bold">Spirala Ulama n=1,000</text>
+    <text x="-67.0" y="35">Liczby pierwsze: 168</text>
+    <text x="-67.0" y="50">Gęstość: 16.80%</text>
+  </g>
+</svg>
