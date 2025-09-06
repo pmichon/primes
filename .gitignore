@@ -1,1 +1,13 @@
+# Cache files
 pierwsze_cache.pkl
+
+# Generated output files
+*.png
+*.svg
+
+# System files
+.DS_Store
+**/.DS_Store
+
+# Downloaded data
+downloaded_primes/
