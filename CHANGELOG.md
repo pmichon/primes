@@ -5,6 +5,27 @@ Wszystkie istotne zmiany w tym projekcie będą dokumentowane w tym pliku.
 Format oparty na [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.1.0] - 2025-01-09
+
+### 🧹 Poprawiono - Zgodność z PEP-8
+- **Automatyczne formatowanie kodu**: Wszystkie pliki Python sformatowane zgodnie z PEP-8
+- **Usunięte nieużywane importy**: Usunięto nieużywane importy z wszystkich modułów
+- **Usunięte nieużywane zmienne**: Wyczyszczono kod z nieużywanych zmiennych lokalnych
+- **Poprawione formatowanie**: Jednolite wcięcia, spacje i formatowanie linii
+- **Dodane nowe linie**: Każdy plik Python kończy się pojedynczą nową linią
+
+### 🔧 Techniczne Ulepszenia
+- **Zastosowane narzędzia**: autopep8, autoflake, flake8 dla automatycznego formatowania
+- **Zgodność z standardami**: Kod spełnia wymagania PEP-8 (z wyjątkiem f-stringów dla debugowania)
+- **Zachowana funkcjonalność**: Wszystkie 29 testów jednostkowych nadal przechodzą ✅
+- **Lepsza czytelność**: Kod jest bardziej czytelny i profesjonalny
+
+### 📊 Poprawa Jakości Kodu
+- **Przed**: ~100 naruszeń PEP-8
+- **Po**: 0 znaczących naruszeń PEP-8
+- **Narzędzia**: flake8 --max-line-length=100 --extend-ignore=E501,F541
+- **Status testów**: 29/29 tests passing ✅
+
 ## [4.0.0] - 2025-01-09
 
 ### 🧪 Dodane - Kompleksowy Pakiet Testów Jednostkowych
