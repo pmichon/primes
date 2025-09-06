@@ -20,6 +20,39 @@ i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Repozytorium zawiera teraz tylko kod źródłowy i dokumentację
 - Znacznie zmniejszony rozmiar repozytorium
 
+## [3.2.1] - 2025-09-07
+
+### Zmienione
+- Usunięto wzmianki o narzędziach zewnętrznych z dokumentacji
+- Zaktualizowana sekcja współpracy w README.md
+
+## [3.2.0] - 2025-09-07
+
+### Dodane
+- CHANGELOG.md - dokumentacja wszystkich zmian w projekcie
+- CONTRIBUTING.md - wytyczne dla współpracowników
+- setup.py + pyproject.toml - pełna konfiguracja pakietu Python
+- Rozszerzony .gitignore dla ekosystemu Python
+
+### Zmienione
+- README.md - zaktualizowane funkcjonalności i instrukcje
+- Profesjonalizacja całej struktury projektu
+
+## [3.1.0] - 2025-09-07
+
+### Dodane
+- Rozbudowany .gitignore dla lepszej higieny repozytorium
+- Automatyczne ignorowanie plików wyjściowych (*.png, *.svg)
+
+### Usunięte
+- Wszystkie przykładowe pliki PNG i SVG z repozytorium
+- Katalog downloaded_primes/ z danymi testowymi
+- Pliki systemowe (.DS_Store) z repozytorium
+
+### Zmienione
+- Repozytorium zawiera teraz tylko kod źródłowy i dokumentację
+- Znacznie zmniejszony rozmiar repozytorium
+
 ## [3.0.0] - 2025-09-07
 
 ### Dodane

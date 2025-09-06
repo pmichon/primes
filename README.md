@@ -236,7 +236,7 @@ primes/
 
 ## 🤝 Współpraca
 
-Ten projekt został wygenerowany z pomocą [Claude Code](https://claude.ai/code).
+Zapraszamy do współpracy! Zobacz [CONTRIBUTING.md](CONTRIBUTING.md) aby dowiedzieć się więcej.
 
 ## 📈 Statystyki
 
