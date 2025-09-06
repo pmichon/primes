@@ -17,7 +17,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="ulam-spiral-generator",
-    version="3.2.1",
+    version="4.0.0",
     author="Piotr Michon",
     description="Kompleksowy generator spirali Ulama z wizualizacją liczb pierwszych",
     long_description=long_description,
