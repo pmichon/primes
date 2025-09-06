@@ -7,6 +7,8 @@ Generuje spiralę Ulama dla zadanej liczby n i wizualizuje ją z zaznaczonymi li
 import math
 import sys
 import time
+import os
+import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 from typing import List, Tuple, Set
@@ -31,6 +33,38 @@ def czy_pierwsza(n: int) -> bool:
     return True
 
 
+# Nazwa pliku cache dla liczb pierwszych
+PLIK_CACHE_PIERWSZYCH = "pierwsze_cache.pkl"
+
+
+def wczytaj_cache_pierwszych() -> Tuple[Set[int], int]:
+    """Wczytaj cache liczb pierwszych z pliku. Zwraca (zbiór_pierwszych, maksymalna_sprawdzona_liczba)."""
+    if not os.path.exists(PLIK_CACHE_PIERWSZYCH):
+        return set(), 1
+    
+    try:
+        with open(PLIK_CACHE_PIERWSZYCH, 'rb') as f:
+            dane = pickle.load(f)
+            pierwsze = dane.get('pierwsze', set())
+            max_sprawdzone = dane.get('max_sprawdzone', 1)
+            return pierwsze, max_sprawdzone
+    except (FileNotFoundError, pickle.UnpicklingError, KeyError):
+        return set(), 1
+
+
+def zapisz_cache_pierwszych(pierwsze: Set[int], max_sprawdzone: int):
+    """Zapisz cache liczb pierwszych do pliku."""
+    try:
+        dane = {
+            'pierwsze': pierwsze,
+            'max_sprawdzone': max_sprawdzone
+        }
+        with open(PLIK_CACHE_PIERWSZYCH, 'wb') as f:
+            pickle.dump(dane, f)
+    except Exception as e:
+        print(f"  Ostrzeżenie: Nie można zapisać cache liczb pierwszych: {e}")
+
+
 def wyswietl_postep(aktualny, calkowity, prefix="Postęp", dlugosc=50):
     """Wyświetla pasek postępu który pozostaje w miejscu."""
     procent = (aktualny / calkowity) * 100
@@ -43,18 +77,37 @@ def wyswietl_postep(aktualny, calkowity, prefix="Postęp", dlugosc=50):
         sys.stdout.flush()
 
 
-def sito_eratostenesa(limit: int) -> Set[int]:
-    """Zoptymalizowane Sito Eratostenesa z podejściem segmentowym."""
+def sito_eratostenesa_z_cache(limit: int) -> Set[int]:
+    """Zoptymalizowane Sito Eratostenesa z systemem cache."""
     if limit < 2:
         return set()
     
-    print(f"    Krok 1/3: Inicjalizacja zoptymalizowanego sita dla {limit:,} liczb...")
+    print(f"    Krok 1/4: Wczytywanie cache liczb pierwszych...")
+    pierwsze_cache, max_sprawdzone = wczytaj_cache_pierwszych()
+    
+    if max_sprawdzone >= limit:
+        # Cache zawiera wszystkie potrzebne liczby pierwsze
+        pierwsze_wynik = {p for p in pierwsze_cache if p <= limit}
+        print(f"    Cache zawiera wszystkie liczby do {limit:,} - znaleziono {len(pierwsze_wynik):,} liczb pierwszych")
+        return pierwsze_wynik
+    
+    print(f"    Cache zawiera liczby do {max_sprawdzone:,}, rozszerzanie do {limit:,}...")
+    
+    print(f"    Krok 2/4: Inicjalizacja sita dla zakresu {max_sprawdzone + 1:,} - {limit:,}...")
+    
+    # Rozpocznij od następnej liczby niesprawdzonej
+    start_range = max_sprawdzone + 1
     
     # Użyj numpy boolean array dla lepszej wydajności
     sito = np.ones(limit + 1, dtype=bool)
     sito[0] = sito[1] = False
     
-    print(f"    Krok 2/3: Uruchamianie zoptymalizowanego algorytmu sita...")
+    # Oznacz liczby z cache jako pierwsze
+    for p in pierwsze_cache:
+        if p <= limit:
+            sito[p] = True
+    
+    print(f"    Krok 3/4: Uruchamianie algorytmu sita dla nowego zakresu...")
     sqrt_limit = int(math.sqrt(limit))
     
     # Optymalizuj poprzez osobne obsłużenie 2 a potem tylko liczby nieparzyste
@@ -62,21 +115,85 @@ def sito_eratostenesa(limit: int) -> Set[int]:
         # Oznacz wszystkie liczby parzyste jako złożone (oprócz 2)
         sito[4::2] = False
     
-    # Sprawdzaj tylko liczby nieparzyste zaczynając od 3
-    for i in range(3, sqrt_limit + 1, 2):
-        if i % 10000 == 0:
+    # Użyj liczb pierwszych z cache do przesiewania nowego zakresu
+    for p in pierwsze_cache:
+        if p * p > limit:
+            break
+        # Znajdź pierwszy wielokrotność p w nowym zakresie
+        start_multiple = ((start_range + p - 1) // p) * p
+        if start_multiple < p * p:
+            start_multiple = p * p
+        
+        # Oznacz wielokrotności
+        for multiple in range(start_multiple, limit + 1, p):
+            if multiple != p:  # Nie oznaczaj samej liczby pierwszej
+                sito[multiple] = False
+    
+    # Sprawdzaj nowe liczby pierwsze w zakresie który nie był jeszcze sprawdzony
+    for i in range(max(3, start_range), sqrt_limit + 1, 2):
+        if i % max(1, sqrt_limit // 50) == 0 or i == sqrt_limit:
             wyswietl_postep(i, sqrt_limit, "    Przesiewanie")
         if sito[i]:
             # Zacznij od i*i i krok 2*i aby oznaczyć tylko nieparzyste wielokrotności
-            sito[i*i::2*i] = False
+            start_multiple = max(i * i, start_range)
+            for multiple in range(start_multiple, limit + 1, 2 * i):
+                sito[multiple] = False
     
-    wyswietl_postep(sqrt_limit, sqrt_limit, "    Przesiewanie")
+    # Upewnij się, że pasek postępu jest zakończony
+    if sqrt_limit > 0:
+        wyswietl_postep(sqrt_limit, sqrt_limit, "    Przesiewanie")
     
-    print(f"    Krok 3/3: Zbieranie liczb pierwszych...")
+    print(f"    Krok 4/4: Zbieranie i zapisywanie wyników...")
     # Użyj numpy where do szybkiego zbierania
-    pierwsze = set(np.where(sito)[0])
+    wszystkie_pierwsze = set(np.where(sito)[0])
     
-    print(f"    Sito zakończone - znaleziono {len(pierwsze):,} liczb pierwszych")
+    # Zapisz rozszerzony cache
+    zapisz_cache_pierwszych(wszystkie_pierwsze, limit)
+    
+    print(f"    Sito zakończone - znaleziono {len(wszystkie_pierwsze):,} liczb pierwszych")
+    print(f"    Cache zaktualizowany do zakresu {limit:,}")
+    
+    return wszystkie_pierwsze
+
+
+def sprawdzanie_pierwszosci_z_cache(n: int) -> Set[int]:
+    """Sprawdzanie pierwszości z użyciem cache dla dużych zakresów."""
+    print(f"  Używanie zoptymalizowanego sprawdzania indywidualnego z cache dla {n:,} liczb...")
+    
+    # Wczytaj cache
+    pierwsze_cache, max_sprawdzone = wczytaj_cache_pierwszych()
+    pierwsze = set(pierwsze_cache)
+    
+    if max_sprawdzone >= n:
+        # Cache zawiera wszystkie potrzebne liczby
+        wynik = {p for p in pierwsze if p <= n}
+        print(f"  Cache zawiera wszystkie liczby do {n:,} - użyto {len(wynik):,} liczb pierwszych")
+        return wynik
+    
+    print(f"  Cache zawiera liczby do {max_sprawdzone:,}, sprawdzanie do {n:,}...")
+    
+    # Dodaj małe liczby pierwsze ręcznie jeśli nie są w cache
+    if 2 <= n and 2 not in pierwsze: pierwsze.add(2)
+    if 3 <= n and 3 not in pierwsze: pierwsze.add(3)
+    
+    # Sprawdź tylko nowe liczby nieparzyste
+    start_range = max(max_sprawdzone + 1, 5)
+    if start_range % 2 == 0:  # Upewnij się że zaczynamy od liczby nieparzystej
+        start_range += 1
+    
+    for i in range(start_range, n + 1, 2):
+        if i % max(1, n // 100) == 0 or i == n or (i == n-1 and n % 2 == 0):
+            wyswietl_postep(i, n, "  Sprawdzanie pierwszości")
+        if czy_pierwsza(i):
+            pierwsze.add(i)
+    
+    # Upewnij się, że pasek postępu jest zakończony
+    wyswietl_postep(n, n, "  Sprawdzanie pierwszości")
+    
+    # Zapisz rozszerzony cache
+    zapisz_cache_pierwszych(pierwsze, n)
+    print(f"  Cache zaktualizowany do zakresu {n:,}")
+    
     return pierwsze
 
 
@@ -96,7 +213,7 @@ def generuj_wspolrzedne_spirali(n: int) -> List[Tuple[int, int]]:
     kroki = 1
     
     for num in range(2, n + 1):
-        if num % max(1, n // 100) == 0:  # Aktualizuj co 1% lub co liczbę dla małych n
+        if num % max(1, n // 100) == 0 or num == n:  # Aktualizuj co 1% i na końcu
             wyswietl_postep(num, n, "    Generowanie spirali")
             
         x += dx
@@ -127,23 +244,10 @@ def utworz_spirale_ulama(n: int, uzyj_sito: bool = True) -> Tuple[np.ndarray, Li
     # Generuj liczby pierwsze
     print(f"\n[1/4] GENEROWANIE LICZB PIERWSZYCH")
     if uzyj_sito and n <= 10**7:  # Użyj sita dla rozsądnych rozmiarów
-        print(f"  Używanie Sita Eratostenesa do generowania liczb pierwszych...")
-        pierwsze = sito_eratostenesa(n)
+        print(f"  Używanie Sita Eratostenesa z cache do generowania liczb pierwszych...")
+        pierwsze = sito_eratostenesa_z_cache(n)
     else:
-        print(f"  Używanie zoptymalizowanego sprawdzania indywidualnego dla {n:,} liczb...")
-        pierwsze = set()
-        # Dodaj małe liczby pierwsze ręcznie dla wydajności
-        if n >= 2: pierwsze.add(2)
-        if n >= 3: pierwsze.add(3)
-        
-        # Sprawdzaj tylko liczby nieparzyste zaczynając od 5
-        for i in range(5, n + 1, 2):
-            if i % max(1, n // 100) == 0:
-                wyswietl_postep(i, n, "  Sprawdzanie pierwszości")
-            if czy_pierwsza(i):
-                pierwsze.add(i)
-        
-        wyswietl_postep(n, n, "  Sprawdzanie pierwszości")
+        pierwsze = sprawdzanie_pierwszosci_z_cache(n)
     
     print(f"  ✓ Znaleziono {len(pierwsze):,} liczb pierwszych")
     
@@ -166,7 +270,7 @@ def utworz_spirale_ulama(n: int, uzyj_sito: bool = True) -> Tuple[np.ndarray, Li
     # Wypełnij siatkę liczbami
     print(f"  Wypełnianie siatki liczbami...")
     for i, (x, y) in enumerate(wspolrzedne, 1):
-        if i % max(1, len(wspolrzedne) // 50) == 0:
+        if i % max(1, len(wspolrzedne) // 50) == 0 or i == len(wspolrzedne):
             wyswietl_postep(i, len(wspolrzedne), "  Wypełnianie siatki")
         siatka[przesuniecie - y, przesuniecie + x] = i  # Uwaga: y jest odwrócone do wyświetlenia
     
@@ -191,7 +295,7 @@ def wizualizuj_spirale_ulama(siatka: np.ndarray, pierwsze: Set[int], tytul: str 
     for i in range(siatka.shape[0]):
         for j in range(siatka.shape[1]):
             przetworzone += 1
-            if przetworzone % max(1, calkowite_komorki // 20) == 0:
+            if przetworzone % max(1, calkowite_komorki // 20) == 0 or przetworzone == calkowite_komorki:
                 wyswietl_postep(przetworzone, calkowite_komorki, "  Mapowanie pierwszych")
             
             liczba = siatka[i, j]
