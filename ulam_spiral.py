@@ -12,6 +12,7 @@ import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 from typing import List, Tuple, Set
+import xml.etree.ElementTree as ET
 
 
 def czy_pierwsza(n: int) -> bool:
@@ -281,6 +282,178 @@ def utworz_spirale_ulama(n: int, uzyj_sito: bool = True) -> Tuple[np.ndarray, Li
     return siatka, wspolrzedne, pierwsze
 
 
+def generuj_svg_spirali_ulama(wspolrzedne: List[Tuple[int, int]], pierwsze: Set[int], 
+                              nazwa_pliku: str = "spirala_ulama.svg", rozmiar_punktu: float = 1.0,
+                              margines: int = 20) -> str:
+    """Generuj grafiku wektorową SVG spirali Ulama z całym cache."""
+    print("\n=== GENEROWANIE GRAFIKI WEKTOROWEJ SVG ===")
+    
+    if not wspolrzedne:
+        print("  Błąd: Brak współrzędnych do wygenerowania SVG")
+        return ""
+    
+    print(f"  Przygotowywanie danych dla {len(wspolrzedne):,} punktów...")
+    
+    # Znajdź zakres współrzędnych
+    min_x = min(x for x, y in wspolrzedne)
+    max_x = max(x for x, y in wspolrzedne)
+    min_y = min(y for x, y in wspolrzedne)
+    max_y = max(y for x, y in wspolrzedne)
+    
+    # Oblicz rozmiar SVG
+    szerokosc_danych = max_x - min_x
+    wysokosc_danych = max_y - min_y
+    szerokosc_svg = szerokosc_danych * rozmiar_punktu + 2 * margines
+    wysokosc_svg = wysokosc_danych * rozmiar_punktu + 2 * margines
+    
+    print(f"  Zakres współrzędnych: X({min_x}, {max_x}), Y({min_y}, {max_y})")
+    print(f"  Rozmiar SVG: {szerokosc_svg:.1f}x{wysokosc_svg:.1f}")
+    print(f"  Liczby pierwsze w zakresie: {len([i for i in range(1, len(wspolrzedne) + 1) if i in pierwsze]):,}")
+    
+    # Utwórz element root SVG
+    root = ET.Element("svg", {
+        "width": f"{szerokosc_svg:.1f}",
+        "height": f"{wysokosc_svg:.1f}",
+        "viewBox": f"0 0 {szerokosc_svg:.1f} {wysokosc_svg:.1f}",
+        "xmlns": "http://www.w3.org/2000/svg"
+    })
+    
+    # Dodaj tytuł i opis
+    title = ET.SubElement(root, "title")
+    title.text = f"Spirala Ulama - {len(wspolrzedne):,} liczb"
+    
+    desc = ET.SubElement(root, "desc")
+    desc.text = f"Spirala Ulama z {len(pierwsze):,} liczbami pierwszymi (czerwone punkty) z całego cache"
+    
+    # Dodaj style
+    style = ET.SubElement(root, "style")
+    style.text = """
+        .prime { fill: #dc3545; stroke: none; }
+        .composite { fill: #6c757d; stroke: none; opacity: 0.3; }
+        .background { fill: white; }
+        text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+    """
+    
+    # Dodaj tło
+    bg = ET.SubElement(root, "rect", {
+        "class": "background",
+        "width": f"{szerokosc_svg:.1f}",
+        "height": f"{wysokosc_svg:.1f}"
+    })
+    
+    # Dodaj grupę dla punktów
+    grupa_punktow = ET.SubElement(root, "g", {"id": "points"})
+    
+    # Generuj punkty
+    print("  Generowanie punktów SVG...")
+    licznik_pierwszych = 0
+    
+    for i, (x, y) in enumerate(wspolrzedne, 1):
+        if i % max(1, len(wspolrzedne) // 50) == 0 or i == len(wspolrzedne):
+            wyswietl_postep(i, len(wspolrzedne), "  Generowanie punktów")
+        
+        # Przekształć współrzędne do układu SVG
+        svg_x = (x - min_x) * rozmiar_punktu + margines
+        svg_y = (max_y - y) * rozmiar_punktu + margines  # Odwróć Y dla SVG
+        
+        # Określ czy liczba jest pierwsza
+        czy_pierwsza_liczba = i in pierwsze
+        if czy_pierwsza_liczba:
+            licznik_pierwszych += 1
+        
+        # Dodaj punkt
+        klasa = "prime" if czy_pierwsza_liczba else "composite"
+        circle = ET.SubElement(grupa_punktow, "circle", {
+            "cx": f"{svg_x:.2f}",
+            "cy": f"{svg_y:.2f}",
+            "r": f"{rozmiar_punktu * 0.8:.2f}",
+            "class": klasa,
+            "data-number": str(i),
+            "data-x": str(x),
+            "data-y": str(y)
+        })
+        
+        # Dodaj tytuł dla tooltipa
+        tooltip = ET.SubElement(circle, "title")
+        status = "pierwsza" if czy_pierwsza_liczba else "złożona"
+        tooltip.text = f"Liczba {i} ({status}) na pozycji ({x}, {y})"
+    
+    # Dodaj legendę
+    legenda = ET.SubElement(root, "g", {"id": "legend"})
+    legenda_y = wysokosc_svg - 60
+    
+    # Tytuł legendy
+    tytul_legendy = ET.SubElement(legenda, "text", {
+        "x": "20",
+        "y": str(legenda_y),
+        "font-weight": "bold"
+    })
+    tytul_legendy.text = "Legenda:"
+    
+    # Liczby pierwsze
+    punkt_pierwszy = ET.SubElement(legenda, "circle", {
+        "cx": "30",
+        "cy": str(legenda_y + 15),
+        "r": "4",
+        "class": "prime"
+    })
+    tekst_pierwszy = ET.SubElement(legenda, "text", {
+        "x": "45",
+        "y": str(legenda_y + 19)
+    })
+    tekst_pierwszy.text = f"Liczby pierwsze ({licznik_pierwszych:,})"
+    
+    # Liczby złożone
+    punkt_zlozony = ET.SubElement(legenda, "circle", {
+        "cx": "30",
+        "cy": str(legenda_y + 30),
+        "r": "4",
+        "class": "composite"
+    })
+    tekst_zlozony = ET.SubElement(legenda, "text", {
+        "x": "45",
+        "y": str(legenda_y + 34)
+    })
+    tekst_zlozony.text = f"Liczby złożone ({len(wspolrzedne) - licznik_pierwszych:,})"
+    
+    # Dodaj statystyki
+    statystyki = ET.SubElement(root, "g", {"id": "stats"})
+    stat_x = szerokosc_svg - 200
+    
+    stat1 = ET.SubElement(statystyki, "text", {
+        "x": str(stat_x),
+        "y": "20",
+        "font-size": "14",
+        "font-weight": "bold"
+    })
+    stat1.text = f"Spirala Ulama n={len(wspolrzedne):,}"
+    
+    stat2 = ET.SubElement(statystyki, "text", {
+        "x": str(stat_x),
+        "y": "35"
+    })
+    stat2.text = f"Liczby pierwsze: {licznik_pierwszych:,}"
+    
+    stat3 = ET.SubElement(statystyki, "text", {
+        "x": str(stat_x),
+        "y": "50"
+    })
+    gestosc = (licznik_pierwszych / len(wspolrzedne)) * 100
+    stat3.text = f"Gęstość: {gestosc:.2f}%"
+    
+    # Zapisz SVG
+    print(f"  Zapisywanie SVG do pliku: {nazwa_pliku}")
+    tree = ET.ElementTree(root)
+    ET.indent(tree, space="  ", level=0)
+    tree.write(nazwa_pliku, encoding='utf-8', xml_declaration=True)
+    
+    print(f"  ✓ Grafika wektorowa SVG zapisana: {nazwa_pliku}")
+    print(f"  ✓ Rozmiar pliku: {os.path.getsize(nazwa_pliku) / 1024 / 1024:.2f} MB")
+    print(f"  ✓ Zawiera {len(wspolrzedne):,} punktów ({licznik_pierwszych:,} pierwszych)")
+    
+    return nazwa_pliku
+
+
 def wizualizuj_spirale_ulama(siatka: np.ndarray, pierwsze: Set[int], tytul: str = "Spirala Ulama"):
     """Wizualizuj spiralę Ulama z zaznaczonymi liczbami pierwszymi."""
     print("\n=== TWORZENIE WIZUALIZACJI ===")
@@ -345,20 +518,39 @@ def main():
         print(f"Liczby pierwsze: {len(pierwsze):,}")
         print(f"Gęstość liczb pierwszych: {len(pierwsze)/n*100:.2f}%")
         
-        # Utwórz wizualizację
+        # Utwórz wizualizację PNG
         fig = wizualizuj_spirale_ulama(siatka, pierwsze, f"Spirala Ulama (n={n:,})")
         
-        # Zapisz wykres
+        # Zapisz wykres PNG
         print(f"\n=== ZAPISYWANIE WYNIKÓW ===")
-        nazwa_pliku = f"spirala_ulama_n{n}.png"
-        print(f"  Zapisywanie wizualizacji...")
-        fig.savefig(nazwa_pliku, dpi=200, bbox_inches='tight', facecolor='white')
-        print(f"  ✓ Wizualizacja zapisana jako: {nazwa_pliku}")
+        nazwa_pliku_png = f"spirala_ulama_n{n}.png"
+        print(f"  Zapisywanie wizualizacji PNG...")
+        fig.savefig(nazwa_pliku_png, dpi=200, bbox_inches='tight', facecolor='white')
+        print(f"  ✓ Wizualizacja PNG zapisana jako: {nazwa_pliku_png}")
+        
+        # Generuj i zapisz wersję SVG z całym cache
+        print(f"\n=== GENEROWANIE GRAFIKI WEKTOROWEJ SVG ===")
+        nazwa_pliku_svg = f"spirala_ulama_n{n}.svg"
+        
+        # Określ rozmiar punktu na podstawie liczby punktów
+        if n <= 1000:
+            rozmiar_punktu = 3.0
+        elif n <= 10000:
+            rozmiar_punktu = 2.0
+        elif n <= 100000:
+            rozmiar_punktu = 1.5
+        else:
+            rozmiar_punktu = 1.0
+        
+        generuj_svg_spirali_ulama(wspolrzedne, pierwsze, nazwa_pliku_svg, rozmiar_punktu)
         
         # Pokaż wykres
-        print(f"  Wyświetlanie wykresu...")
+        print(f"  Wyświetlanie wykresu PNG...")
         plt.show()
         print(f"\n=== GENEROWANIE SPIRALI ULAMA ZAKOŃCZONE ===")
+        print(f"  ✓ Pliki wygenerowane:")
+        print(f"    - PNG: {nazwa_pliku_png}")
+        print(f"    - SVG: {nazwa_pliku_svg}")
         
     except ValueError:
         print("Proszę wprowadzić poprawną liczbę całkowitą.")
