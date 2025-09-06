@@ -14,12 +14,15 @@ Kompleksowy zestaw narzędzi do pracy z liczbami pierwszymi, generowania spirali
 ## ✨ Funkcjonalności
 
 - 🌀 **Generowanie spirali Ulama** z wizualizacją liczb pierwszych
+- 🎨 **Format wektorowy SVG** z interaktywnymi elementami
 - 🗄️ **System cache liczb pierwszych** z optymalizacjami wydajności
 - 📊 **Analiza gęstości liczb pierwszych** z wykresami
 - 🌐 **Pobieranie zbiorów liczb pierwszych** z internetu (t5k.org)
 - 📁 **Eksport danych** do formatów CSV
 - ✅ **Weryfikacja poprawności** cache liczb pierwszych
 - 📈 **Paski postępu** dla długotrwałych operacji
+- 🖤 **Zaawansowana wizualizacja** z równomierną widocznością
+- 🏷️ **Gotowość do publikacji** na PyPI z pełną konfiguracją
 
 ## 🚀 Instalacja
 
