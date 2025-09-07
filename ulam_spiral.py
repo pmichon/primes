@@ -419,23 +419,24 @@ def wizualizuj_spirale_ulama(siatka: np.ndarray, pierwsze: Set[int], tytul: str 
 
     # Utwórz pojedynczy wykres dla liczb pierwszych
     print("  Tworzenie wizualizacji...")
-    fig, ax = plt.subplots(1, 1, figsize=(12, 12))
+    fig, ax = plt.subplots(1, 1, figsize=(12, 12), facecolor='white')
 
     # Utwórz siatkę tylko z liczbami pierwszymi (jednakowe wartości dla równomiernej widoczności)
     wyswietlenie_pierwszych = np.where(siatka_pierwszych > 0, 1, 0)
 
-    # Użyj czarnego tła i czerwonych punktów dla liczb pierwszych
-    ax.set_facecolor('black')
+    # Użyj białego tła i czerwonych punktów dla liczb pierwszych
+    ax.set_facecolor('white')
     im = ax.imshow(wyswietlenie_pierwszych, cmap='Reds', interpolation='nearest', vmin=0, vmax=1)
-    ax.set_title(f'{tytul} - Liczby Pierwsze', fontsize=16, color='white')
-    ax.set_xlabel('X', fontsize=14, color='white')
-    ax.set_ylabel('Y', fontsize=14, color='white')
+    ax.set_title(f'{tytul} - Liczby Pierwsze', fontsize=16, color='black')
+    ax.set_xlabel('X', fontsize=14, color='black')
+    ax.set_ylabel('Y', fontsize=14, color='black')
+    ax.tick_params(colors='black')
 
     # Dostosuj kolorbar
     cbar = plt.colorbar(im, ax=ax, shrink=0.8)
     cbar.set_ticks([0, 1])
     cbar.set_ticklabels(['Liczby złożone', 'Liczby pierwsze'])
-    cbar.ax.tick_params(colors='white')
+    cbar.ax.tick_params(colors='black')
 
     plt.tight_layout()
     print("  ✓ Wizualizacja zakończona")

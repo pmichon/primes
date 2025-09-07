@@ -17,7 +17,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="ulam-spiral-generator",
-    version="4.2.0",
+    version="4.3.0",
     author="Piotr Michon",
     description="Kompleksowy generator spirali Ulama z wizualizacją liczb pierwszych",
     long_description=long_description,
@@ -43,11 +43,11 @@ setup(
     entry_points={
         'console_scripts': [
             'ulam-spiral=ulam_spiral:main',
-            'ulam-svg=generuj_svg_spirali:main',
+            'ulam-grafika=generuj_grafike_spirali:main',
             'prime-cache=generuj_cache_pierwszych:main',
         ],
     },
-    keywords="ulam spiral prime numbers mathematics visualization svg",
+    keywords="ulam spiral prime numbers mathematics visualization svg png",
     project_urls={
         "Bug Reports": "https://github.com/pmichon/primes/issues",
         "Source": "https://github.com/pmichon/primes",

@@ -5,6 +5,29 @@ Wszystkie istotne zmiany w tym projekcie będą dokumentowane w tym pliku.
 Format oparty na [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.3.0] - 2025-09-07
+
+### ✨ Nowe funkcje - Obsługa PNG
+- **Dual-format generator**: Nowy skrypt `generuj_grafike_spirali.py` obsługuje PNG i SVG
+- **Argumenty linii komend**: Kompletna obsługa argumentów `-n`, `-f`, `--png`, `-o`, `-s`
+- **Białe tło**: Wszystkie generowane grafiki mają białe tło zamiast przezroczystego/czarnego
+- **Automatyczne wykrywanie formatu**: Domyślnie SVG, możliwość przełączenia na PNG
+
+### 🔄 Zmiany - Reorganizacja
+- **Zmiana nazwy**: `generuj_svg_spirali.py` → `generuj_grafike_spirali.py`
+- **Aktualizacja entry points**: `ulam-svg` → `ulam-grafika` w setup.py i pyproject.toml
+- **Rozszerzone słowa kluczowe**: Dodano "png" do keywords w metadanych projektu
+
+### 🎨 Interfejs użytkownika
+- **Lepsze tło PNG**: Wizualizacje PNG mają białe tło z czarnymi etykietami
+- **Spójne kolory**: Jednolite białe tło we wszystkich formatach grafiki
+- **Interaktywny tryb**: Zachowany dla wstecznej kompatybilności
+
+### 🔧 Techniczne
+- **Nowa funkcja**: `generuj_png_spirali_ulama()` dla generowania PNG
+- **Poprawione matplotlib**: Ustawienia `facecolor='white'` dla wszystkich wykresów
+- **Argumenty CLI**: Pełna obsługa argparse z przykładami użycia
+
 ## [4.2.0] - 2025-09-07
 
 ### ✨ Nowe funkcje - Grafika SVG
