@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ulam-spiral-generator"
-version = "4.1.0"
+version = "4.2.0"
 description = "Kompleksowy generator spirali Ulama z wizualizacją liczb pierwszych"
 readme = "README.md"
 license = {file = "LICENSE"}

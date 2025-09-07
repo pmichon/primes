@@ -5,6 +5,19 @@ Wszystkie istotne zmiany w tym projekcie będą dokumentowane w tym pliku.
 Format oparty na [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.2.0] - 2025-01-09
+
+### ✨ Nowe funkcje - Grafika SVG
+- **Kwadratowe punkty dla liczb pierwszych**: Liczby pierwsze są teraz reprezentowane jako kwadraty w SVG
+- **Koła dla liczb złożonych**: Liczby złożone pozostają jako koła dla lepszego rozróżnienia
+- **Uproszczony design SVG**: Usunięto etykiety, legendę i statystyki dla czystszego wyglądu
+- **Białe tło**: SVG używa białego tła z punktami w odcieniach szarości
+- **Lepszy kontrast**: Ciemniejsze kwadraty (#333333) dla liczb pierwszych, jaśniejsze koła (#cccccc) dla złożonych
+
+### 🎨 Interfejs użytkownika
+- **Minimalistyczny design**: SVG koncentruje się tylko na wzorze spirali bez dodatkowych elementów
+- **Intuicyjna wizualizacja**: Kształty pomagają natychmiast rozpoznać liczby pierwsze od złożonych
+
 ## [4.1.0] - 2025-01-09
 
 ### 🧹 Poprawiono - Zgodność z PEP-8

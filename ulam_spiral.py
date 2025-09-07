@@ -323,20 +323,13 @@ def generuj_svg_spirali_ulama(wspolrzedne: List[Tuple[int, int]], pierwsze: Set[
         "xmlns": "http://www.w3.org/2000/svg"
     })
 
-    # Dodaj tytuł i opis
-    title = ET.SubElement(root, "title")
-    title.text = f"Spirala Ulama - {len(wspolrzedne):,} liczb"
-
-    desc = ET.SubElement(root, "desc")
-    desc.text = f"Spirala Ulama z {len(pierwsze):,} liczbami pierwszymi (czerwone punkty) z całego cache"
 
     # Dodaj style
     style = ET.SubElement(root, "style")
     style.text = """
-        .prime { fill: #dc3545; stroke: none; }
-        .composite { fill: none; stroke: none; opacity: 0; }
-        .background { fill: black; }
-        text { font-family: Arial, sans-serif; font-size: 12px; fill: white; }
+        .prime { fill: #333333; stroke: none; }
+        .composite { fill: #cccccc; stroke: none; }
+        .background { fill: white; }
     """
 
     # Dodaj tło
@@ -366,79 +359,28 @@ def generuj_svg_spirali_ulama(wspolrzedne: List[Tuple[int, int]], pierwsze: Set[
         if czy_pierwsza_liczba:
             licznik_pierwszych += 1
 
-        # Dodaj punkt
+        # Dodaj punkt (kwadrat dla liczb pierwszych, koło dla złożonych)
         klasa = "prime" if czy_pierwsza_liczba else "composite"
-        circle = ET.SubElement(grupa_punktow, "circle", {
-            "cx": f"{svg_x:.2f}",
-            "cy": f"{svg_y:.2f}",
-            "r": f"{rozmiar_punktu * 0.8:.2f}",
-            "class": klasa,
-            "data-number": str(i),
-            "data-x": str(x),
-            "data-y": str(y)
-        })
+        if czy_pierwsza_liczba:
+            # Kwadrat dla liczb pierwszych
+            rozmiar_kwadratu = rozmiar_punktu * 1.6
+            ET.SubElement(grupa_punktow, "rect", {
+                "x": f"{svg_x - rozmiar_kwadratu/2:.2f}",
+                "y": f"{svg_y - rozmiar_kwadratu/2:.2f}",
+                "width": f"{rozmiar_kwadratu:.2f}",
+                "height": f"{rozmiar_kwadratu:.2f}",
+                "class": klasa
+            })
+        else:
+            # Koło dla liczb złożonych
+            ET.SubElement(grupa_punktow, "circle", {
+                "cx": f"{svg_x:.2f}",
+                "cy": f"{svg_y:.2f}",
+                "r": f"{rozmiar_punktu * 0.8:.2f}",
+                "class": klasa
+            })
 
-        # Dodaj tytuł dla tooltipa
-        tooltip = ET.SubElement(circle, "title")
-        status = "pierwsza" if czy_pierwsza_liczba else "złożona"
-        tooltip.text = f"Liczba {i} ({status}) na pozycji ({x}, {y})"
 
-    # Dodaj legendę
-    legenda = ET.SubElement(root, "g", {"id": "legend"})
-    legenda_y = wysokosc_svg - 60
-
-    # Tytuł legendy
-    tytul_legendy = ET.SubElement(legenda, "text", {
-        "x": "20",
-        "y": str(legenda_y),
-        "font-weight": "bold"
-    })
-    tytul_legendy.text = "Legenda:"
-
-    # Liczby pierwsze
-    ET.SubElement(legenda, "circle", {
-        "cx": "30",
-        "cy": str(legenda_y + 15),
-        "r": "4",
-        "class": "prime"
-    })
-    tekst_pierwszy = ET.SubElement(legenda, "text", {
-        "x": "45",
-        "y": str(legenda_y + 19)
-    })
-    tekst_pierwszy.text = f"Liczby pierwsze ({licznik_pierwszych:,})"
-
-    # Liczby złożone (niewidoczne)
-    tekst_zlozony = ET.SubElement(legenda, "text", {
-        "x": "30",
-        "y": str(legenda_y + 30)
-    })
-    tekst_zlozony.text = f"Liczby złożone: niewidoczne ({len(wspolrzedne) - licznik_pierwszych:,})"
-
-    # Dodaj statystyki
-    statystyki = ET.SubElement(root, "g", {"id": "stats"})
-    stat_x = szerokosc_svg - 200
-
-    stat1 = ET.SubElement(statystyki, "text", {
-        "x": str(stat_x),
-        "y": "20",
-        "font-size": "14",
-        "font-weight": "bold"
-    })
-    stat1.text = f"Spirala Ulama n={len(wspolrzedne):,}"
-
-    stat2 = ET.SubElement(statystyki, "text", {
-        "x": str(stat_x),
-        "y": "35"
-    })
-    stat2.text = f"Liczby pierwsze: {licznik_pierwszych:,}"
-
-    stat3 = ET.SubElement(statystyki, "text", {
-        "x": str(stat_x),
-        "y": "50"
-    })
-    gestosc = (licznik_pierwszych / len(wspolrzedne)) * 100
-    stat3.text = f"Gęstość: {gestosc:.2f}%"
 
     # Zapisz SVG
     print(f"  Zapisywanie SVG do pliku: {nazwa_pliku}")

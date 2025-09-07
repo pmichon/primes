@@ -299,7 +299,7 @@ class TestGenerujSVG(unittest.TestCase):
         self.assertIn('<svg', content)
         self.assertIn('xmlns="http://www.w3.org/2000/svg"', content)
         self.assertIn('class="prime"', content)
-        self.assertIn('Spirala Ulama', content)
+        self.assertIn('fill: white', content)  # Sprawdź białe tło
 
     def test_generuj_svg_pusta_lista(self):
         """Test generowania SVG dla pustej listy."""
