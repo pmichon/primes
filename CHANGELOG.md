@@ -39,7 +39,7 @@ i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - **Narzędzia**: flake8 --max-line-length=100 --extend-ignore=E501,F541
 - **Status testów**: 29/29 tests passing ✅
 
-## [4.0.0] - 2025-01-09
+## [4.0.0] - 2025-09-06
 
 ### 🧪 Dodane - Kompleksowy Pakiet Testów Jednostkowych
 - **Główny pakiet testów** (`test_ulam_spiral.py`):
@@ -82,7 +82,7 @@ i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - **Linie kodu testów**: ~700 lines of testing code
 - **Pokrycie modułów**: Wszystkie główne komponenty projektu
 
-## [3.1.0] - 2025-09-07
+## [3.1.0] - 2025-09-06
 
 ### Dodane
 - Rozbudowany .gitignore dla lepszej higieny repozytorium
@@ -97,13 +97,13 @@ i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Repozytorium zawiera teraz tylko kod źródłowy i dokumentację
 - Znacznie zmniejszony rozmiar repozytorium
 
-## [3.2.1] - 2025-09-07
+## [3.2.1] - 2025-09-06
 
 ### Zmienione
 - Usunięto wzmianki o narzędziach zewnętrznych z dokumentacji
 - Zaktualizowana sekcja współpracy w README.md
 
-## [3.2.0] - 2025-09-07
+## [3.2.0] - 2025-09-06
 
 ### Dodane
 - CHANGELOG.md - dokumentacja wszystkich zmian w projekcie
@@ -115,7 +115,7 @@ i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - README.md - zaktualizowane funkcjonalności i instrukcje
 - Profesjonalizacja całej struktury projektu
 
-## [3.1.0] - 2025-09-07
+## [3.1.0] - 2025-09-06
 
 ### Dodane
 - Rozbudowany .gitignore dla lepszej higieny repozytorium
@@ -130,7 +130,7 @@ i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Repozytorium zawiera teraz tylko kod źródłowy i dokumentację
 - Znacznie zmniejszony rozmiar repozytorium
 
-## [3.0.0] - 2025-09-07
+## [3.0.0] - 2025-09-06
 
 ### Dodane
 - Generator grafiki wektorowej SVG (`generuj_svg_spirali.py`)
@@ -149,7 +149,7 @@ i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Optymalizacja generowania SVG dla dużych zbiorów danych
 - Automatyczne skalowanie rozmiaru punktów w zależności od liczby danych
 
-## [2.0.0] - 2024
+## [2.0.0] - 2025
 
 ### Dodane
 - Rozszerzone funkcje spirali Ulama
@@ -158,9 +158,10 @@ i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Generator wykresu gęstości liczb pierwszych
 - Kompletna dokumentacja README.md
 
-## [1.0.0] - 2024
+## [1.0.0] - 2025
 
 ### Dodane
 - Pierwszy release: Generator Spirali Ulama
 - Podstawowa funkcjonalność generowania spirali
+
 - Wizualizacja liczb pierwszych
