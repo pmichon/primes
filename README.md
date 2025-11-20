@@ -2,8 +2,39 @@
 
 Kompleksowy zestaw narzędzi do pracy z liczbami pierwszymi, generowania spirali Ulama oraz analizy rozkładu liczb pierwszych.
 
+## 🌐 NEW: Web GUI Application
+
+**Nowoczesny interfejs webowy dla wszystkich funkcjonalności projektu!**
+
+![Web GUI](https://img.shields.io/badge/Web-GUI-brightgreen) ![Flask](https://img.shields.io/badge/Flask-2.3+-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+
+### Quick Start - Web Interface
+
+```bash
+cd primes/web
+pip3 install -r requirements-web.txt
+python3 app.py
+```
+
+Otwórz przeglądarkę → `http://localhost:5000`
+
+### Web Features
+
+- 🌐 **Modern SPA** - Pojedyncza aplikacja webowa z responsive design
+- 📊 **Real-time updates** - Progress tracking via WebSocket
+- 🌀 **Interactive Ulam Spirals** - Generate & download PNG/SVG (up to 100M points!)
+- 📈 **Density Charts** - Analyze prime distribution with custom intervals
+- 💾 **CSV Export** - Multiple formats (basic, advanced, chunked)
+- 🎨 **Dark/Light Theme** - Beautiful glassmorphism UI
+- ⚡ **Fast & Responsive** - Optimized for performance
+
+📖 **Full Documentation**: [web/README.md](web/README.md) | **API Reference**: [web/API.md](web/API.md)
+
+---
+
 ## 📋 Spis treści
 
+- [Web GUI Application](#-new-web-gui-application) ⭐ NEW
 - [Funkcjonalności](#funkcjonalności)
 - [Instalacja](#instalacja)
 - [Narzędzia](#narzędzia)
@@ -13,6 +44,13 @@ Kompleksowy zestaw narzędzi do pracy z liczbami pierwszymi, generowania spirali
 
 ## ✨ Funkcjonalności
 
+### Web GUI (NEW! 🎉)
+- 🌐 **Pełny interfejs webowy** z wszystkimi funkcjami projektu
+- 🔄 **Socket.IO** dla real-time progress tracking
+- 🎨 **Modern UI/UX** z dark/light theme
+- 📱 **Responsive** - działa na desktop, tablet, mobile
+
+### CLI Tools (Existing)
 - 🌀 **Generowanie spirali Ulama** z wizualizacją liczb pierwszych
 - 🎨 **Format wektorowy SVG** z interaktywnymi elementami
 - 🗄️ **System cache liczb pierwszych** z optymalizacjami wydajności
@@ -199,14 +237,31 @@ python3 generuj_cache_pierwszych.py --limit 1000000 --algorytm podstawowy
 ```
 primes/
 ├── README.md                        # Ten plik
-├── requirements.txt                 # Zależności Python
+├── requirements.txt                 # Zależności Python (CLI)
 ├── ulam_spiral.py                   # Generator spirali Ulama
 ├── generuj_cache_pierwszych.py      # Generator cache
 ├── sprawdz_cache_pierwszych.py      # Weryfikator cache
 ├── wykres_gestosci_pierwszych.py    # Analiza gęstości
 ├── pobierz_i_dopisz_pierwsze.py     # Pobieracz z t5k.org
 ├── eksportuj_cache_do_csv.py        # Eksporter CSV
-└── downloaded_primes/               # Pobrane pliki (auto-tworzony)
+├── downloaded_primes/               # Pobrane pliki (auto-tworzony)
+└── web/                             # 🌐 Web GUI Application (NEW!)
+    ├── README.md                    # Web app documentation
+    ├── API.md                       # API reference
+    ├── app.py                       # Flask application
+    ├── api_helpers.py               # API helper functions
+    ├── requirements-web.txt         # Web dependencies
+    ├── templates/
+    │   └── index.html              # Main SPA template
+    └── static/
+        ├── css/
+        │   └── style.css           # Styles & design system
+        └── js/
+            ├── app.js              # Main app logic
+            ├── cache-generator.js  # Cache module
+            ├── ulam-spiral.js      # Spiral module
+            ├── density-chart.js    # Density chart module
+            └── csv-exporter.js     # CSV export module
 ```
 
 ## 🎯 Dane wyjściowe

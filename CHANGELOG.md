@@ -1,16 +1,4 @@
 # Changelog
-
-Wszystkie istotne zmiany w tym projekcie będą dokumentowane w tym pliku.
-
-Format oparty na [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-i projekt używa [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [4.3.0] - 2025-09-07
-
-### ✨ Nowe funkcje - Obsługa PNG
-- **Dual-format generator**: Nowy skrypt `generuj_grafike_spirali.py` obsługuje PNG i SVG
-- **Argumenty linii komend**: Kompletna obsługa argumentów `-n`, `-f`, `--png`, `-o`, `-s`
-- **Białe tło**: Wszystkie generowane grafiki mają białe tło zamiast przezroczystego/czarnego
 - **Automatyczne wykrywanie formatu**: Domyślnie SVG, możliwość przełączenia na PNG
 
 ### 🔄 Zmiany - Reorganizacja
