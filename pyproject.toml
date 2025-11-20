@@ -1,39 +1,3 @@
-[build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "ulam-spiral-generator"
-version = "4.3.0"
-description = "Kompleksowy generator spirali Ulama z wizualizacją liczb pierwszych"
-readme = "README.md"
-license = {file = "LICENSE"}
-authors = [{name = "Piotr Michon"}]
-classifiers = [
-    "Development Status :: 5 - Production/Stable",
-    "Intended Audience :: Science/Research",
-    "Intended Audience :: Education",
-    "Topic :: Scientific/Engineering :: Mathematics",
-    "Topic :: Scientific/Engineering :: Visualization",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Operating System :: OS Independent",
-]
-requires-python = ">=3.8"
-dependencies = [
-    "numpy>=1.21.0",
-    "matplotlib>=3.5.0",
-    "psutil>=5.8.0",
-]
-keywords = ["ulam", "spiral", "prime", "numbers", "mathematics", "visualization", "svg", "png"]
-
-[project.urls]
-"Homepage" = "https://github.com/pmichon/primes"
-"Bug Reports" = "https://github.com/pmichon/primes/issues"
 "Source" = "https://github.com/pmichon/primes"
 
 [project.scripts]

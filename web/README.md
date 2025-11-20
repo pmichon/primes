@@ -71,15 +71,28 @@ Aplikacja webowa dostarcza kompletny interfejs graficzny dla wszystkich funkcjon
 
 ## 🚀 Instalacja
 
-### Wymagania
+### Requirements
 
 - Python 3.9+
-- pip (package manager)
+- [uv](https://github.com/astral-sh/uv) (recommended) or pip
 - Nowoczesna przeglądarka (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)
 
-### Kroki instalacji
+### Installation Steps
 
-1. **Zainstaluj zależności:**
+**Option A: Using uv (Recommended)**
+
+```bash
+# Install uv if not already installed
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Navigate to web directory
+cd primes/web
+
+# Install dependencies from lockfile (ensures reproducible builds)
+uv pip sync requirements-web.lock
+```
+
+**Option B: Using pip**
 
 ```bash
 cd primes/web

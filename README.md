@@ -64,7 +64,40 @@ Otwórz przeglądarkę → `http://localhost:5000`
 
 ## 🚀 Instalacja
 
-1. **Klonuj repozytorium:**
+### Wymagania
+
+- Python 3.9+
+- [uv](https://github.com/astral-sh/uv) (recommended) or pip
+
+### Instalacja z uv (zalecane)
+
+**uv** zapewnia szybszą instalację i powtarzalne buildy dzięki lockfile:
+
+1. **Zainstaluj uv:**
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+2. **Klonuj repozytorium:**
+```bash
+git clone https://github.com/pmichon/primes.git
+cd primes
+```
+
+3. **Zainstaluj zależności CLI:**
+```bash
+uv pip sync requirements.lock
+```
+
+4. **Lub zainstaluj Web GUI:**
+```bash
+cd web
+uv pip sync requirements-web.lock
+```
+
+### Instalacja z pip (tradycyjny sposób)
+
+1. **Klonuj repository:**
 ```bash
 git clone https://github.com/pmichon/primes.git
 cd primes
