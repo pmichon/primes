@@ -45,11 +45,14 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/api/cache-stats', methods=['GET'])
+@app.route('/api/cache-stats')
 def cache_stats():
-    """Get current cache statistics."""
+    """Get cache statistics."""
     stats = get_cache_stats()
-    return jsonify(stats)
+    return jsonify({
+        'success': True,
+        'data': stats
+    })
 
 
 @app.route('/api/generate-cache', methods=['POST'])
@@ -95,21 +98,48 @@ def generate_cache():
 
 @app.route('/api/ulam-spiral', methods=['POST'])
 def ulam_spiral():
-    """Generate Ulam spiral visualization."""
+    """Generate Ulam spiral."""
     data = request.get_json()
-    n = data.get('n', 1000)
-    colorful = data.get('colorful', False)
-    format_type = data.get('format', 'png')
     
-    result = generate_ulam_spiral_wrapper(n, colorful, format_type)
+    # Validate required parameters
+    if 'n' not in data:
+        return jsonify({
+            'success': False,
+            'error': 'Parameter n is required',
+            'code': 'MISSING_PARAMETER'
+        }), 400
+    
+    n = data.get('n')
+    
+    # Validate size range
+    if not isinstance(n, int) or n < 100 or n > 100000000:
+        return jsonify({
+            'success': False,
+            'error': 'Spiral size must be between 100 and 100,000,000',
+            'code': 'INVALID_SIZE'
+        }), 400
+    
+    colorful = data.get('colorful', False)
+    format = data.get('format', 'png')
+    
+    result = generate_ulam_spiral_wrapper(n, colorful, format)
     return jsonify(result)
 
 
 @app.route('/api/density-chart', methods=['POST'])
 def density_chart():
-    """Generate prime density chart."""
+    """Generate density chart."""
     data = request.get_json()
     interval = data.get('interval', 10000)
+    
+    # Validate interval
+    if not isinstance(interval, int) or interval < 1000:
+        return jsonify({
+            'success': False,
+            'error': 'Interval must be at least 1000',
+            'code': 'INVALID_INTERVAL'
+        }), 400
+    
     max_range = data.get('max_range', None)
     
     result = generate_density_chart_wrapper(interval, max_range)
@@ -127,7 +157,7 @@ def export_csv():
     return jsonify(result)
 
 
-@app.route('/api/verify-cache', methods=['GET'])
+@app.route('/api/verify-cache', methods=['POST'])
 def verify_cache():
     """Verify cache integrity."""
     result = verify_cache_wrapper()

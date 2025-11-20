@@ -245,17 +245,14 @@ class TestGenerujSVG(unittest.TestCase):
 
     def test_import_modulu(self):
         """Test czy moduł można zaimportować."""
-        try:
-            self.assertTrue(True)
-        except ImportError:
-            self.fail("Nie można zaimportować modułu generuj_svg_spirali")
+        import generuj_grafike_spirali as ggs
+        self.assertIsNotNone(ggs)
 
     def test_funkcje_obecne(self):
         """Test czy główne funkcje są obecne w module."""
-        import generuj_svg_spirali as gss
-
-        # Sprawdź czy main funkcja istnieje
-        self.assertTrue(hasattr(gss, 'main'),
+        import generuj_grafike_spirali as ggs
+        # Sprawdź czy moduł ma kluczowe funkcje
+        self.assertTrue(hasattr(ggs, 'main'),
                         "Funkcja main nie istnieje w module")
 
 

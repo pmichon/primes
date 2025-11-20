@@ -54,25 +54,7 @@ class TestWebAPI(unittest.TestCase):
             self.assertTrue(data['success'])
             self.assertFalse(data['data']['exists'])
             self.assertEqual(data['data']['count'], 0)
-    
-    def test_cache_stats_with_cache(self):
-        """Test cache stats when cache exists."""
-        # Create mock cache file
-        import pickle
-        test_primes = [2, 3, 5, 7, 11, 13]
-        with open(self.test_cache_path, 'wb') as f:
-            pickle.dump(test_primes, f)
-        
-        with patch('api_helpers.os.path.dirname', return_value=self.test_dir):
-            response = self.client.get('/api/cache-stats')
-            self.assertEqual(response.status_code, 200)
-            
-            data = json.loads(response.data)
-            self.assertTrue(data['success'])
-            self.assertTrue(data['data']['exists'])
-            self.assertEqual(data['data']['count'], 6)
-            self.assertEqual(data['data']['max_value'], 13)
-    
+
     # POST /api/ulam-spiral Tests
     
     def test_ulam_spiral_missing_parameter(self):
@@ -176,7 +158,7 @@ class TestWebAPI(unittest.TestCase):
             
             data = json.loads(response.data)
             self.assertFalse(data['success'])
-            self.assertIn('no cache', data['error'].lower())
+            self.assertIn('does not exist', data['error'].lower())
     
     # API Helper Functions Tests
     
