@@ -57,7 +57,10 @@ tabs.forEach(tab => {
 async function loadCacheStats() {
     try {
         const response = await fetch('/api/cache-stats');
-        const stats = await response.json();
+        const result = await response.json();
+
+        // Extract data from new API format: {success: true, data: {...}}
+        const stats = result.data || result;
 
         updateCacheStatsUI(stats);
     } catch (error) {
