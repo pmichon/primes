@@ -20,6 +20,10 @@ from typing import Set, Tuple, Dict
 # Nazwa pliku cache (taka sama jak w głównym skrypcie)
 PLIK_CACHE_PIERWSZYCH = "pierwsze_cache.pkl"
 
+# Globalny callback dla progress updates (używany przez web app)
+# Jeśli ustawiony, będzie wywoływany zamiast printowania do stdout
+PROGRESS_CALLBACK = None
+
 
 def wykryj_zasoby_systemu() -> Dict[str, int]:
     """Wykryj dostępne zasoby systemowe."""
@@ -145,6 +149,12 @@ def wyswietl_konfiguracje_systemu(limit: int, parametry: Dict[str, int], zasoby:
 
 def wyswietl_postep(aktualny, calkowity, prefix="Postęp", dlugosc=50):
     """Wyświetla pasek postępu który pozostaje w miejscu."""
+    # Jeśli jest ustawiony callback (dla web app), użyj go zamiast printu
+    if PROGRESS_CALLBACK is not None:
+        PROGRESS_CALLBACK(aktualny, calkowity, prefix)
+        return
+    
+    # Standardowy print dla CLI
     procent = (aktualny / calkowity) * 100
     wypelniona_dlugosc = int(dlugosc * aktualny // calkowity)
     pasek = '█' * wypelniona_dlugosc + '-' * (dlugosc - wypelniona_dlugosc)

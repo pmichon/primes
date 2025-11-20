@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pl" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Liczb Pierwszych - Web App</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Socket.IO -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <span id="themeIcon">🌙</span>
+        <span id="themeText">Dark Mode</span>
+    </button>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-title">
+                <span class="header-icon">🔢</span>
+                <h1>Generator Liczb Pierwszych</h1>
+            </div>
+            <p class="header-subtitle">
+                Profesjonalne narzędzie do generowania, analizy i wizualizacji liczb pierwszych
+            </p>
+        </header>
+
+        <!-- Stats Cards -->
+        <div class="stats-container" id="statsContainer">
+            <div class="stat-card">
+                <div class="stat-label">Cache Status</div>
+                <div class="stat-value" id="cacheStatus">Loading...</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Liczb Pierwszych</div>
+                <div class="stat-value" id="primesCount">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Maksymalna Wartość</div>
+                <div class="stat-value" id="maxValue">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Rozmiar Cache</div>
+                <div class="stat-value" id="cacheSize">0 MB</div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="tabs-container">
+            <!-- Tabs Navigation -->
+            <div class="tabs">
+                <button class="tab active" data-tab="cache">🗄️ Generuj Cache</button>
+                <button class="tab" data-tab="spiral">🌀 Spirala Ulama</button>
+                <button class="tab" data-tab="density">📊 Wykres Gęstości</button>
+                <button class="tab" data-tab="export">💾 Eksport CSV</button>
+                <button class="tab" data-tab="verify">✅ Weryfikacja</button>
+            </div>
+
+            <!-- Tab Content: Generate Cache -->
+            <div class="tab-content active" id="cache-content">
+                <h2>Generuj Cache Liczb Pierwszych</h2>
+                <p>Wygeneruj cache liczb pierwszych do określonego limitu z optymalizacją wydajności.</p>
+
+                <div class="form-group">
+                    <label class="form-label" for="cacheLimit">Limit (maksymalna liczba do sprawdzenia)</label>
+                    <input type="number" id="cacheLimit" class="form-input" value="1000000" min="100" step="1000">
+                    <p style="font-size: 0.875rem; color: var(--text-tertiary); margin-top: 0.5rem;">
+                        Zalecane wartości: 1,000,000 (szybko), 10,000,000 (średnio), 100,000,000 (wolno)
+                    </p>
+                </div>
+
+                <button class="btn btn-primary" id="generateCacheBtn">
+                    <span>🚀</span>
+                    <span>Generuj Cache</span>
+                </button>
+
+                <!-- Progress Bar -->
+                <div class="progress-container" id="cacheProgress">
+                    <div class="progress-label">
+                        <span id="progressMessage">Postęp...</span>
+                        <span id="progressPercent">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <!-- Alert -->
+                <div class="alert alert-success" id="cacheAlert">
+                    <span>✓</span>
+                    <span id="cacheAlertMessage">Cache wygenerowany pomyślnie!</span>
+                </div>
+            </div>
+
+            <!-- Tab Content: Ulam Spiral -->
+            <div class="tab-content" id="spiral-content">
+                <h2>Spirala Ulama</h2>
+                <p>Wygeneruj spiralę Ulama z wizualizacją liczb pierwszych w układzie spiralnym.</p>
+
+                <div class="form-group">
+                    <label class="form-label" for="spiralSize">Rozmiar spirali (n)</label>
+                    <input type="number" id="spiralSize" class="form-input" value="1000" min="100" max="100000000"
+                        step="100">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="spiralFormat">Format wyjściowy</label>
+                    <select id="spiralFormat" class="form-select">
+                        <option value="png">PNG (raster)</option>
+                        <option value="svg">SVG (wektor)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-checkbox">
+                        <input type="checkbox" id="spiralColorful">
+                        <span>Wersja kolorowa</span>
+                    </label>
+                </div>
+
+                <button class="btn btn-primary" id="generateSpiralBtn">
+                    <span>🌀</span>
+                    <span>Generuj Spiralę</span>
+                </button>
+
+                <!-- Preview -->
+                <div class="preview-container" id="spiralPreview">
+                    <h3>Podgląd</h3>
+                    <div id="spiralImageContainer"></div>
+                    <button class="btn btn-secondary mt-lg" id="downloadSpiralBtn">
+                        <span>⬇️</span>
+                        <span>Pobierz Obraz</span>
+                    </button>
+                </div>
+
+                <div class="alert alert-info" id="spiralAlert">
+                    <span>🎨</span>
+                    <span id="spiralAlertMessage"></span>
+                </div>
+            </div>
+
+            <!-- Tab Content: Density Chart -->
+            <div class="tab-content" id="density-content">
+                <h2>Wykres Gęstości Liczb Pierwszych</h2>
+                <p>Analizuj i wizualizuj gęstość liczb pierwszych w przedziałach z porównaniem z teorią.</p>
+
+                <div class="form-group">
+                    <label class="form-label" for="densityInterval">Rozmiar przedziału</label>
+                    <input type="number" id="densityInterval" class="form-input" value="100000000" min="1000"
+                        step="1000">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="densityMaxRange">Maksymalny zakres (opcjonalnie, użyje cache jeśli
+                        puste)</label>
+                    <input type="number" id="densityMaxRange" class="form-input" placeholder="Auto - użyje max z cache">
+                </div>
+
+                <button class="btn btn-primary" id="generateDensityBtn">
+                    <span>📊</span>
+                    <span>Generuj Wykres</span>
+                </button>
+
+                <!-- Preview -->
+                <div class="preview-container" id="densityPreview">
+                    <h3>Wykres Gęstości</h3>
+                    <img id="densityImage" class="preview-image" alt="Wykres gęstości">
+                </div>
+
+                <div class="alert alert-info" id="densityAlert">
+                    <span>📈</span>
+                    <span id="densityAlertMessage"></span>
+                </div>
+            </div>
+
+            <!-- Tab Content: Export CSV -->
+            <div class="tab-content" id="export-content">
+                <h2>Eksport do CSV</h2>
+                <p>Eksportuj cache liczb pierwszych do plików CSV w różnych formatach.</p>
+
+                <div class="form-group">
+                    <label class="form-label" for="exportFormat">Format eksportu</label>
+                    <select id="exportFormat" class="form-select">
+                        <option value="basic">Podstawowy (tylko liczby pierwsze)</option>
+                        <option value="advanced">Zaawansowany (z metadanymi)</option>
+                        <option value="chunks">Chunki (wiele plików)</option>
+                    </select>
+                </div>
+
+                <div class="form-group" id="chunkSizeGroup" style="display: none;">
+                    <label class="form-label" for="chunkSize">Rozmiar chunka</label>
+                    <input type="number" id="chunkSize" class="form-input" value="1000000" min="100000" step="100000">
+                </div>
+
+                <button class="btn btn-primary" id="exportCsvBtn">
+                    <span>💾</span>
+                    <span>Eksportuj CSV</span>
+                </button>
+
+                <div class="alert alert-success" id="exportAlert">
+                    <span>✓</span>
+                    <span id="exportAlertMessage"></span>
+                </div>
+            </div>
+
+            <!-- Tab Content: Verify -->
+            <div class="tab-content" id="verify-content">
+                <h2>Weryfikacja Cache</h2>
+                <p>Sprawdź integralność i poprawność cache liczb pierwszych.</p>
+
+                <button class="btn btn-primary" id="verifyCacheBtn">
+                    <span>✅</span>
+                    <span>Weryfikuj Cache</span>
+                </button>
+
+                <div class="alert alert-success" id="verifyAlert" style="margin-top: var(--spacing-lg);">
+                    <span>✓</span>
+                    <span id="verifyAlertMessage"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/cache-generator.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/ulam-spiral.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/density-chart.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/csv-exporter.js') }}"></script>
+</body>
+
+</html>
